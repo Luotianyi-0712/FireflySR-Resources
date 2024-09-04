@@ -1,0 +1,69 @@
+{
+  "GroupConfigName": "Default",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "TickLodTemplateName": "DefaultStaticEntity",
+  "ResidentEffects": [],
+  "ShoesType": "boot",
+  "AttachPoint": "Origin",
+  "Duration": {
+    "fixedValue": {
+      "RawValue": -4294967296
+    }
+  },
+  "OnCreate": [],
+  "OnDestroy": [],
+  "TriggerConfig": {
+    "CustomTriggers": [
+      {
+        "TriggerName": "JadeNpcMonsterTrigger",
+        "DefaultEnable": true,
+        "Radius": {
+          "fixedValue": {
+            "RawValue": 42949672960
+          }
+        },
+        "UseVerticalBound": true,
+        "NeedRaycast": true,
+        "RayStartOffsetY": 1.0,
+        "DependOnServerTarget": true,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "ColliderRelativePath": "Trigger",
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.AddMazeBuff, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ID": 131401,
+            "LifeTime": {
+              "fixedValue": {
+                "RawValue": -4294967296
+              }
+            },
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          },
+          {
+            "$type": "RPG.GameCore.AddAdventureModifier, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ModifierName": "ADV_StageAbility_Maze_Jade_Flag",
+            "LifeTime": {
+              "fixedValue": {
+                "RawValue": -4294967296
+              }
+            },
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          }
+        ],
+        "SkipFakeAvatar": true
+      }
+    ]
+  }
+}

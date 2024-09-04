@@ -1,0 +1,149 @@
+{
+  "GroupConfigName": "FollowField",
+  "ConfigEntityPath": "Config/ConfigEntity/SummonUnit/SummonUnit_Common_TeamField_Entity.json",
+  "TickLodTemplateName": "DefaultStaticEntity",
+  "ResidentEffects": [
+    {
+      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Robin_00/Eff_Avatar_Robin_00_MazeSkill01_Start01.prefab",
+      "Scale": {
+        "x": -1.0,
+        "y": -1.0,
+        "z": -1.0,
+        "normalized": {
+          "x": -0.577350259,
+          "y": -0.577350259,
+          "z": -0.577350259,
+          "normalized": {
+            "x": -0.5773503,
+            "y": -0.5773503,
+            "z": -0.5773503,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "ParamEntityUsage": "LookAt",
+      "TowardMaxPitchAngle": 90.0,
+      "MaxMutexCount": 1,
+      "TaskEnabled": true,
+      "IsClientOnly": true
+    }
+  ],
+  "ShoesType": "boot",
+  "AttachPoint": "Origin",
+  "Duration": {
+    "fixedValue": {
+      "RawValue": -4294967296
+    }
+  },
+  "OnCreate": [
+    {
+      "$type": "RPG.GameCore.AdvMarkAsTauntProxy, RPG.GameCore.Config",
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "ProxyTargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "Caster"
+      },
+      "TaskEnabled": true,
+      "IsClientOnly": true
+    }
+  ],
+  "OnBeReplaced": [
+    {
+      "$type": "RPG.GameCore.RemoveMazeBuff, RPG.GameCore.Config",
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+        "Alias": "CasterSummoner"
+      },
+      "ID": 130902,
+      "TaskEnabled": true,
+      "IsClientOnly": true
+    }
+  ],
+  "TriggerConfig": {
+    "CustomTriggers": [
+      {
+        "TriggerName": "AttractNpcMonsterTrigger",
+        "DefaultEnable": true,
+        "Radius": {
+          "fixedValue": {
+            "RawValue": 25769803776
+          }
+        },
+        "UseVerticalBound": true,
+        "NeedRaycast": true,
+        "RayStartOffsetY": 1.0,
+        "TargetTypes": [
+          "NPCMonster"
+        ],
+        "OnTriggerEnter": [
+          {
+            "$type": "RPG.GameCore.AddMazeBuff, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ID": 130901,
+            "LifeTime": {
+              "fixedValue": {
+                "RawValue": 2147483648000
+              }
+            },
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          },
+          {
+            "$type": "RPG.GameCore.AddMazeBuff, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ID": 130903,
+            "LifeTime": {
+              "fixedValue": {
+                "RawValue": 2147483648000
+              }
+            },
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          }
+        ],
+        "OnTriggerExit": [
+          {
+            "$type": "RPG.GameCore.RefreshMazeBuffTime, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ID": 130903,
+            "LifeTime": {
+              "fixedValue": {
+                "RawValue": 6442450946
+              }
+            },
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          },
+          {
+            "$type": "RPG.GameCore.RemoveMazeBuff, RPG.GameCore.Config",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias, RPG.GameCore.Config",
+              "Alias": "TaskActionTarget"
+            },
+            "ID": 130901,
+            "TaskEnabled": true,
+            "IsClientOnly": true
+          }
+        ],
+        "SkipFakeAvatar": true
+      }
+    ]
+  }
+}
