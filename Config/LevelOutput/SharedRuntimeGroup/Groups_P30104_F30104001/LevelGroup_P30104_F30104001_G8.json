@@ -1,75 +1,75 @@
 {
-  "GroupName": "Contents",
-  "AreaAnchorName": "LevelArea_P30104_F30104001_G8",
-  "LoadSide": "Server",
-  "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 2.0,
-        "Key": "MazeDF_OwnGroup"
-      }
-    ],
-    "SharedValues": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 2.0,
-        "Key": "MazeDF_OwnGroup"
-      }
-    ]
-  },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 90.0,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -37.86,
       "PosY": 2.170708,
-      "PosZ": 54.9696
+      "PosZ": 54.9696,
+      "RotY": 90
     }
   ],
+  "AreaAnchorName": "LevelArea_P30104_F30104001_G8",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Contents",
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 1002040,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 12,
         "ID": 1
       },
-      "EventID": 99999011,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 99999011,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 270.0,
-      "ID": 200001,
       "PosX": -16.86,
       "PosY": 2.170708,
-      "PosZ": 54.9696
+      "PosZ": 54.9696,
+      "RotY": 270
     }
   ],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_OwnGroup",
+        "Value": 2
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_OwnGroup",
+        "Value": 2
+      }
+    ]
+  },
+  "WaypointList": []
 }

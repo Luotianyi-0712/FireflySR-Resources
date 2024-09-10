@@ -1,402 +1,487 @@
 {
-  "GroupName": "LogisticsRobot",
-  "AreaAnchorName": "LevelArea_P20222_F20222001_G119",
-  "SaveType": "Reset",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G119",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "LogisticsRobot",
   "MonsterList": [],
-  "PropList": [
+  "NPCList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_Demo_StartPoint.json",
-      "ValueSource": {
-        "Values": [
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/Special_NPC_Adventure/MazeNPC_FollowPlayer_Special_RobCrane_3011.json",
+        "PathwayList": [
           {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LogisticsRobotActivate_01",
-            "Key": "LogisticsRobotActivate"
+            "UseGroup": 119,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          },
+          {
+            "UseGroup": 119,
+            "UseID": 1,
+            "UseOwnerGroup": true
           }
         ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LogisticsRobotActivate_01",
-            "Key": "LogisticsRobotActivate"
-          }
-        ]
+        "SlaveConfigList": []
       },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
       "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop1",
-      "RotY": 222.1281,
-      "ID": 300001,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot.json",
+      "NPCID": 3011,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 62.82,
       "PosY": 43.67,
-      "PosZ": 190.8
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Attack/LogisticsRobot_Demo_Attack_EndPoint.json",
+      "PosZ": 190.8,
+      "RotY": 222.1281,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_01",
-            "Key": "Bird_BubbleTalk_01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 119.0,
-            "Key": "TargetGroup"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 400001.0,
-            "Key": "TargetID"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_01",
-            "Key": "Bird_BubbleTalk_01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 119.0,
-            "Key": "TargetGroup"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 400001.0,
-            "Key": "TargetID"
+            "Key": "Bird_UniqueName",
+            "Value": "LogisticsRobot01"
           }
-        ]
-      },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop7",
-      "RotY": 101.6104,
-      "ID": 300007,
-      "PosX": 91.877,
-      "PosY": 50.151,
-      "PosZ": 117.418
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_LoopShow_07.json",
-      "ValueSource": {
+        ],
         "Values": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_01",
-            "Key": "Bird_BubbleTalk_01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_02",
-            "Key": "Bird_BubbleTalk_02"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_01",
-            "Key": "Bird_BubbleTalk_01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Bird_119_400001_02",
-            "Key": "Bird_BubbleTalk_02"
+            "Key": "Bird_UniqueName",
+            "Value": "LogisticsRobot01"
           }
         ]
-      },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop2",
-      "ID": 300002
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_Demo_DoorPoint.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "10,300010",
-            "Key": "Bird_DoorPoint"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 400001.0,
-            "Key": "TargetID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 119.0,
-            "Key": "TargetGroup"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "10,300010",
-            "Key": "Bird_DoorPoint"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "119,400001",
-            "Key": "Bird"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 400001.0,
-            "Key": "TargetID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 119.0,
-            "Key": "TargetGroup"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop3",
-      "ID": 300003,
-      "PosX": 52.96183,
-      "PosY": 43.6491,
-      "PosZ": 165.82
+      }
     }
   ],
-  "DistrictList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -20.82324,
+      "PosY": 5.235954,
+      "PosZ": -90.18073,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_Demo_StartPoint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 62.82,
+      "PosY": 43.67,
+      "PosZ": 190.8,
+      "PropID": 100,
+      "RotY": 222.1281,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "LogisticsRobotActivate",
+            "Value": "LogisticsRobotActivate_01"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "LogisticsRobotActivate",
+            "Value": "LogisticsRobotActivate_01"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300007,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Attack/LogisticsRobot_Demo_Attack_EndPoint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop7",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 91.877,
+      "PosY": 50.151,
+      "PosZ": 117.418,
+      "PropID": 100,
+      "RotY": 101.6104,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_01",
+            "Value": "Bird_119_400001_01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetGroup",
+            "Value": 119
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetID",
+            "Value": 400001
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_01",
+            "Value": "Bird_119_400001_01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetGroup",
+            "Value": 119
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetID",
+            "Value": 400001
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_LoopShow_07.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_01",
+            "Value": "Bird_119_400001_01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_02",
+            "Value": "Bird_119_400001_02"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_01",
+            "Value": "Bird_119_400001_01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_BubbleTalk_02",
+            "Value": "Bird_119_400001_02"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot_Demo_DoorPoint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 52.96183,
+      "PosY": 43.6491,
+      "PosZ": 165.82,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_DoorPoint",
+            "Value": "10,300010"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetID",
+            "Value": 400001
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetGroup",
+            "Value": 119
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird_DoorPoint",
+            "Value": "10,300010"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Bird",
+            "Value": "119,400001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetID",
+            "Value": 400001
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "TargetGroup",
+            "Value": 119
+          }
+        ]
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -440,90 +525,5 @@
       "PosY": 50.151,
       "PosZ": 117.41
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -20.82324,
-      "PosY": 5.235954,
-      "PosZ": -90.18073
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 3011,
-      "LevelGraph": "Config/Level/Maze/MazeExtra/LogisticsRobot/Follow/LogisticsRobot.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LogisticsRobot01",
-            "Key": "Bird_UniqueName"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LogisticsRobot01",
-            "Key": "Bird_UniqueName"
-          }
-        ]
-      },
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/Special_NPC_Adventure/MazeNPC_FollowPlayer_Special_RobCrane_3011.json",
-        "PathwayList": [
-          {
-            "UseOwnerGroup": true,
-            "UseGroup": 119,
-            "UseID": 1
-          },
-          {
-            "UseOwnerGroup": true,
-            "UseGroup": 119,
-            "UseID": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 222.1281,
-      "ID": 400001,
-      "PosX": 62.82,
-      "PosY": 43.67,
-      "PosZ": 190.8
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

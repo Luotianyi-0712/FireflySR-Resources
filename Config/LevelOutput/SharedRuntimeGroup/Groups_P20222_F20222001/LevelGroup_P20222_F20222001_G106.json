@@ -1,191 +1,191 @@
 {
-  "GroupName": "DefaultMonster",
-  "AreaAnchorName": "LevelArea_P20222_F20222001_G106",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "GroupRefreshID": 1001,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G106",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultMonster",
+  "GroupRefreshID": 1001,
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 2013010,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 3,
         "ID": 1
       },
-      "InitialAnimState": "SpecialStandBy1",
-      "EventID": 20222114,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 20222114,
+      "ID": 200004,
+      "InitialAnimState": "SpecialStandBy1",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2013010,
+      "Name": "Monster4",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster4",
-      "ID": 200004,
       "PosX": 61.04,
       "PosY": 43.94,
-      "PosZ": 166.17
+      "PosZ": 166.17,
+      "TagList": []
     }
   ],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 102055,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/Chapter02/X202/Maze_Chap02_Prop_Garage_03.json",
-      "ValueSource": {},
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 3.0,
-        "DimY": 2.0,
-        "DimZ": 8.0,
-        "Offset": {
-          "z": 4.0,
-          "normalized": {
-            "z": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 4.0,
-          "sqrMagnitude": 16.0
-        },
-        "PointList": []
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
-          "Radius": 30.0,
-          "PointList": []
+          "PointList": [],
+          "Radius": 30
         }
       },
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Maze/Chapter02/X202/Maze_Chap02_Prop_Garage_03.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop2",
-      "ID": 300002,
+      "OverrideSoundRange": -1,
       "PosX": 61.172,
       "PosY": 43.622,
-      "PosZ": 166.24
-    },
-    {
+      "PosZ": 166.24,
+      "PropID": 102055,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/Chapter02/X202/Maze_Chap02_Prop_Garage_03_HideStage.json",
-      "ValueSource": {},
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 3,
+        "DimY": 2,
+        "DimZ": 8,
+        "Offset": {
+          "magnitude": 4,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "z": 1
+          },
+          "sqrMagnitude": 16,
+          "z": 4
+        },
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      },
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Maze/Chapter02/X202/Maze_Chap02_Prop_Garage_03_HideStage.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop1",
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 76.59864,
       "PosY": 46.36821,
-      "PosZ": 99.08075
+      "PosZ": 99.08075,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

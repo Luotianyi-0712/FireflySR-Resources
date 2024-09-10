@@ -1,96 +1,126 @@
 {
-  "GroupName": "Sub_Kfk",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20221_F20221001_G76",
-  "SaveType": "Permanent",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Sub_Kfk",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 602020103
+        "ID": 602020103,
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [
     {
-      "NPCMonsterID": 2022020,
       "AIConfig": {
         "PathwayList": [
           {
-            "UseOwnerGroup": true,
+            "StartAt": 1,
             "UseGroup": 76,
             "UseID": 1,
-            "StartAt": 1
+            "UseOwnerGroup": true
           }
         ],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 5,
         "ID": 1
       },
-      "EventID": 20221211,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 20221211,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022020,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 38.50798,
-      "ID": 200001,
       "PosX": -44.3,
       "PosY": 8.293551,
-      "PosZ": -108.85
+      "PosZ": -108.85,
+      "RotY": 38.50798,
+      "TagList": []
     },
     {
-      "NPCMonsterID": 2022010,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 5,
         "ID": 1
       },
-      "InitialAnimState": "SpecialStandBy1",
-      "EventID": 20221212,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 20221212,
+      "ID": 200002,
+      "InitialAnimState": "SpecialStandBy1",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022010,
+      "Name": "Monster2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster2",
-      "RotY": 200.0,
-      "ID": 200002,
       "PosX": -29.27,
       "PosY": 10.22442,
-      "PosZ": -74.21
+      "PosZ": -74.21,
+      "RotY": 200,
+      "TagList": []
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -31.64732,
+      "PosY": 10.22442,
+      "PosZ": -75.85799,
+      "WaypointIDList": [
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -128,35 +158,5 @@
       "PosY": 10.22443,
       "PosZ": -79.85
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1
-    },
-    {
-      "WaypointIDList": [
-        4,
-        5,
-        6
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -31.64732,
-      "PosY": 10.22442,
-      "PosZ": -75.85799
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

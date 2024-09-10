@@ -1,107 +1,107 @@
 {
-  "GroupName": "ClockBoy",
-  "AreaAnchorName": "LevelArea_P43304_F43304001_G92",
-  "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 180.0003,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 0.001353,
       "PosY": -22.0355,
-      "PosZ": 211.8806
+      "PosZ": 211.8806,
+      "RotY": 180.0003
     }
   ],
+  "AreaAnchorName": "LevelArea_P43304_F43304001_G92",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "ClockBoy",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 103108,
-      "LoadOnInitial": true,
-      "ValueSource": {},
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "State": "CustomState01",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "ClockBoy",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 0.001353,
+      "PosY": -22.0355,
+      "PosZ": 211.8806,
+      "PropID": 103108,
+      "RotY": 180.0003,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
       "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
       "StageObjectCapture": {
         "BlockAlias": "Chap03_CloseView_ADV_P01_BDB_BlockData",
         "PrefabAlias": "Chap03_ClockBoy_00",
         "UseOverridePos": true
       },
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
+      "State": "CustomState01",
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "ClockBoy",
-      "RotY": 180.0003,
-      "ID": 300001,
-      "PosX": 0.001353,
-      "PosY": -22.0355,
-      "PosZ": 211.8806
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,85 +1,10 @@
 {
-  "FloorID": 43207001,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X102_MainLine_01_StageData/Chap02_MAZ_X102_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20212_F20212001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G2.json",
-      "Name": "Defalut_Group",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G3.json",
-      "Name": "Sound",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G4.json",
-      "Name": "Elevator",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G5.json",
-      "Name": "Door",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G6.json",
-      "Name": "MainMission8002232_",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G7.json",
-      "Name": "MainMission8002232_",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G8.json",
-      "Name": "MainMission8002232_",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G9.json",
-      "Name": "MainMission8002232_",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G10.json",
-      "Name": "MainMission8002232_",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G11.json",
-      "Name": "MainMission8002232_",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G12.json",
-      "Name": "MainMission8002232_",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G13.json",
-      "Name": "MainMission8002232_",
-      "ID": 13
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X102_MainLine_01_Day.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X102_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -95,31 +20,35 @@
         11,
         12
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43207001,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
       "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "5": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "6": {
       "Category": "Mission",
@@ -127,9 +56,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 800223203,
             "Phase": "Finish",
-            "ID": 800223203
+            "Type": "SubMission"
           }
         ]
       }
@@ -140,9 +69,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 800223202,
             "Phase": "Finish",
-            "ID": 800223202
+            "Type": "SubMission"
           }
         ]
       }
@@ -153,9 +82,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 800223204,
             "Phase": "Finish",
-            "ID": 800223204
+            "Type": "SubMission"
           }
         ],
         "DelayToLevelReload": true
@@ -171,9 +100,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 800223205,
             "Phase": "Finish",
-            "ID": 800223205
+            "Type": "SubMission"
           }
         ],
         "DelayToLevelReload": true
@@ -189,9 +118,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 800223207,
             "Phase": "Finish",
-            "ID": 800223207
+            "Type": "SubMission"
           }
         ]
       }
@@ -201,8 +130,79 @@
       "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G2.json",
+      "ID": 2,
+      "Name": "Defalut_Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G3.json",
+      "ID": 3,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G4.json",
+      "ID": 4,
+      "Name": "Elevator"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G5.json",
+      "ID": 5,
+      "Name": "Door"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G6.json",
+      "ID": 6,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G7.json",
+      "ID": 7,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G8.json",
+      "ID": 8,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G9.json",
+      "ID": 9,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G10.json",
+      "ID": 10,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G11.json",
+      "ID": 11,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G12.json",
+      "ID": 12,
+      "Name": "MainMission8002232_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43207_F43207001/LevelGroup_P43207_F43207001_G13.json",
+      "ID": 13,
+      "Name": "MainMission8002232_"
+    }
+  ],
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20212_F20212001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X102_MainLine_01_StageData/Chap02_MAZ_X102_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

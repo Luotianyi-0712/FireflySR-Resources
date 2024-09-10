@@ -1,25 +1,55 @@
 {
-  "GroupName": "Contamination_Key_OB01",
-  "AreaAnchorName": "LevelArea_P20221_F20221001_G119",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Usage": "LookAtCamera",
+      "ID": 1,
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
       "Name": "Anchor1",
-      "ID": 1,
       "PosX": -65.79,
       "PosY": -0.997494,
-      "PosZ": 53.25
+      "PosZ": 53.25,
+      "Usage": "LookAtCamera"
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P20221_F20221001_G119",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
   "DistrictList": [],
+  "GroupName": "Contamination_Key_OB01",
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -91.554,
+      "PosY": -4.222214,
+      "PosZ": 49.04365,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -41.86202,
+      "PosY": -4.222204,
+      "PosZ": 47.57174,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -45,35 +75,5 @@
       "PosY": -4.222202,
       "PosZ": 48.18735
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -91.554,
-      "PosY": -4.222214,
-      "PosZ": 49.04365
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -41.86202,
-      "PosY": -4.222204,
-      "PosZ": 47.57174
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

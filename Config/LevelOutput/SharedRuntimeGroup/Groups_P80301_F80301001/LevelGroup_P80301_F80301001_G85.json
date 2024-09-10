@@ -1,71 +1,71 @@
 {
-  "GroupName": "Rogue140_Rest",
-  "Category": "Custom",
-  "AreaAnchorName": "LevelArea_P80301_F80301001_G85",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P80301_F80301001_G85",
   "BattleAreaList": [],
+  "Category": "Custom",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Rogue140_Rest",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1007,
-      "LevelGraph": "Config/Level/Maze/MazeRogue/Maze_Rogue_NPC_Avatar_Hologram.json",
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
       "BoardShowList": [
         4
       ],
+      "BornType": "Mission",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/RogueDialogue/RogueDialogueEvent/Act/Rogue140/Act0210004.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LevelGraph": "Config/Level/Maze/MazeRogue/Maze_Rogue_NPC_Avatar_Hologram.json",
+      "LoadOnInitial": true,
+      "MiniMapIconType": 4,
+      "NPCID": 1007,
+      "Name": "NPC2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "TalkDialogGroupIDList": [],
-      "IsMapContent": true,
-      "MiniMapIconType": 4,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/RogueDialogue/RogueDialogueEvent/Act/Rogue140/Act0210004.json",
-        "PackList": [],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC2",
-      "RotY": 254.0738,
-      "ID": 400002,
       "PosX": 34.927,
       "PosY": 3.44376,
-      "PosZ": -32.698
+      "PosZ": -32.698,
+      "RotY": 254.0738,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

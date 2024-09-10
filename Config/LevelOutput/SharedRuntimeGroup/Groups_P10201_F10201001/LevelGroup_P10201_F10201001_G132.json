@@ -1,75 +1,75 @@
 {
-  "GroupName": "MainMission1021702_AF_Sushang",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10201_F10201001_G132",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1021702_AF_Sushang",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 102170218
+        "ID": 102170218,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 102170219
+        "ID": 102170219,
+        "Type": "SubMission"
       }
     ],
     "Operation": "Or"
   },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312060231,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10201/F10201001_G132/DialogueMain_F10201001_G132_N400001.json",
+        "PackList": []
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1203,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -72.886,
+      "PosY": -0.789958,
+      "PosZ": -60.938,
+      "RotY": 300.6479,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 1021702,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
   "UnloadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1021702
+        "ID": 1021702,
+        "Phase": "Finish"
       }
     ]
   },
-  "OwnerMainMissionID": 1021702,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 1203,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 312060231,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10201/F10201001_G132/DialogueMain_F10201001_G132_N400001.json",
-        "PackList": [],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 300.6479,
-      "ID": 400001,
-      "PosX": -72.886,
-      "PosY": -0.789958,
-      "PosZ": -60.938
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "WaypointList": []
 }

@@ -1,26 +1,16 @@
 {
+  "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P40131_F40131002_G7",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
   "GroupName": "Boss",
   "LevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_CheckKillMonster02.json",
-  "AreaAnchorName": "LevelArea_P40131_F40131002_G7",
-  "SaveType": "Permanent",
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 407131210
-      }
-    ]
-  },
-  "LoadSide": "Server",
   "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 1003010,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
@@ -30,86 +20,119 @@
         "Values": [
           {
             "$type": "RPG.GameCore.AIVariableString, RPG.GameCore.Config",
-            "Value": "M301_Raid_FindPlayer",
-            "Name": "CustomStringName"
+            "Name": "CustomStringName",
+            "Value": "M301_Raid_FindPlayer"
           }
         ]
       },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 40131017,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 40131017,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1003010,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 36.31,
+      "PosY": 2,
+      "PosZ": -87.98,
+      "RotY": 338.834,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster1",
-      "RotY": 338.834,
-      "ID": 200001,
-      "PosX": 36.31,
-      "PosY": 2.0,
-      "PosZ": -87.98
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -31.99,
+      "PosY": -3,
+      "PosZ": -92.03,
+      "WaypointIDList": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [
     {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_BossCase.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 36.4,
+      "PosY": 2,
+      "PosZ": -97.55,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_BossCase.json",
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Key": "Camera"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "7,200001",
-            "Key": "NPCID"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
@@ -117,92 +140,89 @@
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "7,200001",
-            "Key": "NPCID"
+            "Key": "NPCID",
+            "Value": "7,200001"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "NPCID",
+            "Value": "7,200001"
           }
         ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop2",
-      "ID": 300002,
-      "PosX": 36.4,
-      "PosY": 2.0,
-      "PosZ": -97.55
+      }
     },
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 36.4,
       "PosY": 1.999998,
-      "PosZ": -97.55
+      "PosZ": -97.55,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 407131210,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 2,
@@ -228,25 +248,5 @@
       "PosY": 2.01,
       "PosZ": -93.42
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        2,
-        3,
-        4,
-        5
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -31.99,
-      "PosY": -3.0,
-      "PosZ": -92.03
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

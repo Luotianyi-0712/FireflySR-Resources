@@ -1,103 +1,103 @@
 {
-  "GroupName": "MainMission1011002_",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -36.317,
+      "PosY": 0.009724,
+      "PosZ": -124.23,
+      "RotY": 106.677
+    }
+  ],
+  "AreaAnchorName": "LevelArea_P10101_F10101001_G16",
+  "BattleAreaList": [],
   "Category": "Mission",
   "ConfigPrefabPath": "Level/Mission/1011101/Mission_1011101_temp.prefab",
-  "AreaAnchorName": "LevelArea_P10101_F10101001_G16",
-  "SaveType": "Reset",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1011002_",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 101100208
+        "ID": 101100208,
+        "Type": "SubMission"
       }
     ]
   },
+  "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 1011002,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 18.49,
+      "PosY": 0.23,
+      "PosZ": -70.794,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
   "UnloadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 101100208,
         "Phase": "Finish",
-        "ID": 101100208
+        "Type": "SubMission"
       }
     ]
   },
-  "OwnerMainMissionID": 1011002,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 106.677,
-      "ID": 1,
-      "PosX": -36.317,
-      "PosY": 0.009724,
-      "PosZ": -124.23
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "ID": 300001,
-      "PosX": 18.49,
-      "PosY": 0.23,
-      "PosZ": -70.794
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "WaypointList": []
 }

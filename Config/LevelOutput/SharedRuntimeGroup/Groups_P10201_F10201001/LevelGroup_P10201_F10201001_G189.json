@@ -1,104 +1,104 @@
 {
-  "GroupName": "MainMission8015171_801517101",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F10201001/Group_F10201001_G189.json",
-  "AreaAnchorName": "LevelArea_P10201_F10201001_G189",
-  "SaveType": "Reset",
-  "OwnerMainMissionID": 8015171,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P10201_F10201001_G189",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
+      "DistrictType": "Level",
+      "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
+      "PosX": -33.85363,
+      "PosY": 1.31585,
+      "PosZ": -81.024,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
       },
-      "LoadOnInitial": true,
-      "DistrictType": "Level",
-      "NPCCrowdRadius": 25.0,
-      "ValueSource": {},
-      "Name": "District1",
-      "ID": 1,
-      "PosX": -33.85363,
-      "PosY": 1.31585,
-      "PosZ": -81.024
+      "ValueSource": {}
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "MainMission8015171_801517101",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F10201001/Group_F10201001_G189.json",
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1215,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 312100000,
-      "BornType": "Mission",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
+      "LoadOnInitial": true,
+      "NPCID": 1215,
       "Name": "NPC1",
-      "RotY": 353.248,
-      "ID": 400001,
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -33.85363,
       "PosY": 1.31585,
-      "PosZ": -81.024
+      "PosZ": -81.024,
+      "RotY": 353.248,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 8015171,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

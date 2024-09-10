@@ -1,12 +1,72 @@
 {
-  "GroupName": "MainMission102090104",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P40222_F40222001_G9",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission102090104",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_102100108.json",
+        "PathwayList": [
+          {
+            "UseGroup": 9,
+            "UseID": 1,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312140000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1208,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 78.3,
+      "PosY": 45.90625,
+      "PosZ": -30.16,
+      "RotY": 85.41465,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 88.36602,
+      "PosY": 30.02763,
+      "PosZ": -16.10058,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
   "SaveType": "Reset",
   "StreamingTemplateType": "Standard",
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
   "WaypointList": [
     {
       "ID": 1,
@@ -44,65 +104,5 @@
       "PosY": 53.43,
       "PosZ": -6.53
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": 88.36602,
-      "PosY": 30.02763,
-      "PosZ": -16.10058
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 1208,
-      "LoadOnInitial": true,
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_102100108.json",
-        "PathwayList": [
-          {
-            "UseOwnerGroup": true,
-            "UseGroup": 9,
-            "UseID": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 312140000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 85.41465,
-      "ID": 400001,
-      "PosX": 78.3,
-      "PosY": 45.90625,
-      "PosZ": -30.16
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": []
+  ]
 }

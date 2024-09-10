@@ -1,94 +1,94 @@
 {
-  "GroupName": "NPC_GNF",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10202_F10202004_G290",
-  "SaveType": "Reset",
   "AtmosphereCondition": {
     "Conditions": [
       {
         "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
-        "SavedValueName": "JinRenFinish",
         "Operation": "Equal",
+        "SavedValueName": "JinRenFinish",
         "Value": 1
       },
       {
         "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
-        "SavedValueName": "GNFloarding",
         "Operation": "Equal",
+        "SavedValueName": "GNFloarding",
         "Value": 1
       }
     ],
     "Operation": "And"
   },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AudienceList": [],
   "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC_GNF",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1215,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         8
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 312100209,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G290/DialogueMain_F10202004_G290_N400001.json",
         "PackList": [
           {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G290/DialoguePack_Common_F10202004_G290_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G290/DialoguePack_Common_F10202004_G290_N400001.json",
+            "Name": "Common"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC1",
-      "RotY": 187.4149,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1215,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -54.28,
       "PosY": -2.037553,
-      "PosZ": -62.77
+      "PosZ": -62.77,
+      "RotY": 187.4149,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

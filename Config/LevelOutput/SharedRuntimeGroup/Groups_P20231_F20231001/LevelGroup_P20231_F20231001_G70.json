@@ -1,131 +1,131 @@
 {
-  "GroupName": "MainMission4040242_",
-  "Category": "Mission",
+  "AnchorList": [
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 110.581,
+      "PosY": 46.833,
+      "PosZ": -43.036,
+      "RotX": 32.87497,
+      "RotY": 47.22231,
+      "RotZ": 325.7185,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": 109.23,
+      "PosY": 45.7426,
+      "PosZ": -41.881,
+      "RotY": 359.1359
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": 108.461,
+      "PosY": 45.548,
+      "PosZ": -41.905,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20231_F20231001_G70",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4040242_",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 404024204
+        "ID": 404024204,
+        "Type": "SubMission"
       }
     ]
   },
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 312110000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1209,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 108.979,
+      "PosY": 45.7426,
+      "PosZ": -40.555,
+      "RotY": 174.9862,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 380010237,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 1991,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 109.23,
+      "PosY": 45.7426,
+      "PosZ": -41.881,
+      "RotY": 359.1359,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "OwnerMainMissionID": 4040242,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
   "UnloadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 404024204,
         "Phase": "Finish",
-        "ID": 404024204
+        "Type": "SubMission"
       }
     ],
     "DelayToLevelReload": true
   },
-  "OwnerMainMissionID": 4040242,
   "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "RotX": 32.87497,
-      "RotZ": 325.7185,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor1",
-      "RotY": 47.22231,
-      "ID": 1,
-      "PosX": 110.581,
-      "PosY": 46.833,
-      "PosZ": -43.036
-    },
-    {
-      "Name": "Anchor2",
-      "RotY": 359.1359,
-      "ID": 2,
-      "PosX": 109.23,
-      "PosY": 45.7426,
-      "PosZ": -41.881
-    },
-    {
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor3",
-      "ID": 3,
-      "PosX": 108.461,
-      "PosY": 45.548,
-      "PosZ": -41.905
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 1209,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 312110000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 174.9862,
-      "ID": 400001,
-      "PosX": 108.979,
-      "PosY": 45.7426,
-      "PosZ": -40.555
-    },
-    {
-      "NPCID": 1991,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 380010237,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC2",
-      "RotY": 359.1359,
-      "ID": 400002,
-      "PosX": 109.23,
-      "PosY": 45.7426,
-      "PosZ": -41.881
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "WaypointList": []
 }

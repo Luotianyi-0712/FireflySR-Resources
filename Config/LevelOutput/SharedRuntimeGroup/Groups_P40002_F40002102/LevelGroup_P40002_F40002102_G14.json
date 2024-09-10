@@ -1,92 +1,92 @@
 {
-  "GroupName": "Graffiti4",
-  "AreaAnchorName": "LevelArea_P40002_F40002102_G14",
-  "SaveType": "Reset",
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 800020220
-      },
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 800020219
-      }
-    ],
-    "Operation": "Or"
-  },
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P40002_F40002102_G14",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Graffiti4",
+  "LoadOnInitial": true,
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "RotX": 0.56427,
-      "RotZ": 1.915313,
-      "Scale": {
-        "x": 4.0,
-        "y": 4.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.696310639,
-          "y": 0.696310639,
-          "z": 0.17407766,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 5.74456263,
-        "sqrMagnitude": 33.0
-      },
-      "PropID": 123,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Radius": 4.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
       "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
+      "CampID": 4,
       "CustomParameter": {
         "$type": "RPG.GameCore.LevelPropDecalParam, RPG.GameCore.Config",
         "DecalID": 7,
         "IsFadeIn": true,
         "IsFadeOut": true
       },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop8",
-      "RotY": 172.8014,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
       "ID": 300008,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop8",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
       "PosX": -153.25,
       "PosY": 2.47,
-      "PosZ": -57.45
+      "PosZ": -57.45,
+      "PropID": 123,
+      "RotX": 0.56427,
+      "RotY": 172.8014,
+      "RotZ": 1.915313,
+      "Scale": {
+        "magnitude": 5.74456263,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.696310639,
+          "y": 0.696310639,
+          "z": 0.17407766
+        },
+        "sqrMagnitude": 33,
+        "x": 4,
+        "y": 4,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 4
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 800020220,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 800020219,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "WaypointList": []
 }

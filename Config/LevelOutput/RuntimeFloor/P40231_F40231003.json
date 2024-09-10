@@ -1,65 +1,10 @@
 {
-  "FloorID": 40231003,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X302_MainLine_01_StageData/Chap02_MAZ_X302_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20232_F20232001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G1.json",
-      "Name": "Default",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G16.json",
-      "Name": "MainMission",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G17.json",
-      "Name": "MainMission",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G18.json",
-      "Name": "MainMission",
-      "ID": 18
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G2.json",
-      "Name": "Dead Body",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G5.json",
-      "Name": "SeaBlock",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G6.json",
-      "Name": "New Group",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G8.json",
-      "Name": "Sound",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G9.json",
-      "Name": "MainMissionBlock",
-      "ID": 9,
-      "IsDelete": true
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_01_Day.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X302_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -71,24 +16,58 @@
         7,
         8
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40231003,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
+    },
+    "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "5": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "6": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "8": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "9": {
+      "IsDelete": true,
+      "SaveType": "Reset",
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 102140101,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
     },
     "16": {
       "SaveType": "Reset",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 102140103,
             "Phase": "Finish",
-            "ID": 102140103
+            "Type": "SubMission"
           }
         ]
       }
@@ -98,9 +77,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 102140102,
             "Phase": "Finish",
-            "ID": 102140102
+            "Type": "SubMission"
           }
         ]
       }
@@ -110,46 +89,67 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 102140105,
             "Phase": "Finish",
-            "ID": 102140105
-          }
-        ]
-      }
-    },
-    "2": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
-    "5": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "6": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
-    "8": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
-    "9": {
-      "IsDelete": true,
-      "SaveType": "Reset",
-      "UnloadCondition": {
-        "Conditions": [
-          {
-            "Type": "SubMission",
-            "Phase": "Finish",
-            "ID": 102140101
+            "Type": "SubMission"
           }
         ]
       }
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G1.json",
+      "ID": 1,
+      "Name": "Default"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G16.json",
+      "ID": 16,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G17.json",
+      "ID": 17,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G18.json",
+      "ID": 18,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G2.json",
+      "ID": 2,
+      "Name": "Dead Body"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G5.json",
+      "ID": 5,
+      "Name": "SeaBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G6.json",
+      "ID": 6,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G8.json",
+      "ID": 8,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40231_F40231003/LevelGroup_P40231_F40231003_G9.json",
+      "ID": 9,
+      "IsDelete": true,
+      "Name": "MainMissionBlock"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20232_F20232001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X302_MainLine_01_StageData/Chap02_MAZ_X302_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

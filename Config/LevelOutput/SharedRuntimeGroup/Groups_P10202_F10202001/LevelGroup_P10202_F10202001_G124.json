@@ -1,39 +1,39 @@
 {
-  "GroupName": "MainMission2020901_",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10202_F10202001_G124",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 202090118
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 202090118
-      }
-    ]
-  },
-  "OwnerMainMissionID": 2020901,
+  "BattleAreaList": [],
+  "Category": "Mission",
   "ConflictIDList": [
     1214101
   ],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2020901_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 202090118,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 2020901,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 202090118,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

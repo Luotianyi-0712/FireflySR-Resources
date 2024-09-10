@@ -1,75 +1,75 @@
 {
-  "GroupName": "MainMissionMonster",
-  "AreaAnchorName": "LevelArea_P20332_F20332001_G333",
-  "SaveType": "Permanent",
-  "SavedValueCondition": {
-    "Conditions": [
-      {
-        "SavedValueName": "SceneStateByMainMission",
-        "Operation": "Equal"
-      }
-    ],
-    "Operation": "And"
-  },
-  "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20332_F20332001_G333",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMissionMonster",
+  "IsHoyoGroup": true,
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 3012020,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 3
       },
-      "EventID": 20332036,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 20332036,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 3012020,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 8.286886,
+      "PosY": 81.64001,
+      "PosZ": 793.8092,
+      "RotY": 70,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster1",
-      "RotY": 70.0,
-      "ID": 200001,
-      "PosX": 8.286886,
-      "PosY": 81.64001,
-      "PosZ": 793.8092
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "Operation": "Equal",
+        "SavedValueName": "SceneStateByMainMission"
+      }
+    ],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,319 +1,318 @@
 {
-  "GroupName": "PuzzleCompass01",
-  "AreaAnchorName": "LevelArea_P20213_F20213001_G51",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 270.0,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -67.76,
       "PosY": 0.820667,
-      "PosZ": 72.6
+      "PosZ": 72.6,
+      "RotY": 270
     },
     {
-      "Name": "ShipPose01",
-      "RotY": 90.0,
       "ID": 2,
+      "Name": "ShipPose01",
       "PosX": 60.21,
       "PosY": -3.63,
-      "PosZ": -15.44
+      "PosZ": -15.44,
+      "RotY": 90
     },
     {
-      "Name": "ShipPose02",
-      "RotY": 90.0,
       "ID": 3,
+      "Name": "ShipPose02",
       "PosX": 59.22,
       "PosY": -3.63,
-      "PosZ": 1.57
+      "PosZ": 1.57,
+      "RotY": 90
     },
     {
-      "RotX": 18.10003,
-      "RotZ": 1.3E-05,
-      "Usage": "Camera",
-      "Name": "Cam",
-      "RotY": 39.7,
       "ID": 4,
+      "Name": "Cam",
       "PosX": 50.27,
       "PosY": 3.8,
-      "PosZ": -29.3
+      "PosZ": -29.3,
+      "RotX": 18.10003,
+      "RotY": 39.7,
+      "RotZ": 0.000013,
+      "Usage": "Camera"
     },
     {
-      "RotX": 7.239915,
-      "RotZ": -1E-06,
-      "Usage": "Camera",
-      "Name": "Cam1",
-      "RotY": 90.0,
       "ID": 5,
+      "Name": "Cam1",
       "PosX": 45.46,
       "PosY": -0.79,
-      "PosZ": -17.23
+      "PosZ": -17.23,
+      "RotX": 7.239915,
+      "RotY": 90,
+      "RotZ": -0.000001,
+      "Usage": "Camera"
     }
   ],
+  "AreaAnchorName": "LevelArea_P20213_F20213001_G51",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "PuzzleCompass01",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12244,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -79.32,
+      "PosY": 0.820673,
+      "PosZ": 75.53,
+      "RotY": 119.28,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Puzzle_Chap02_PuzzleCompass_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Puzzle01",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 54.292,
+      "PosY": -3.01,
+      "PosZ": -21.672,
+      "PropID": 217,
+      "RotY": 270,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 217,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Puzzle_Chap02_PuzzleCompass_01.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Props/Outputs/Chap02/Chap02_Prop_PuzzleCompass/Chap02_Prop_PuzzleCompass_Board01.prefab",
-            "Key": "BoardPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "PuzzleCompass_ControllerProp"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Props/Outputs/Chap02/Chap02_Prop_PuzzleCompass/Chap02_Prop_PuzzleCompass_Board01.prefab",
-            "Key": "BoardPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "PuzzleCompass_ControllerProp"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": [],
-        "Server": true
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [
         16
       ],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2,
+        "Server": true
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Puzzle01",
-      "RotY": 270.0,
-      "ID": 300001,
-      "PosX": 54.292,
-      "PosY": -3.01,
-      "PosZ": -21.672
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 102053,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_CargoShip_01_TakeChest_Raid20213.json",
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "PuzzleCompass_Prop"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 4.0,
-            "Key": "PuzzleCompass_ShipMoveSpeed"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,ShipPose02",
-            "Key": "PuzzleCompass_ShipOriginPos"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,ShipPose01",
-            "Key": "PuzzleCompass_ShipTargetPos"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,Cam",
-            "Key": "PuzzleCompass_Vcam01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,Cam1",
-            "Key": "PuzzleCompass_Vcam02"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "PuzzleCompass_Prop"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 4.0,
-            "Key": "PuzzleCompass_ShipMoveSpeed"
+            "Key": "BoardPath",
+            "Value": "Props/Outputs/Chap02/Chap02_Prop_PuzzleCompass/Chap02_Prop_PuzzleCompass_Board01.prefab"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,ShipPose02",
-            "Key": "PuzzleCompass_ShipOriginPos"
+            "Key": "PuzzleCompass_ControllerProp",
+            "Value": "51,300001"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "BoardPath",
+            "Value": "Props/Outputs/Chap02/Chap02_Prop_PuzzleCompass/Chap02_Prop_PuzzleCompass_Board01.prefab"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,ShipPose01",
-            "Key": "PuzzleCompass_ShipTargetPos"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,Cam",
-            "Key": "PuzzleCompass_Vcam01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20213_F20213001_G51,Cam1",
-            "Key": "PuzzleCompass_Vcam02"
+            "Key": "PuzzleCompass_ControllerProp",
+            "Value": "51,300001"
           }
         ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
+      }
+    },
+    {
       "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300005,
+      "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_CargoShip_01_TakeChest_Raid20213.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Ship",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Ship",
-      "RotY": 90.0,
-      "ID": 300005,
+      "OverrideSoundRange": -1,
       "PosX": 59.26,
       "PosY": -3.44,
-      "PosZ": 0.05
-    },
-    {
+      "PosZ": 0.05,
+      "PropID": 102053,
+      "RotY": 90,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 60202,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_02.json",
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_MazeCommon_ChestLockedHint02",
-            "Key": "MDString_HintTextmap"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_MazeCommon_ChestLockedHint02",
-            "Key": "MDString_HintTextmap"
+            "Key": "PuzzleCompass_Prop",
+            "Value": "51,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipMoveSpeed",
+            "Value": 4
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipOriginPos",
+            "Value": "LevelArea_P20213_F20213001_G51,ShipPose02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipTargetPos",
+            "Value": "LevelArea_P20213_F20213001_G51,ShipPose01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_Vcam01",
+            "Value": "LevelArea_P20213_F20213001_G51,Cam"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_Vcam02",
+            "Value": "LevelArea_P20213_F20213001_G51,Cam1"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_Prop",
+            "Value": "51,300001"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipMoveSpeed",
+            "Value": 4
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipOriginPos",
+            "Value": "LevelArea_P20213_F20213001_G51,ShipPose02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_ShipTargetPos",
+            "Value": "LevelArea_P20213_F20213001_G51,ShipPose01"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_Vcam01",
+            "Value": "LevelArea_P20213_F20213001_G51,Cam"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PuzzleCompass_Vcam02",
+            "Value": "LevelArea_P20213_F20213001_G51,Cam1"
           }
         ]
-      },
-      "CampID": 4,
-      "State": "ChestClosed",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
+      }
+    },
+    {
       "BridgeStateRotations": [],
-      "MappingInfoID": 10046,
-      "DialogueTriggerAngle": 120,
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300004,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_02.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 10046,
+      "Name": "Chest01",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverrideMapStateIcons": [
         {
@@ -321,256 +320,257 @@
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Chest01",
-      "ID": 300004,
+      "OverrideSoundRange": -1,
       "PosX": 47.193,
-      "PosY": -3.0,
-      "PosZ": -14.971
-    },
-    {
+      "PosY": -3,
+      "PosZ": -14.971,
+      "PropID": 60202,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 211,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/Maze_Prop_GameplayIcon.json",
+      "ServerInteractVerificationIDList": [],
+      "State": "ChestClosed",
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300004",
-            "Key": "Chest"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300004",
-            "Key": "Chest"
+            "Key": "MDString_HintTextmap",
+            "Value": "MazeText_MazeCommon_ChestLockedHint02"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "MDString_HintTextmap",
+            "Value": "MazeText_MazeCommon_ChestLockedHint02"
           }
         ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
+      }
+    },
+    {
       "BridgeStateRotations": [],
-      "MappingInfoID": 10046,
-      "DialogueTriggerAngle": 120,
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/Maze_Prop_GameplayIcon.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 10046,
+      "Name": "PuzzleIcon",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "PuzzleIcon",
-      "ID": 300002,
+      "OverrideSoundRange": -1,
       "PosX": 53.61,
       "PosY": -3.01,
-      "PosZ": -20.08
-    },
-    {
+      "PosZ": -20.08,
+      "PropID": 211,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/PadsPuzzle/Padpuzzle_ChestWaypointControl.json",
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300004",
-            "Key": "Chest"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "Puzzle"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300004",
-            "Key": "Chest"
+            "Key": "Chest",
+            "Value": "51,300004"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Chest",
+            "Value": "51,300004"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/PadsPuzzle/Padpuzzle_ChestWaypointControl.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "PuzzleIconController",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 53.8,
+      "PosY": -3.01,
+      "PosZ": -20.7,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Chest",
+            "Value": "51,300004"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "51,300001",
-            "Key": "Puzzle"
+            "Key": "Puzzle",
+            "Value": "51,300001"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Chest",
+            "Value": "51,300004"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Puzzle",
+            "Value": "51,300001"
           }
         ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "PuzzleIconController",
-      "ID": 300003,
-      "PosX": 53.8,
-      "PosY": -3.01,
-      "PosZ": -20.7
+      }
     },
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
       "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300006,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "TriggerProp",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "TriggerProp",
-      "RotY": 119.28,
-      "ID": 300006,
+      "OverrideSoundRange": -1,
       "PosX": 52.87,
       "PosY": -3.01,
-      "PosZ": -10.67
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 12244,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100020000,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
+      "PosZ": -10.67,
+      "PropID": 100,
       "RotY": 119.28,
-      "ID": 400001,
-      "PosX": -79.32,
-      "PosY": 0.820673,
-      "PosZ": 75.53
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      }
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

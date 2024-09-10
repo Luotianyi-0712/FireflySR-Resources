@@ -1,71 +1,71 @@
 {
-  "GroupName": "MainMission2011902_11",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20123_F20123001_G91",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2011902_11",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 201190211
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 201190211
+        "ID": 201190211,
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 2011902,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [
     {
-      "NPCMonsterID": 1012020,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
         "ID": 1
       },
-      "EventID": 20134206,
       "BoardShowList": [
         2,
         4
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20134206,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1012020,
+      "Name": "Monster2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster2",
-      "RotY": 142.9678,
-      "ID": 200002,
       "PosX": -53.11,
       "PosY": 13.97659,
-      "PosZ": 17.55
+      "PosZ": 17.55,
+      "RotY": 142.9678
     }
   ],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "OwnerMainMissionID": 2011902,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201190211,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

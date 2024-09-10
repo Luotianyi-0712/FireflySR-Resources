@@ -1,90 +1,90 @@
 {
-  "GroupName": "MainMission3011205_",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10101_F10101001_G139",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 301120502
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 301120502
-      }
-    ]
-  },
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
   "ForceUnloadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 301120502,
         "Phase": "Cancel",
-        "ID": 301120502
+        "Type": "SubMission"
       }
     ]
   },
-  "OwnerMainMissionID": 3011205,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
+  "GroupName": "MainMission3011205_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 301120502,
+        "Type": "SubMission"
+      }
+    ]
+  },
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 11112,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        301120502
-      ],
-      "ServerInteractVerificationIDList": [],
       "BoardShowList": [
         4
       ],
-      "OverrideNPCName": {
-        "hash": -2100756495
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G139/DialogueMain_F10101001_G139_N400001.json",
         "EnableCondition": {
           "Conditions": [
             {
-              "Type": "SubMission",
-              "ID": 301120502
+              "ID": 301120502,
+              "Type": "SubMission"
             }
           ],
           "Operation": "Or"
         },
-        "EnableDialogCamera": true
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G139/DialogueMain_F10101001_G139_N400001.json"
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [
+        301120502
+      ],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 179.9999,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11112,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -2100756495
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 24.83,
       "PosY": 0.233845,
-      "PosZ": -67.7
+      "PosZ": -67.7,
+      "RotY": 179.9999,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "OwnerMainMissionID": 3011205,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 301120502,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

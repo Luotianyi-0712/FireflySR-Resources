@@ -1,124 +1,124 @@
 {
-  "GroupName": "Tower2",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20223_F20223001_G199",
-  "SaveType": "Reset",
   "AtmosphereCondition": {
     "Conditions": [
       {
         "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
-        "SavedValueName": "HeliobusTower2",
-        "Operation": "Equal"
+        "Operation": "Equal",
+        "SavedValueName": "HeliobusTower2"
       },
       {
         "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
-        "SavedValueName": "HeliobusActivity",
         "Operation": "Equal",
+        "SavedValueName": "HeliobusActivity",
         "Value": 1
       }
     ],
     "Operation": "And"
   },
-  "LoadOnInitial": true,
-  "ValueSource": {},
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
   "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
   "ConflictWhiteList": [],
-  "AnchorList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Tower2",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "RotX": 3E-06,
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {},
-      "Trigger": {
-        "Radius": 3.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
       "AnchorGroupID": 58,
       "AnchorID": 1,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/PropDialogue/P20223/F20223001_G199/DialogueMain_F20223001_G199_P300001.json",
-        "PackList": [],
-        "EnableDialogCamera": true
+        "PackList": []
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractIconType": "ChatIcon",
       "InteractTitle": {
-        "hash": -434103220
+        "Hash": -434103220
       },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
       "MapCustomParameter": {
         "$type": "RPG.GameCore.LevelPropMapHeliobusChallengeParam, RPG.GameCore.Config",
         "ChallengeID": 1002
       },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
       "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 58.72,
+      "PosY": 3.118,
+      "PosZ": -47.36,
+      "PropID": 100,
+      "RotX": 0.000003,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop1",
-      "ID": 300001,
-      "PosX": 58.72,
-      "PosY": 3.118,
-      "PosZ": -47.36
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3
+      },
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,88 +1,88 @@
 {
-  "GroupName": "V1_NPC_Group",
-  "AreaAnchorName": "LevelArea_P40002_F40002001_G30",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P40002_F40002001_G30",
   "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "V1_NPC_Group",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 10120,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        200020701
-      ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "HoldArm01Loop",
       "BoardShowList": [
         8
       ],
-      "OverrideNPCName": {
-        "hash": 1698982866
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010231,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
+      "DefaultIdleStateName": "HoldArm01Loop",
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002004_G30/DialogueMain_F40002004_G30_N400001.json",
-        "EnableDialogCamera": true
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002004_G30/DialogueMain_F40002004_G30_N400001.json"
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [
+        200020701
+      ],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 276.2258,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10120,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 1698982866
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -62.57,
       "PosY": 18.664,
-      "PosZ": -70.68
+      "PosZ": -70.68,
+      "RotY": 276.2258,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     },
     {
-      "NPCID": 10110,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010222,
+      "DefaultIdleStateName": "Think01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002004_G30/DialogueMain_F40002004_G30_N400002.json"
+      },
       "DialogueGroups": [
         200020750
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Think01Loop",
-      "BoardShowList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10110,
+      "Name": "NPC2",
       "OverrideNPCName": {
-        "hash": 1295698339
+        "Hash": 1295698339
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100010222,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002004_G30/DialogueMain_F40002004_G30_N400002.json",
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC2",
-      "RotY": 252.6136,
-      "ID": 400002,
       "PosX": -63.86,
       "PosY": 18.664,
-      "PosZ": -69.69
+      "PosZ": -69.69,
+      "RotY": 252.6136,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

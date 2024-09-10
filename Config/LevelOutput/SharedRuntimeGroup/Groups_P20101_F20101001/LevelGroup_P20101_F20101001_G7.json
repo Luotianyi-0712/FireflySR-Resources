@@ -1,280 +1,255 @@
 {
-  "GroupName": "DefaultChallenge",
-  "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_OpenTreasure_WhenMonsterDie.json",
-  "AreaAnchorName": "LevelArea_P20101_F20101001_G7",
-  "SaveType": "Permanent",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 1010101
-      }
-    ]
-  },
-  "LoadSide": "Server",
-  "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 7.0,
-        "Key": "MazeDF_CurrentGroup"
-      }
-    ],
-    "SharedValues": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 7.0,
-        "Key": "MazeDF_CurrentGroup"
-      }
-    ]
-  },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20101_F20101001_G7",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultChallenge",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_OpenTreasure_WhenMonsterDie.json",
+  "LittleGameList": [],
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 8003010,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
         "ID": 1
       },
-      "EventID": 20101231,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 20101231,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8003010,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": -95.35,
+      "PosY": 18.01967,
+      "PosZ": 28.78,
+      "RotY": 225,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster1",
-      "RotY": 225.0,
-      "ID": 200001,
-      "PosX": -95.35,
-      "PosY": 18.01967,
-      "PosZ": 28.78
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -96.1914,
+      "PosY": 17.12432,
+      "PosZ": 13.03906,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        2
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
   "PropList": [
     {
-      "RotX": 0.485995,
-      "RotZ": 2.114002,
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 60103,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_01.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_MazeCommon_ChestLockedHint2",
-            "Key": "MDString_HintTextmap"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_MazeCommon_ChestLockedHint2",
-            "Key": "MDString_HintTextmap"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 1.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "State": "ChestLocked",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "ChestID": 20101631,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "ChestID": 20101631,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "RotY": 225.0,
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": -93.04,
       "PosY": 18.542,
-      "PosZ": 30.841
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeGroup/Maze_GroupProp_OpenTreasure_WhenMonsterDie.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 7.0,
-            "Key": "MazeDF_CurrentGroup"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 7.0,
-            "Key": "MazeDF_CurrentGroup"
-          }
-        ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop2",
-      "ID": 300002
-    },
-    {
+      "PosZ": 30.841,
+      "PropID": 60103,
       "RotX": 0.485995,
+      "RotY": 225,
       "RotZ": 2.114002,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 211,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeExtra/Maze_Prop_GameplayIcon.json",
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "State": "ChestLocked",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1.5
+      },
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "7,300001",
-            "Key": "Chest"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "7,300001",
-            "Key": "Chest"
+            "Key": "MDString_HintTextmap",
+            "Value": "MazeText_MazeCommon_ChestLockedHint2"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "MDString_HintTextmap",
+            "Value": "MazeText_MazeCommon_ChestLockedHint2"
           }
         ]
-      },
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "MappingInfoID": 10029,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Maze/MazeGroup/Maze_GroupProp_OpenTreasure_WhenMonsterDie.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
       "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "MazeDF_CurrentGroup",
+            "Value": 7
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "MazeDF_CurrentGroup",
+            "Value": 7
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Maze/MazeExtra/Maze_Prop_GameplayIcon.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 10029,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverrideMapStateIcons": [
         {
@@ -282,23 +257,88 @@
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop3",
-      "RotY": 225.0,
-      "ID": 300003,
+      "OverrideSoundRange": -1,
       "PosX": -93.04,
       "PosY": 18.542,
-      "PosZ": 30.841
+      "PosZ": 30.841,
+      "PropID": 211,
+      "RotX": 0.485995,
+      "RotY": 225,
+      "RotZ": 2.114002,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Chest",
+            "Value": "7,300001"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Chest",
+            "Value": "7,300001"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "Operation": "Equal",
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 7
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 7
+      }
+    ]
+  },
   "WaypointList": [
     {
       "ID": 1,
@@ -318,25 +358,5 @@
       "PosY": 17.63672,
       "PosZ": 21.04099
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -96.1914,
-      "PosY": 17.12432,
-      "PosZ": 13.03906
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

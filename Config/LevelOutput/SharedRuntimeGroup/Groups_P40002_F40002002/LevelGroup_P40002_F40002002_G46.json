@@ -1,53 +1,53 @@
 {
-  "GroupName": "V1_NPC_Group",
-  "AreaAnchorName": "LevelArea_P40002_F40002002_G46",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P40002_F40002002_G46",
   "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "V1_NPC_Group",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 10110,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010222,
+      "DefaultIdleStateName": "Think01Loop",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002002_G46/DialogueMain_F40002002_G46_N400002.json"
+      },
       "DialogueGroups": [
         200020574
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Think01Loop",
-      "BoardShowList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10110,
+      "Name": "NPC2",
       "OverrideNPCName": {
-        "hash": 1295698339
+        "Hash": 1295698339
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100010222,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P40002/F40002002_G46/DialogueMain_F40002002_G46_N400002.json",
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC2",
-      "RotY": 130.5865,
-      "ID": 400002,
       "PosX": -47.641,
       "PosY": -1.544,
-      "PosZ": -53.086
+      "PosZ": -53.086,
+      "RotY": 130.5865,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

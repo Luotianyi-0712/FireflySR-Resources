@@ -1,33 +1,25 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P40233_F40233001_G1",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 63.0,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": -118.4,
       "PosY": 11.9,
-      "PosZ": -54.9
+      "PosZ": -54.9,
+      "RotY": 63
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P40233_F40233001_G1",
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
       "AudioEnterEvent": [
         "Ev_amb_maze_xianzhou_x3_3_battle"
+      ],
+      "AudioRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 9
+        }
       ],
       "AudioState": [
         {
@@ -35,21 +27,29 @@
           "StateName": "Phase1"
         }
       ],
-      "AudioRTPC": [
-        {
-          "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 9.0
-        }
-      ],
-      "PropsGroupID": 3,
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "ID": 1
+      "PropsGroupID": 3,
+      "Tags": [
+        "BattleArea01"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

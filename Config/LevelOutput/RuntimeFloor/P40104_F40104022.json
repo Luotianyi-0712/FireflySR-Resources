@@ -1,83 +1,35 @@
 {
-  "FloorID": 40104022,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X402_MainLine_01_StageData/Chap02_MAZ_X402_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8,
-    16,
-    32
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20242_F20242001.json",
-  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20242_F20242001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G2.json",
-      "Name": "Boat",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G3.json",
-      "Name": "Door_L",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G4.json",
-      "Name": "ElevatorInHall01",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G5.json",
-      "Name": "MainMission8025231_01",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G6.json",
-      "Name": "NPC",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G7.json",
-      "Name": "Sound",
-      "ID": 7
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X402_Mainline_Day.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [
         {
-          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X402_01_Mainline_Day.enviroProfile.asset",
-          "Tags": [
-            "BattleArea01"
-          ],
-          "PropsGroupID": 1,
           "AudienceGroupIDList": [],
+          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X402_01_Mainline_Day.enviroProfile.asset",
+          "ID": 1,
+          "Name": "BattleArea1",
           "PrefetchMainMissionList": [],
           "PrefetchSubMissionList": [],
-          "Name": "BattleArea1",
-          "ID": 1
+          "PropsGroupID": 1,
+          "Tags": [
+            "BattleArea01"
+          ]
         },
         {
-          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X402_02_Mainline_Day.enviroProfile.asset",
-          "Tags": [
-            "BattleArea02"
-          ],
           "AudienceGroupIDList": [
             0
           ],
+          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X402_02_Mainline_Day.enviroProfile.asset",
+          "ID": 2,
+          "Name": "BattleArea2",
           "PrefetchMainMissionList": [],
           "PrefetchSubMissionList": [],
-          "Name": "BattleArea2",
-          "ID": 2
+          "Tags": [
+            "BattleArea02"
+          ]
         }
       ],
+      "CameraType": "Maze",
       "ConstValues": [
         {
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
@@ -195,7 +147,8 @@
           "Name": "RegionAirLock_11"
         }
       ],
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X402_Mainline_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -205,51 +158,98 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40104022,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "4": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "5": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "6": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "7": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G2.json",
+      "ID": 2,
+      "Name": "Boat"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G3.json",
+      "ID": 3,
+      "Name": "Door_L"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G4.json",
+      "ID": 4,
+      "Name": "ElevatorInHall01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G5.json",
+      "ID": 5,
+      "Name": "MainMission8025231_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G6.json",
+      "ID": 6,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104022/LevelGroup_P40104_F40104022_G7.json",
+      "ID": 7,
+      "Name": "Sound"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    8,
+    16,
+    32
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20242_F20242001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20242_F20242001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X402_MainLine_01_StageData/Chap02_MAZ_X402_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

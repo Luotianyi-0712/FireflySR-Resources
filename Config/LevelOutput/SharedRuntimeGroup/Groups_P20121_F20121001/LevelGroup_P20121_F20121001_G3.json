@@ -1,417 +1,417 @@
 {
-  "GroupName": "DefaultProp",
-  "AreaAnchorName": "LevelArea_P20121_F20121001_G3",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "GroupRefreshID": 1,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "300005_1F",
-      "RotY": 330.0,
       "ID": 3,
+      "Name": "300005_1F",
       "PosX": 135.12,
       "PosY": 28.9,
-      "PosZ": -125.26
+      "PosZ": -125.26,
+      "RotY": 330
     },
     {
-      "Name": "300005_2F",
-      "RotY": 330.0,
       "ID": 4,
+      "Name": "300005_2F",
       "PosX": 135.12,
       "PosY": 59.00788,
-      "PosZ": -125.26
+      "PosZ": -125.26,
+      "RotY": 330
     }
   ],
+  "AreaAnchorName": "LevelArea_P20121_F20121001_G3",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultProp",
+  "GroupRefreshID": 1,
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 301004,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "BridgeStateRotations": [],
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300013,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop13",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop13",
-      "RotY": 328.4481,
-      "ID": 300013,
+      "OverrideSoundRange": -1,
       "PosX": 135.109,
       "PosY": 50.639,
-      "PosZ": -125.266
-    },
-    {
+      "PosZ": -125.266,
+      "PropID": 301004,
+      "RotY": 328.4481,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 101008,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_ElevatorSwicth_CallElevator_1Fto2F.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300005",
-            "Key": "Maze_Chap01_Elevator_01"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300005",
-            "Key": "Maze_Chap01_Elevator_01"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 1.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "State": "Locked",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BridgeStateRotations": [],
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300027,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_ElevatorSwicth_CallElevator_1Fto2F.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop27",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop27",
-      "RotY": 234.1801,
-      "ID": 300027,
+      "OverrideSoundRange": -1,
       "PosX": 128.7,
       "PosY": 58.984,
-      "PosZ": -126.23
-    },
-    {
+      "PosZ": -126.23,
+      "PropID": 101008,
+      "RotY": 234.1801,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 101008,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_ElevatorSwicth_CallElevator_2Fto1F.json",
+      "ServerInteractVerificationIDList": [],
+      "State": "Locked",
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1.5
+      },
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300005",
-            "Key": "Maze_Chap01_Elevator_01"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300005",
-            "Key": "Maze_Chap01_Elevator_01"
+            "Key": "Maze_Chap01_Elevator_01",
+            "Value": "3,300005"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Elevator_01",
+            "Value": "3,300005"
           }
         ]
-      },
-      "Trigger": {
-        "Radius": 1.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      }
+    },
+    {
+      "BridgeStateRotations": [],
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300011,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_ElevatorSwicth_CallElevator_2Fto1F.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop11",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop11",
-      "RotY": 352.1305,
-      "ID": 300011,
+      "OverrideSoundRange": -1,
       "PosX": 142.08,
       "PosY": 28.41516,
-      "PosZ": -124.75
-    },
-    {
+      "PosZ": -124.75,
+      "PropID": 101008,
+      "RotY": 352.1305,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 101007,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_Elevator_Move.json",
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1.5
+      },
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20121_F20121001_G3,300005_1F",
-            "Key": "Maze_Chap01_Lift_1F"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20121_F20121001_G3,300005_2F",
-            "Key": "Maze_Chap01_Lift_2F"
-          },
-          {
-            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 5.0,
-            "Key": "Maze_Chap01_Lift_MoveSpeed"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Elevator_Lock",
-            "Key": "Maze_Chap01_M201_ElevatorLock"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300011",
-            "Key": "Maze_Prop_Controller_1F"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300027",
-            "Key": "Maze_Prop_Controller_2F"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20121_F20121001_G3,300005_1F",
-            "Key": "Maze_Chap01_Lift_1F"
+            "Key": "Maze_Chap01_Elevator_01",
+            "Value": "3,300005"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Elevator_01",
+            "Value": "3,300005"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300005,
+      "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_Elevator_Move.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop5",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 135.12,
+      "PosY": 59.00788,
+      "PosZ": -125.26,
+      "PropID": 101007,
+      "RotY": 330,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "State": "Locked",
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 2,
+        "DimY": 15,
+        "DimZ": 2,
+        "PointList": [],
+        "Radius": 2.5
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Lift_1F",
+            "Value": "LevelArea_P20121_F20121001_G3,300005_1F"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20121_F20121001_G3,300005_2F",
-            "Key": "Maze_Chap01_Lift_2F"
+            "Key": "Maze_Chap01_Lift_2F",
+            "Value": "LevelArea_P20121_F20121001_G3,300005_2F"
           },
           {
             "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-            "Value": 5.0,
-            "Key": "Maze_Chap01_Lift_MoveSpeed"
+            "Key": "Maze_Chap01_Lift_MoveSpeed",
+            "Value": 5
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Elevator_Lock",
-            "Key": "Maze_Chap01_M201_ElevatorLock"
+            "Key": "Maze_Chap01_M201_ElevatorLock",
+            "Value": "MazeText_Elevator_Lock"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300011",
-            "Key": "Maze_Prop_Controller_1F"
+            "Key": "Maze_Prop_Controller_1F",
+            "Value": "3,300011"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "3,300027",
-            "Key": "Maze_Prop_Controller_2F"
+            "Key": "Maze_Prop_Controller_2F",
+            "Value": "3,300027"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Lift_1F",
+            "Value": "LevelArea_P20121_F20121001_G3,300005_1F"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Lift_2F",
+            "Value": "LevelArea_P20121_F20121001_G3,300005_2F"
+          },
+          {
+            "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Lift_MoveSpeed",
+            "Value": 5
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_M201_ElevatorLock",
+            "Value": "MazeText_Elevator_Lock"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Prop_Controller_1F",
+            "Value": "3,300011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Prop_Controller_2F",
+            "Value": "3,300027"
           }
         ]
-      },
-      "Trigger": {
-        "Radius": 2.5,
-        "DimX": 2.0,
-        "DimY": 15.0,
-        "DimZ": 2.0,
-        "PointList": []
-      },
-      "State": "Locked",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop5",
-      "RotY": 330.0,
-      "ID": 300005,
-      "PosX": 135.12,
-      "PosY": 59.00788,
-      "PosZ": -125.26
+      }
     },
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 301005,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "BridgeStateRotations": [],
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300035,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop35",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop35",
-      "ID": 300035,
+      "OverrideSoundRange": -1,
       "PosX": 135.12,
       "PosY": 28.08,
-      "PosZ": -125.26
+      "PosZ": -125.26,
+      "PropID": 301005,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

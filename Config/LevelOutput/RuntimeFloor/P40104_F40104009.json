@@ -1,107 +1,24 @@
 {
-  "FloorID": 40104009,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X401_MainLine_01_StageData/Chap02_MAZ_X401_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    128,
-    64,
-    32,
-    16,
-    8
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20241_F20241001.json",
-  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20241_F20241001.json",
-  "SavedValues": [
-    {
-      "ID": 1,
-      "Name": "RotLevel_01",
-      "AllowedValues": [
-        0,
-        1
-      ],
-      "MaxValue": 1
-    },
-    {
-      "ID": 2,
-      "Name": "KeyLevelChange",
-      "AllowedValues": [
-        0,
-        1
-      ],
-      "MaxValue": 1
-    },
-    {
-      "ID": 3,
-      "Name": "FSV_KeyLevel",
-      "AllowedValues": [
-        0,
-        1
-      ],
-      "MaxValue": 1
-    },
-    {
-      "ID": 4,
-      "Name": "MapChange",
-      "AllowedValues": [
-        0,
-        1
-      ],
-      "MaxValue": 1
-    }
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G3.json",
-      "Name": "DefaultGroup",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G4.json",
-      "Name": "BlockProjection",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G5.json",
-      "Name": "Wall",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G6.json",
-      "Name": "NPC",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G7.json",
-      "Name": "New Group",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G8.json",
-      "Name": "Sound",
-      "ID": 8
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X401_MainLine_01_Day.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [
         {
-          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X401_MainLine_01_Day.enviroProfile.asset",
-          "Tags": [
-            "BattleArea1"
-          ],
           "AudioEnterEvent": [
             "Ev_WwiseMatrixReverb_VO_03_datingzhongxing"
           ],
-          "PropsGroupID": 3,
+          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X401_MainLine_01_Day.enviroProfile.asset",
+          "ID": 1,
+          "Name": "BattleArea1",
           "PrefetchMainMissionList": [],
           "PrefetchSubMissionList": [],
-          "Name": "BattleArea1",
-          "ID": 1
+          "PropsGroupID": 3,
+          "Tags": [
+            "BattleArea1"
+          ]
         }
       ],
+      "CameraType": "Maze",
       "ConstValues": [
         {
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
@@ -134,45 +51,8 @@
           "Name": "5floorTo"
         }
       ],
-      "SavedValues": [
-        {
-          "ID": 1,
-          "Name": "RotLevel_01",
-          "AllowedValues": [
-            0,
-            1
-          ],
-          "MaxValue": 1
-        },
-        {
-          "ID": 2,
-          "Name": "KeyLevelChange",
-          "AllowedValues": [
-            0,
-            1
-          ],
-          "MaxValue": 1
-        },
-        {
-          "ID": 3,
-          "Name": "FSV_KeyLevel",
-          "AllowedValues": [
-            0,
-            1
-          ],
-          "MaxValue": 1
-        },
-        {
-          "ID": 4,
-          "Name": "MapChange",
-          "AllowedValues": [
-            0,
-            1
-          ],
-          "MaxValue": 1
-        }
-      ],
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X401_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -181,46 +61,128 @@
         4,
         5
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 1,
+          "MaxValue": 1,
+          "Name": "RotLevel_01"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 2,
+          "MaxValue": 1,
+          "Name": "KeyLevelChange"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 3,
+          "MaxValue": 1,
+          "Name": "FSV_KeyLevel"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 4,
+          "MaxValue": 1,
+          "Name": "MapChange"
+        }
+      ],
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40104009,
   "GroupInstanceCommonMap": {
     "3": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "5": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "7": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "8": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G3.json",
+      "ID": 3,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G4.json",
+      "ID": 4,
+      "Name": "BlockProjection"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G5.json",
+      "ID": 5,
+      "Name": "Wall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G6.json",
+      "ID": 6,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G7.json",
+      "ID": 7,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104009/LevelGroup_P40104_F40104009_G8.json",
+      "ID": 8,
+      "Name": "Sound"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    128,
+    64,
+    32,
+    16,
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20241_F20241001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20241_F20241001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X401_MainLine_01_StageData/Chap02_MAZ_X401_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

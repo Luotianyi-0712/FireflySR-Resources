@@ -1,8 +1,6 @@
 {
-  "GroupName": "Reading",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10202_F10202003_G62",
-  "SaveType": "Permanent",
   "AtmosphereCondition": {
     "Conditions": [
       {
@@ -12,97 +10,99 @@
     ],
     "Operation": "And"
   },
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
   "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
   "ConflictWhiteList": [],
-  "AnchorList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "Reading",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 102012,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_PickupReadings.json",
-      "ValueSource": {},
-      "CampID": 4,
-      "State": "EventClose",
-      "EventID": 10302531,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "TagOverrideComponents": {},
       "CameraCenterEntityList": [],
       "CameraConfig": {},
-      "LookAtPlayerTriggerRadius": 2.0,
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "EventID": 10302531,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_PickupReadings.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
       "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -0.0216,
+      "PosY": 2.3918,
+      "PosZ": 20.9792,
+      "PropID": 102012,
+      "RotY": 333.8136,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop1",
-      "RotY": 333.8136,
-      "ID": 300001,
-      "PosX": -0.0216,
-      "PosY": 2.3918,
-      "PosZ": 20.9792
+      "State": "EventClose",
+      "StateConfigs": [],
+      "TagOverrideComponents": {},
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "PedestrianV2List": [],
-  "AudienceList": [],
+  "SaveType": "Permanent",
   "SmartObjectList": [],
-  "CurveList": [],
-  "LittleGameList": []
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

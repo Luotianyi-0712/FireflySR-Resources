@@ -1,145 +1,155 @@
 {
-  "GroupName": "NPC",
-  "AreaAnchorName": "LevelArea_P10301_F10301001_G146",
-  "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "Name": "Anchor1",
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 96.35,
       "PosY": -25.98586,
       "PosZ": 116.552
     },
     {
-      "Name": "Anchor2",
-      "RotY": 78.841,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 95.859,
       "PosY": -25.98584,
-      "PosZ": 118.471
+      "PosZ": 118.471,
+      "RotY": 78.841
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P10301_F10301001_G146",
+  "AtmosphereCondition": {
+    "Operation": "And"
+  },
+  "AudienceList": [],
   "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 13306,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1,
         64,
         128,
         8
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100040000,
-      "BornType": "Mission",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
+      "LoadOnInitial": true,
+      "NPCID": 13306,
+      "Name": "NPC1",
       "OverrideBehaviorType": "DreamlandActor",
-      "CameraCenterEntityList": [],
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 96.795,
+      "PosY": -25.98577,
+      "PosZ": 118.057,
+      "RotY": 208.7591,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
-        "TryCapture": true,
         "CaptureDistanceTolerance": 1.5,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "Name": "NPC1",
-      "RotY": 208.7591,
-      "ID": 400001,
-      "PosX": 96.795,
-      "PosY": -25.98577,
-      "PosZ": 118.057
+      "ValueSource": {}
     },
     {
-      "NPCID": 13131,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010210,
       "DefaultLookAtMode": "LookTarget",
       "DefaultLookAtTargetInfo": {
         "GroupID": 146,
         "InstanceID": 400001
       },
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100010210,
-      "BornType": "Mission",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400002,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
+      "NPCID": 13131,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 97.474,
+      "PosY": -25.98583,
+      "PosZ": 116.974,
+      "RotY": 311.2191,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
-        "TryCapture": true,
         "CaptureDistanceTolerance": 1.5,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "Name": "NPC2",
-      "RotY": 311.2191,
-      "ID": 400002,
-      "PosX": 97.474,
-      "PosY": -25.98583,
-      "PosZ": 116.974
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Reset",
   "SmartObjectList": [
     {
+      "CommonPointList": [],
+      "ID": 1,
+      "Name": "SmartObject1",
+      "PosX": 100.3352,
+      "PosY": -25.429,
+      "PosZ": 117.709,
       "SlotList": [
         {
           "PlayeMode": "Random",
@@ -147,62 +157,59 @@
             {
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_PlayFreeStyle, RPG.GameCore.Config",
+                    "ForceStart": true,
+                    "IsClientOnly": true,
+                    "NormalizedTransitionDuration": 0.05,
                     "StoryAvatarID": "NPC_Child",
                     "StoryMotionID": 100040200,
-                    "ForceStart": true,
-                    "NormalizedTransitionDuration": 0.05,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   },
                   {
                     "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
-                    "Time": 15.0,
+                    "IsClientOnly": true,
                     "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "Time": 15
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             },
             {
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_PlayFreeStyle, RPG.GameCore.Config",
+                    "ForceStart": true,
+                    "IsClientOnly": true,
+                    "NormalizedTransitionDuration": 0.05,
                     "StoryAvatarID": "NPC_Child",
                     "StoryMotionID": 100040202,
-                    "ForceStart": true,
-                    "NormalizedTransitionDuration": 0.05,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   },
                   {
                     "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
-                    "Time": 15.0,
+                    "IsClientOnly": true,
                     "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "Time": 15
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             }
           ]
         }
-      ],
-      "CommonPointList": [],
-      "Name": "SmartObject1",
-      "ID": 1,
-      "PosX": 100.3352,
-      "PosY": -25.429,
-      "PosZ": 117.709
+      ]
     }
-  ]
+  ],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

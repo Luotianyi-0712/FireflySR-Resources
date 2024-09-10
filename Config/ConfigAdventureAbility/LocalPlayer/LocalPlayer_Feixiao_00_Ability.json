@@ -12,8 +12,8 @@
             {
               "$type": "RPG.GameCore.AddAdventureModifier",
               "LifeTime": {
-                "IsDynamic": false,
-                "FixedValue": null
+                "FixedValue": null,
+                "IsDynamic": false
               },
               "ModifierName": "ADV_StageAbility_Maze_Feixiao_Attack_HolyShield"
             },
@@ -85,13 +85,13 @@
             },
             {
               "$type": "RPG.GameCore.AdventureTriggerAttack",
-              "TriggerBattle": true,
               "OnBattle": [
                 {
                   "$type": "RPG.GameCore.AddMazeBuff",
                   "ID": 122002
                 }
-              ]
+              ],
+              "TriggerBattle": true
             },
             {
               "$type": "RPG.GameCore.VCameraConfigChange"
@@ -147,24 +147,24 @@
           "$type": "RPG.GameCore.AddMazeBuff",
           "ID": 122004,
           "LifeTime": {
-            "IsDynamic": true,
-            "FixedValue": null
+            "FixedValue": null,
+            "IsDynamic": true
           }
         },
         {
           "$type": "RPG.GameCore.RefreshMazeBuffTime",
           "ID": 122004,
           "LifeTime": {
-            "IsDynamic": true,
-            "FixedValue": null
+            "FixedValue": null,
+            "IsDynamic": true
           }
         },
         {
           "$type": "RPG.GameCore.AddMazeBuff",
           "ID": 122001,
           "LifeTime": {
-            "IsDynamic": true,
-            "FixedValue": null
+            "FixedValue": null,
+            "IsDynamic": true
           }
         },
         {

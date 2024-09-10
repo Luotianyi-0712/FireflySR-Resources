@@ -1,26 +1,12 @@
 {
-  "GroupName": "DefaultGroup",
-  "ConfigPrefabPath": "Level/Maze/Chapter02/Chap02_MAZ_X202_LevelArea.prefab",
-  "AreaAnchorName": "LevelArea_P30105_F30105001_G12",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P30105_F30105001_G12",
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
       "AudioEnterEvent": [],
-      "PropsGroupID": 13,
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Night.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [
         2020319
       ],
@@ -28,15 +14,13 @@
         102080114,
         202031901
       ],
-      "Name": "BattleArea1",
-      "RotY": 1E-05,
-      "ID": 1
+      "PropsGroupID": 13,
+      "RotY": 0.00001,
+      "Tags": [
+        "BattleArea01"
+      ]
     },
     {
-      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Boss_Night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea02"
-      ],
       "AudioEnterEvent": [
         "Ev_amb_maze_xianzhou_x2_2_battle"
       ],
@@ -46,17 +30,33 @@
           "StateName": "State_XuanluBoss_01"
         }
       ],
-      "PropsGroupID": 14,
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Boss_Night.enviroProfile.asset",
+      "ID": 2,
+      "Name": "BattleArea2",
       "PrefetchMainMissionList": [
         2020318
       ],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea2",
-      "ID": 2
+      "PropsGroupID": 14,
+      "Tags": [
+        "BattleArea02"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConfigPrefabPath": "Level/Maze/Chapter02/Chap02_MAZ_X202_LevelArea.prefab",
+  "ConflictIDList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

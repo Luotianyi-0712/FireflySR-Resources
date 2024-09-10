@@ -1,8 +1,12 @@
 {
-  "GroupName": "MainMission1011503_",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10000_F10000000_G120",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1011503_",
   "LoadCondition": {
     "Conditions": [
       {
@@ -10,77 +14,74 @@
       }
     ]
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 1011503
-      }
-    ]
-  },
-  "OwnerMainMissionID": 1011503,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 1003,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310030900,
+      "DefaultIdleStateName": "Sit01",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400002.json",
+            "Name": "Common"
+          }
+        ]
+      },
       "DialogueGroups": [
         101150223,
         200020101,
         100050406
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Sit01",
-      "BoardShowList": [
-        4
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310030900,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400002.json",
-        "PackList": [
-          {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400002.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "OverrideBehaviorType": "TrainPassenger",
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1003,
+      "Name": "NPC1",
       "OverrideBehaviorParameter": {
         "$type": "RPG.GameCore.LevelNPCTrainPassengerParam, RPG.GameCore.Config",
         "PassengerID": 1003001
       },
-      "Name": "NPC1",
-      "RotY": 240.1102,
-      "ID": 400001,
+      "OverrideBehaviorType": "TrainPassenger",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 3.589,
-      "PosZ": 3.007
+      "PosZ": 3.007,
+      "RotY": 240.1102,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     },
     {
-      "NPCID": 1004,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        4
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310040900,
+      "DefaultIdleStateName": "Sit01",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400003.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400003.json",
+            "Name": "Common"
+          }
+        ]
+      },
       "DialogueGroups": [
         100050108,
         100050407,
@@ -88,47 +89,46 @@
         201150107,
         201150111
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Sit01",
-      "BoardShowList": [
-        4
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310040900,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialogueMain_F10000000_G40_N400003.json",
-        "PackList": [
-          {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G40/DialoguePack_Common_F10000000_G40_N400003.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "OverrideBehaviorType": "TrainPassenger",
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1004,
+      "Name": "NPC2",
       "OverrideBehaviorParameter": {
         "$type": "RPG.GameCore.LevelNPCTrainPassengerParam, RPG.GameCore.Config",
         "PassengerID": 1004001
       },
-      "Name": "NPC2",
-      "RotY": 69.62791,
-      "ID": 400002,
+      "OverrideBehaviorType": "TrainPassenger",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -4.42,
       "PosY": 0.021,
-      "PosZ": -1.101
+      "PosZ": -1.101,
+      "RotY": 69.62791,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "OwnerMainMissionID": 1011503,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 1011503,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
 }

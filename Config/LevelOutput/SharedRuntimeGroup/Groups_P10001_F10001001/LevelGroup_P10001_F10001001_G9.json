@@ -1,95 +1,47 @@
 {
-  "GroupName": "SubMission",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10001_F10001001_G9",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "SubMission",
+  "LittleGameList": [],
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 2000113
+        "ID": 2000113,
+        "Phase": "Finish"
       }
     ]
   },
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {},
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop1",
-      "ID": 300001,
-      "PosX": -46.69,
-      "PosY": 5.141948,
-      "PosZ": -44.96
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10202,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        1,
+        4,
+        8,
+        64
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialogueMain_F10001001_G9_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_Transferred_F10001001_G9_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
       "DialogueGroups": [
         300052202,
         300052302,
@@ -100,54 +52,58 @@
         500000302,
         500000303
       ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "FirstDialogueGroupID": 500000301,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10202,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": -46.856,
+      "PosY": 4.92304,
+      "PosZ": -45.081,
+      "RotY": 319.9258,
       "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
+      "TalkDialogGroupIDList": [
+        500000300
+      ]
+    },
+    {
       "BoardShowList": [
         1,
         4,
         8,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "FirstDialogueGroupID": 500000301,
-      "TalkDialogGroupIDList": [
-        500000300
-      ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100020000,
       "BornType": "Mission",
-      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030326,
+      "DefaultIdleStateName": "Lumbago01",
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialogueMain_F10001001_G9_N400001.json",
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialogueMain_F10001001_G9_N400002.json",
         "PackList": [
           {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_Transferred_F10001001_G9_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_4050033_F10001001_G9_N400002.json",
+            "Name": "4050033"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_Transferred_F10001001_G9_N400002.json",
+            "Name": "Transferred"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 319.9258,
-      "ID": 400001,
-      "PosX": -46.856,
-      "PosY": 4.92304,
-      "PosZ": -45.081
-    },
-    {
-      "NPCID": 10401,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [
         300052201,
         300052203,
@@ -164,58 +120,102 @@
         500000405,
         500000406
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Lumbago01",
-      "BoardShowList": [
-        1,
-        4,
-        8,
-        64
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [
-        500000404
-      ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100030326,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialogueMain_F10001001_G9_N400002.json",
-        "PackList": [
-          {
-            "Name": "4050033",
-            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_4050033_F10001001_G9_N400002.json"
-          },
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G9/DialoguePack_Transferred_F10001001_G9_N400002.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
       "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "Name": "NPC2",
-      "RotY": 253.2557,
       "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10401,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
       "PosX": 8.38,
       "PosY": -0.264332,
-      "PosZ": 31.4
+      "PosZ": 31.4,
+      "RotY": 253.2557,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        500000404
+      ]
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -46.69,
+      "PosY": 5.141948,
+      "PosZ": -44.96,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Reset",
   "SmartObjectList": [],
-  "CurveList": [],
-  "LittleGameList": []
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

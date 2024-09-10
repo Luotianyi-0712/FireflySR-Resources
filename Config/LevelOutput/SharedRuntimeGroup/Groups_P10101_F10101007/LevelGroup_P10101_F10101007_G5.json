@@ -1,68 +1,49 @@
 {
-  "GroupName": "NPCs",
-  "AreaAnchorName": "LevelArea_P10101_F10101007_G5",
-  "SaveType": "Reset",
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 101020108
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101020109
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101020110
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101100205
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101100206
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101100213
-      },
-      {
-        "Type": "SubMission",
-        "ID": 101100207
-      },
-      {
-        "Type": "SubMission",
-        "ID": 201130103
-      }
-    ],
-    "Operation": "Or"
-  },
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 168.75,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -0.25,
-      "PosY": -1E-06,
-      "PosZ": 5.03
+      "PosY": -0.000001,
+      "PosZ": 5.03,
+      "RotY": 168.75
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P10101_F10101007_G5",
   "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPCs",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1103,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311030000,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialogueMain_F10101007_G5_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Mission_F10101007_G5_N400002.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_caidan_F10101007_G5_N400002.json",
+            "Name": "caidan"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Common_F10101007_G5_N400002.json",
+            "Name": "Common"
+          }
+        ]
+      },
       "DialogueGroups": [
         301140302,
         201130201,
@@ -74,64 +55,83 @@
         501029402,
         501029404
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        8
-      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 501029401,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1103,
+      "Name": "NPC2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "FirstDialogueGroupID": 501029401,
-      "TalkDialogGroupIDList": [
-        501029403
-      ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 311030000,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialogueMain_F10101007_G5_N400002.json",
-        "PackList": [
-          {
-            "Name": "Mission",
-            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Mission_F10101007_G5_N400002.json"
-          },
-          {
-            "Name": "caidan",
-            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_caidan_F10101007_G5_N400002.json"
-          },
-          {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101007_G5/DialoguePack_Common_F10101007_G5_N400002.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC2",
-      "RotY": 17.93271,
-      "ID": 400002,
       "PosX": -0.03,
       "PosY": 0.055227,
-      "PosZ": 2.9
+      "PosZ": 2.9,
+      "RotY": 17.93271,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [
+        501029403
+      ]
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 101020108,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101020109,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101020110,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101100205,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101100206,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101100213,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 101100207,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 201130103,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "WaypointList": []
 }

@@ -1,92 +1,121 @@
 {
-  "GroupName": "Monsters",
-  "AreaAnchorName": "LevelArea_P40101_F40101006_G18",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P40101_F40101006_G18",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Monsters",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 8001010,
       "AIConfig": {
         "PathwayList": [
           {
-            "UseOwnerGroup": true,
+            "StartAt": 1,
             "UseGroup": 18,
             "UseID": 1,
-            "StartAt": 1
+            "UseOwnerGroup": true
           }
         ],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
         "ID": 1
       },
-      "EventID": 40101101,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101101,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8001010,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 125.9261,
-      "ID": 200001,
       "PosX": 3.551897,
       "PosY": 8.048449,
-      "PosZ": -59.51274
+      "PosZ": -59.51274,
+      "RotY": 125.9261
     },
     {
-      "NPCMonsterID": 1022020,
       "AIConfig": {
         "PathwayList": [
           {
-            "UseOwnerGroup": true,
+            "StartAt": 3,
             "UseGroup": 18,
             "UseID": 2,
-            "StartAt": 3
+            "UseOwnerGroup": true
           }
         ],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
         "ID": 1
       },
-      "EventID": 40101102,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40101102,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1022020,
+      "Name": "Monster2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster2",
-      "RotY": 222.276,
-      "ID": 200002,
       "PosX": 34.2466,
       "PosY": 2.845616,
-      "PosZ": -51.56583
+      "PosZ": -51.56583,
+      "RotY": 222.276
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 24.77631,
+      "PosY": 10.39256,
+      "PosZ": -65.55199,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": 24.77631,
+      "PosY": 10.39256,
+      "PosZ": -65.55199,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
   "WaypointList": [
     {
       "ID": 1,
@@ -96,7 +125,7 @@
     },
     {
       "ID": 2,
-      "PosX": 2.0,
+      "PosX": 2,
       "PosY": 3.767907,
       "PosZ": -72.84975
     },
@@ -112,34 +141,5 @@
       "PosY": 3.08654,
       "PosZ": -45.64049
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": 24.77631,
-      "PosY": 10.39256,
-      "PosZ": -65.55199
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": 24.77631,
-      "PosY": 10.39256,
-      "PosZ": -65.55199
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

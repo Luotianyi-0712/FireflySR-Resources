@@ -1,118 +1,118 @@
 {
-  "GroupName": "MainMission8015104_Jingyuan",
-  "Category": "Mission",
-  "AreaAnchorName": "LevelArea_P20223_F20223001_G40",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 801510413
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 801510413
-      }
-    ]
-  },
-  "OwnerMainMissionID": 8015104,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Anchor1",
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -0.147772,
       "PosY": -9.076819,
       "PosZ": -10.345
     },
     {
-      "Usage": "Camera",
       "CustomParameter": {
         "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
       },
-      "Name": "Anchor2",
-      "RotY": 299.5468,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 3.63,
       "PosY": -7.712,
-      "PosZ": -11.57
+      "PosZ": -11.57,
+      "RotY": 299.5468,
+      "Usage": "Camera"
     },
     {
-      "Usage": "Actor",
-      "Name": "Anchor3",
-      "RotY": 49.47607,
       "ID": 3,
+      "Name": "Anchor3",
       "PosX": -0.59,
       "PosY": -9.076819,
-      "PosZ": -9.71
+      "PosZ": -9.71,
+      "RotY": 49.47607,
+      "Usage": "Actor"
     },
     {
-      "Name": "Anchor4",
       "ID": 4,
+      "Name": "Anchor4",
       "PosX": -8.735,
       "PosY": -9.076818,
       "PosZ": -5.34
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P20223_F20223001_G40",
   "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission8015104_Jingyuan",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 801510413,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1205,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 312040000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P20223/F20223001_G40/DialogueMain_F20223001_G40_N400002.json",
-        "PackList": [],
-        "EnableDialogCamera": true
+        "PackList": []
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC2",
       "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1205,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -8.77,
       "PosY": -9.042869,
-      "PosZ": -5.22
+      "PosZ": -5.22,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 8015104,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 801510413,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

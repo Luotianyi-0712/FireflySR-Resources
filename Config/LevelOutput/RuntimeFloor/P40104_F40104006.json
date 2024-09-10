@@ -1,85 +1,11 @@
 {
-  "FloorID": 40104006,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X202_MainLine_01_StageData/Chap02_MAZ_X202_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20222_F20222001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G13.json",
-      "Name": "DefaultGroup",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G14.json",
-      "Name": "DefaultGroup",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G15.json",
-      "Name": "BATProp",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G16.json",
-      "Name": "BATBossProp",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G17.json",
-      "Name": "JianMu",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G18.json",
-      "Name": "Sound",
-      "ID": 18
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G19.json",
-      "Name": "MainMission_RoadBlock",
-      "ID": 19
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G20.json",
-      "Name": "JianMu",
-      "ID": 20
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G21.json",
-      "Name": "MainMission_RoadBlock",
-      "ID": 21
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G22.json",
-      "Name": "MainMission_RoadBlock",
-      "ID": 22
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G29.json",
-      "Name": "RubikCubeActivity06",
-      "ID": 29
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G36.json",
-      "Name": "Blockline",
-      "ID": 36
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G37.json",
-      "Name": "NPC",
-      "ID": 37
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X202_MainLine_01_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X202_MainLine_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -95,110 +21,184 @@
         11,
         12
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40104006,
   "GroupInstanceCommonMap": {
     "13": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "14": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "15": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
       "LoadOnInitial": true,
+      "SaveType": "Reset",
       "SystemUnlockCondition": {
         "Operation": "And"
       }
     },
     "16": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
       "LoadOnInitial": true,
+      "SaveType": "Reset",
       "SystemUnlockCondition": {
         "Operation": "And"
       }
     },
     "17": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "18": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "19": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "20": {
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Phase": "Finish",
-            "ID": 1021101
+            "ID": 1021101,
+            "Phase": "Finish"
           }
         ],
         "DelayToLevelReload": true
       }
     },
     "21": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
       "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Phase": "Finish",
-            "ID": 1021101
+            "ID": 1021101,
+            "Phase": "Finish"
           }
         ],
         "DelayToLevelReload": true
       }
     },
     "22": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
       "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Phase": "Finish",
-            "ID": 1021101
+            "ID": 1021101,
+            "Phase": "Finish"
           }
         ],
         "DelayToLevelReload": true
       }
     },
     "29": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "36": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "37": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G13.json",
+      "ID": 13,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G14.json",
+      "ID": 14,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G15.json",
+      "ID": 15,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G16.json",
+      "ID": 16,
+      "Name": "BATBossProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G17.json",
+      "ID": 17,
+      "Name": "JianMu"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G18.json",
+      "ID": 18,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G19.json",
+      "ID": 19,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G20.json",
+      "ID": 20,
+      "Name": "JianMu"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G21.json",
+      "ID": 21,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G22.json",
+      "ID": 22,
+      "Name": "MainMission_RoadBlock"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G29.json",
+      "ID": 29,
+      "Name": "RubikCubeActivity06"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G36.json",
+      "ID": 36,
+      "Name": "Blockline"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40104_F40104006/LevelGroup_P40104_F40104006_G37.json",
+      "ID": 37,
+      "Name": "NPC"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20222_F20222001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X202_MainLine_01_StageData/Chap02_MAZ_X202_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

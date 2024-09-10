@@ -1,70 +1,103 @@
 {
-  "GroupName": "MonsterGroup1",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P40002_F40002003_G5",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MonsterGroup1",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 200020607
+        "ID": 200020607,
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 4.0,
-        "Key": "MazeDF_CurrentGroup"
-      }
-    ],
-    "SharedValues": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 4.0,
-        "Key": "MazeDF_CurrentGroup"
-      }
-    ]
-  },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [
     {
-      "NPCMonsterID": 8012010,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 3,
         "ID": 1
       },
-      "EventID": 40002028,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 40002028,
+      "ID": 200003,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8012010,
+      "Name": "Monster3",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster3",
-      "RotY": 117.6528,
-      "ID": 200003,
       "PosX": -76.44,
       "PosY": 10.28,
-      "PosZ": -112.57
+      "PosZ": -112.57,
+      "RotY": 117.6528
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -60,
+      "PosY": 0.544997,
+      "PosZ": 47.85,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -131.8258,
+      "PosY": 0.190363,
+      "PosZ": -35.20441,
+      "WaypointIDList": [
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 4
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_CurrentGroup",
+        "Value": 4
+      }
+    ]
+  },
   "WaypointList": [
     {
       "ID": 1,
@@ -120,38 +153,5 @@
       "PosY": 2.819592,
       "PosZ": -38.248
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -60.0,
-      "PosY": 0.544997,
-      "PosZ": 47.85
-    },
-    {
-      "WaypointIDList": [
-        7,
-        8,
-        9
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -131.8258,
-      "PosY": 0.190363,
-      "PosZ": -35.20441
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  ]
 }

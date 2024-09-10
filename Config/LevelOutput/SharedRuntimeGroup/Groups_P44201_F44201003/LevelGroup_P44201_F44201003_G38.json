@@ -1,115 +1,115 @@
 {
-  "GroupName": "MainMission4072013_Door",
-  "Category": "Mission",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -2.765445,
+      "PosY": 2.170594,
+      "PosZ": 66.0163,
+      "RotY": 90
+    }
+  ],
   "AreaAnchorName": "LevelArea_P44201_F44201003_G38",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4072013_Door",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 407201309,
         "Phase": "Finish",
-        "ID": 407201309
+        "Type": "SubMission"
       }
     ]
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 4072013
-      }
-    ]
-  },
-  "OwnerMainMissionID": 4072013,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 90.0,
-      "ID": 1,
-      "PosX": -2.765445,
-      "PosY": 2.170594,
-      "PosZ": 66.0163
-    }
-  ],
   "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 4072013,
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 6.551,
+      "PosY": 2.170555,
+      "PosZ": 66.094,
+      "PropID": 102001,
+      "RotY": 90,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 102001,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
+      "ServerInteractVerificationIDList": [],
+      "State": "Open",
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_LockedDoor",
-            "Key": "Maze_Chap01_Prop_IronGate06_LockHint"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_LockedDoor",
-            "Key": "Maze_Chap01_Prop_IronGate06_LockHint"
+            "Key": "Maze_Chap01_Prop_IronGate06_LockHint",
+            "Value": "MazeText_LockedDoor"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Maze_Chap01_Prop_IronGate06_LockHint",
+            "Value": "MazeText_LockedDoor"
           }
         ]
-      },
-      "CampID": 4,
-      "State": "Open",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "RotY": 90.0,
-      "ID": 300001,
-      "PosX": 6.551,
-      "PosY": 2.170555,
-      "PosZ": 66.094
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4072013,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
 }

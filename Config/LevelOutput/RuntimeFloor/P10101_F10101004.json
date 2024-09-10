@@ -1,83 +1,10 @@
 {
-  "FloorID": 10101004,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_Hotel_01_Corridor_StageData/Chap01_INT_Hotel_01_Corridor_StageData.stage",
   "CameraType": "Room",
-  "LayerToAreaMask": [
-    1
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G1.json",
-      "Name": "Group0",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G2.json",
-      "Name": "investigative",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G3.json",
-      "Name": "MainMission",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G5.json",
-      "Name": "MainMission",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G6.json",
-      "Name": "Book",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G7.json",
-      "Name": "Book",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G8.json",
-      "Name": "Book",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G9.json",
-      "Name": "Book",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G11.json",
-      "Name": "Sound",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G12.json",
-      "Name": "MainMission",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G13.json",
-      "Name": "MainMission4040124_",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G14.json",
-      "Name": "MainMission2011905_02",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G15.json",
-      "Name": "DreamTest",
-      "ID": 15
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_Hotel_01_Corridor.enviroProfile.asset",
       "CameraType": "Room",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_INT_Hotel_01_Corridor.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -93,18 +20,22 @@
         11,
         12
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 10101004,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Permanent",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Permanent"
     },
     "3": {
       "Category": "Mission",
@@ -115,25 +46,25 @@
       "SaveType": "Reset"
     },
     "6": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "7": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "8": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "9": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "11": {
-      "SaveType": "Permanent",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Permanent"
     },
     "12": {
       "Category": "Mission",
@@ -141,9 +72,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 101150220,
             "Phase": "Finish",
-            "ID": 101150220
+            "Type": "SubMission"
           }
         ]
       }
@@ -154,9 +85,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 404012409,
             "Phase": "Finish",
-            "ID": 404012409
+            "Type": "SubMission"
           }
         ]
       }
@@ -169,8 +100,77 @@
       "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G1.json",
+      "ID": 1,
+      "Name": "Group0"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G2.json",
+      "ID": 2,
+      "Name": "investigative"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G3.json",
+      "ID": 3,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G5.json",
+      "ID": 5,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G6.json",
+      "ID": 6,
+      "Name": "Book"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G7.json",
+      "ID": 7,
+      "Name": "Book"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G8.json",
+      "ID": 8,
+      "Name": "Book"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G9.json",
+      "ID": 9,
+      "Name": "Book"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G11.json",
+      "ID": 11,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G12.json",
+      "ID": 12,
+      "Name": "MainMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G13.json",
+      "ID": 13,
+      "Name": "MainMission4040124_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G14.json",
+      "ID": 14,
+      "Name": "MainMission2011905_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101004/LevelGroup_P10101_F10101004_G15.json",
+      "ID": 15,
+      "Name": "DreamTest"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_Hotel_01_Corridor_StageData/Chap01_INT_Hotel_01_Corridor_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

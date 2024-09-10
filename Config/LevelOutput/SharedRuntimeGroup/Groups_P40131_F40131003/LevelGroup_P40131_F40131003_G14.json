@@ -1,60 +1,51 @@
 {
-  "GroupName": "MainMission4071313_",
-  "Category": "Mission",
-  "AreaAnchorName": "LevelArea_P40131_F40131003_G14",
-  "SaveType": "Permanent",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 407131321
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 407131318
-      }
-    ]
-  },
-  "LoadSide": "Server",
-  "OwnerMainMissionID": 4071313,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "RotX": 23.46373,
-      "Usage": "Camera",
       "CustomParameter": {
         "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
       },
-      "Name": "Anchor1",
-      "RotY": 166.3374,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -1.76,
       "PosY": 8.28,
-      "PosZ": -170.19
+      "PosZ": -170.19,
+      "RotX": 23.46373,
+      "RotY": 166.3374,
+      "Usage": "Camera"
     },
     {
-      "Name": "Anchor2",
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 0.53,
       "PosY": 1.01,
       "PosZ": -176.84
     }
   ],
+  "AreaAnchorName": "LevelArea_P40131_F40131003_G14",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4071313_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 407131321,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 1004020,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
-            "UseOwnerGroup": true,
             "UseGroup": 14,
-            "UseID": 1
+            "UseID": 1,
+            "UseOwnerGroup": true
           }
         ],
         "SlaveConfigList": [
@@ -62,44 +53,44 @@
             "GroupID": 7,
             "ID": 200002,
             "PatrolOffset": {
-              "x": -1.0,
-              "z": -1.0,
-              "normalized": {
-                "x": -0.707106769,
-                "z": -0.707106769,
-                "normalized": {
-                  "x": -0.7071068,
-                  "z": -0.7071068,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
-                },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
               "magnitude": 1.41421354,
-              "sqrMagnitude": 2.0
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": -0.7071068,
+                  "z": -0.7071068
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": -0.707106769,
+                "z": -0.707106769
+              },
+              "sqrMagnitude": 2,
+              "x": -1,
+              "z": -1
             }
           },
           {
             "GroupID": 7,
             "ID": 200003,
             "PatrolOffset": {
-              "x": 1.0,
-              "z": -1.0,
-              "normalized": {
-                "x": 0.707106769,
-                "z": -0.707106769,
-                "normalized": {
-                  "x": 0.7071068,
-                  "z": -0.7071068,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
-                },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
-              },
               "magnitude": 1.41421354,
-              "sqrMagnitude": 2.0
+              "normalized": {
+                "magnitude": 0.99999994,
+                "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
+                  "x": 0.7071068,
+                  "z": -0.7071068
+                },
+                "sqrMagnitude": 0.99999994,
+                "x": 0.707106769,
+                "z": -0.707106769
+              },
+              "sqrMagnitude": 2,
+              "x": 1,
+              "z": -1
             }
           }
         ]
@@ -108,47 +99,214 @@
         "Values": [
           {
             "$type": "RPG.GameCore.AIVariableString, RPG.GameCore.Config",
-            "Value": "N/A",
-            "Name": "CustomStringName"
+            "Name": "CustomStringName",
+            "Value": "N/A"
           }
         ]
       },
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 40131007,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 40131007,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "NPCMonsterID": 1004020,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 0.24,
+      "PosY": 1.01,
+      "PosZ": -190.79,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster1",
-      "ID": 200001,
-      "PosX": 0.24,
-      "PosY": 1.01,
-      "PosZ": -190.79
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311040000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsNeedFade": true,
+      "LoadOnInitial": true,
+      "NPCID": 1104,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 0.04,
+      "PosY": 1.01,
+      "PosZ": -188.94,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200130000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsNeedFade": true,
+      "LoadOnInitial": true,
+      "NPCID": 2108,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -2.13,
+      "PosY": 1.01,
+      "PosZ": -190.27,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200130000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400003,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsNeedFade": true,
+      "LoadOnInitial": true,
+      "NPCID": 2108,
+      "Name": "NPC3",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 2.39,
+      "PosY": 1.01,
+      "PosZ": -190.27,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "OwnerMainMissionID": 4071313,
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 14.17284,
+      "PosY": 12.24488,
+      "PosZ": -187.959,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 407131318,
+        "Type": "SubMission"
+      }
+    ]
+  },
   "WaypointList": [
     {
       "ID": 1,
@@ -222,163 +380,5 @@
       "PosY": -0.98,
       "PosZ": -208.13
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        4,
-        3,
-        2,
-        5,
-        6,
-        7
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": 14.17284,
-      "PosY": 12.24488,
-      "PosZ": -187.959
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 1104,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 311040000,
-      "BornType": "Mission",
-      "IsNeedFade": true,
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "Name": "NPC2",
-      "ID": 400002,
-      "PosX": 0.04,
-      "PosY": 1.01,
-      "PosZ": -188.94
-    },
-    {
-      "NPCID": 2108,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200130000,
-      "BornType": "Mission",
-      "IsNeedFade": true,
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "Name": "NPC1",
-      "ID": 400001,
-      "PosX": -2.13,
-      "PosY": 1.01,
-      "PosZ": -190.27
-    },
-    {
-      "NPCID": 2108,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200130000,
-      "BornType": "Mission",
-      "IsNeedFade": true,
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "Name": "NPC3",
-      "ID": 400003,
-      "PosX": 2.39,
-      "PosY": 1.01,
-      "PosZ": -190.27
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

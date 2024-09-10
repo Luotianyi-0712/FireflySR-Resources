@@ -1,409 +1,409 @@
 {
-  "GroupName": "Sound",
-  "AreaAnchorName": "LevelArea_P30201_F30204001_G5",
-  "LoadOnInitial": true,
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P30201_F30204001_G5",
+  "BattleAreaList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "Trigger": {
-        "Radius": 40.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0
-      },
+      "ID": 1,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "圆盘区域",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
           "StateName": "State_Ironguard_Area_Wide"
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "圆盘区域",
-      "ID": 1,
       "PosY": 1.1,
-      "PosZ": -93.5
-    },
-    {
+      "PosZ": -93.5,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 90.0,
-        "DimY": 20.0,
-        "DimZ": 90.0
-      },
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 40
+      }
+    },
+    {
+      "ID": 2,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "其他区域",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
           "StateName": "State_Ironguard_Area_Narrow"
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "其他区域",
-      "ID": 2,
       "PosX": 85.7,
       "PosY": 2.5,
-      "PosZ": -97.1
-    },
-    {
+      "PosZ": -97.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 200.0,
-        "DimY": 20.0,
-        "DimZ": 100.0
-      },
+        "DimX": 90,
+        "DimY": 20,
+        "DimZ": 90,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 3,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "其他区域",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
           "StateName": "State_Ironguard_Area_Narrow"
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "其他区域",
-      "ID": 3,
       "PosX": 28.2,
       "PosY": 2.5,
-      "PosZ": -4.8
-    },
-    {
+      "PosZ": -4.8,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 130.0,
-        "DimY": 20.0,
-        "DimZ": 90.0
-      },
+        "DimX": 200,
+        "DimY": 20,
+        "DimZ": 100,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 4,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "其他区域",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
           "StateName": "State_Ironguard_Area_Narrow"
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "其他区域",
-      "ID": 4,
       "PosX": -104.3,
       "PosY": 2.5,
-      "PosZ": -97.1
-    },
-    {
+      "PosZ": -97.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 200.0,
-        "DimY": 20.0,
-        "DimZ": 150.0
-      },
+        "DimX": 130,
+        "DimY": 20,
+        "DimZ": 90,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 5,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "其他区域",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
           "StateName": "State_Ironguard_Area_Narrow"
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "其他区域",
-      "ID": 5,
       "PosX": -49.1,
       "PosY": 2.5,
-      "PosZ": -219.1
-    },
-    {
+      "PosZ": -219.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 40.0,
-        "DimY": 5.0,
-        "DimZ": 25.0
-      },
+        "DimX": 200,
+        "DimY": 20,
+        "DimZ": 150,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 6,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "士兵盔甲",
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_amb_ironguard_area_foley",
         "StopEventName": "Ev_sfx_amb_ironguard_area_foley_stop",
         "TransformList": [
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": 100.1,
-              "y": 2.5,
-              "z": -86.5,
+              "magnitude": 132.319733,
               "normalized": {
-                "x": 0.7565009,
-                "y": 0.01889363,
-                "z": -0.6537196,
+                "magnitude": 0.99999994,
                 "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
                   "x": 0.756500959,
                   "y": 0.0188936312,
-                  "z": -0.653719664,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.0
+                  "z": -0.653719664
                 },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
+                "sqrMagnitude": 0.99999994,
+                "x": 0.7565009,
+                "y": 0.01889363,
+                "z": -0.6537196
               },
-              "magnitude": 132.319733,
-              "sqrMagnitude": 17508.51
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 17508.51,
+              "x": 100.1,
+              "y": 2.5,
+              "z": -86.5
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           },
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": 91.74,
-              "y": 2.5,
-              "z": -101.98,
+              "magnitude": 137.194748,
               "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
                 "x": 0.6686845,
                 "y": 0.0182222724,
-                "z": -0.743322968,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.0
+                "z": -0.743322968
               },
-              "magnitude": 137.194748,
-              "sqrMagnitude": 18822.3984
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 18822.3984,
+              "x": 91.74,
+              "y": 2.5,
+              "z": -101.98
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           }
         ]
       },
-      "NPCCrowdRadius": 25.0,
-      "Name": "士兵盔甲",
-      "ID": 6,
       "PosX": 100.1,
       "PosY": 2.5,
-      "PosZ": -93.8
-    },
-    {
+      "PosZ": -93.8,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 40.0,
-        "DimY": 5.0,
-        "DimZ": 25.0
-      },
-      "LoadOnInitial": true,
-      "NPCCrowdRadius": 25.0,
-      "Name": "帐篷",
+        "DimX": 40,
+        "DimY": 5,
+        "DimZ": 25,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
       "ID": 7,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "帐篷",
       "PosX": 93.75,
       "PosY": 2.56,
-      "PosZ": -91.73
-    },
-    {
+      "PosZ": -91.73,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 300.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0
-      },
+        "DimX": 40,
+        "DimY": 5,
+        "DimZ": 25,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 8,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "混响",
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 1.0,
-          "RandomFrequncy": 5.0
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "混响",
-      "ID": 8
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 300
+      }
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

@@ -1,110 +1,10 @@
 {
-  "FloorID": 40101002,
-  "StartGroupIndex": 3,
-  "StartAnchorID": 2,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G2.json",
-      "Name": "BattleArea",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G3.json",
-      "Name": "PropCommon",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G6.json",
-      "Name": "Airwall",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G8.json",
-      "Name": "Saves",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G10.json",
-      "Name": "MainMission_Prop",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G12.json",
-      "Name": "StoveFuel",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G13.json",
-      "Name": "Monsters",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G15.json",
-      "Name": "mission",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G16.json",
-      "Name": "StoveFuel",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G17.json",
-      "Name": "Airwall",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G21.json",
-      "Name": "New Group",
-      "ID": 21
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G26.json",
-      "Name": "NPC",
-      "ID": 26
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G32.json",
-      "Name": "NPC",
-      "ID": 32
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G34.json",
-      "Name": "Sound",
-      "ID": 34
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G36.json",
-      "Name": "NPC",
-      "ID": 36
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G37.json",
-      "Name": "NPC",
-      "ID": 37
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G38.json",
-      "Name": "NPC",
-      "ID": 38
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G40.json",
-      "Name": "StoveFuel",
-      "ID": 40
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -125,55 +25,59 @@
         16,
         17
       ],
-      "ExclusiveSavedGroupIDList": [],
-      "StartGroupIndex": 3,
-      "StartAnchorID": 2
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 2,
+      "StartGroupIndex": 3
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40101002,
   "GroupInstanceCommonMap": {
     "2": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "3": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "6": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "8": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "10": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "12": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "13": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "15": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "16": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "17": {
       "Category": "Mission",
@@ -181,16 +85,16 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 407132003,
             "Phase": "Finish",
-            "ID": 407132003
+            "Type": "SubMission"
           }
         ]
       }
     },
     "21": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "26": {
       "Category": "Mission",
@@ -198,67 +102,163 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 407132001,
             "Phase": "Finish",
-            "ID": 407132001
+            "Type": "SubMission"
           }
         ]
       }
     },
     "32": {
       "Category": "Mission",
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 407132004,
             "Phase": "Finish",
-            "ID": 407132004
+            "Type": "SubMission"
           }
         ]
       }
     },
     "34": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "36": {
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 407132004,
             "Phase": "Finish",
-            "ID": 407132004
+            "Type": "SubMission"
           }
         ]
       }
     },
     "37": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "38": {
       "SaveType": "Reset"
     },
     "40": {
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 407132002,
             "Phase": "Finish",
-            "ID": 407132002
+            "Type": "SubMission"
           }
         ]
       }
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G2.json",
+      "ID": 2,
+      "Name": "BattleArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G3.json",
+      "ID": 3,
+      "Name": "PropCommon"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G6.json",
+      "ID": 6,
+      "Name": "Airwall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G8.json",
+      "ID": 8,
+      "Name": "Saves"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G10.json",
+      "ID": 10,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G12.json",
+      "ID": 12,
+      "Name": "StoveFuel"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G13.json",
+      "ID": 13,
+      "Name": "Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G15.json",
+      "ID": 15,
+      "Name": "mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G16.json",
+      "ID": 16,
+      "Name": "StoveFuel"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G17.json",
+      "ID": 17,
+      "Name": "Airwall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G21.json",
+      "ID": 21,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G26.json",
+      "ID": 26,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G32.json",
+      "ID": 32,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G34.json",
+      "ID": 34,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G36.json",
+      "ID": 36,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G37.json",
+      "ID": 37,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G38.json",
+      "ID": 38,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40101_F40101002/LevelGroup_P40101_F40101002_G40.json",
+      "ID": 40,
+      "Name": "StoveFuel"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
+  "StartAnchorID": 2,
+  "StartGroupIndex": 3,
+  "TempGroupUnloadByY": 10000000
 }

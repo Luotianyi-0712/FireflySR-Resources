@@ -1,60 +1,11 @@
 {
-  "FloorID": 80408007,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X201_MainLine_01_StageData/Chap02_MAZ_X201_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8,
-    16
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G2.json",
-      "Name": "DefaultGroup",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G3.json",
-      "Name": "enviroProfile",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G4.json",
-      "Name": "Sound",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G5.json",
-      "Name": "BATProp",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G6.json",
-      "Name": "RogueArea",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G9.json",
-      "Name": "RogueBase_Common",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G8.json",
-      "Name": "AdvDes",
-      "ID": 8
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X201_MainLine_01_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X201_MainLine_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -65,59 +16,108 @@
         6,
         7
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 80408007,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "4": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "5": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "9": {
-      "Category": "Custom",
-      "SaveType": "Permanent",
-      "IsHoyoGroup": true,
-      "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "8": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
+    },
+    "9": {
+      "Category": "Custom",
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G3.json",
+      "ID": 3,
+      "Name": "enviroProfile"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G4.json",
+      "ID": 4,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G5.json",
+      "ID": 5,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G6.json",
+      "ID": 6,
+      "Name": "RogueArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G9.json",
+      "ID": 9,
+      "Name": "RogueBase_Common"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80408_F80408007/LevelGroup_P80408_F80408007_G8.json",
+      "ID": 8,
+      "Name": "AdvDes"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X201_MainLine_01_StageData/Chap02_MAZ_X201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

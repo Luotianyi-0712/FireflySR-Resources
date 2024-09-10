@@ -1,65 +1,65 @@
 {
-  "GroupName": "MainMission1021702_yukongzhanwei",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10201_F10201002_G40",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 102170203
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 1021702
-      }
-    ]
-  },
-  "OwnerMainMissionID": 1021702,
+  "BattleAreaList": [],
+  "Category": "Mission",
   "ConflictIDList": [
     120201
   ],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
+  "CrowdList": [],
   "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "MainMission1021702_yukongzhanwei",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 102170203,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 100,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
       "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
+      "NPCID": 100,
       "Name": "NPC1",
-      "ID": 400001,
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 0.564144,
       "PosY": 9.796199,
-      "PosZ": 3.398691
+      "PosZ": 3.398691,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 1021702,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 1021702,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "WaypointList": []
 }

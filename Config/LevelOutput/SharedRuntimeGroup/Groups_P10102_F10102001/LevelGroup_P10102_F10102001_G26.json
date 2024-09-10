@@ -1,96 +1,96 @@
 {
-  "GroupName": "MainMission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10102_F10102001_G26",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1011503
+        "ID": 1011503,
+        "Phase": "Finish"
       }
     ]
   },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 3006,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "Trigger": {
-        "Radius": 1.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Akimbo01Loop",
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         4,
         1,
         64
       ],
-      "OverrideNPCName": {
-        "hash": -1395502208
-      },
-      "OverrideNPCTitle": {
-        "hash": 1130215677
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010210,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
+      "DefaultIdleStateName": "Akimbo01Loop",
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialogueMain_F10102001_G26_N400001.json",
         "PackList": [
           {
-            "Name": "Activity",
-            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_Activity_F10102001_G26_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_Activity_F10102001_G26_N400001.json",
+            "Name": "Activity"
           },
           {
-            "Name": "caidan",
-            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_caidan_F10102001_G26_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_caidan_F10102001_G26_N400001.json",
+            "Name": "caidan"
           },
           {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_Common_F10102001_G26_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G26/DialoguePack_Common_F10102001_G26_N400001.json",
+            "Name": "Common"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC1",
-      "RotY": 258.5832,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 3006,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": -1395502208
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1130215677
+      },
       "PosX": -57.78684,
       "PosY": 4.730921,
-      "PosZ": 29.12382
+      "PosZ": 29.12382,
+      "RotY": 258.5832,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1.5
+      },
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

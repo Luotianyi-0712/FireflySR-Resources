@@ -1,37 +1,52 @@
 {
-  "GroupName": "SubMission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10102_F10102001_G16",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "SubMission",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1010403
+        "ID": 1010403,
+        "Phase": "Finish"
       },
       {
-        "Type": "SubMission",
-        "ID": 201070101
+        "ID": 201070101,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 201090401
+        "ID": 201090401,
+        "Type": "SubMission"
       }
     ],
     "Operation": "Or"
   },
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 11408,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Permanent",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030000,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialogueMain_F10102001_G16_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Mission_F10102001_G16_N400001.json",
+            "Name": "Mission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Common_F10102001_G16_N400001.json",
+            "Name": "Common"
+          }
+        ]
+      },
       "DialogueGroups": [
         100004602,
         201070101,
@@ -42,49 +57,34 @@
         100004606,
         100004605
       ],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [
-        1,
-        4,
-        64
-      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 501027801,
+      "ID": 400001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11408,
+      "Name": "NPC1",
       "OverrideNPCName": {
-        "hash": -361500540
+        "Hash": -361500540
       },
       "OverrideNPCTitle": {
-        "hash": 1533500204
+        "Hash": 1533500204
       },
-      "FirstDialogueGroupID": 501027801,
-      "TalkDialogGroupIDList": [
-        1000046
-      ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100030000,
-      "BornType": "Permanent",
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialogueMain_F10102001_G16_N400001.json",
-        "PackList": [
-          {
-            "Name": "Mission",
-            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Mission_F10102001_G16_N400001.json"
-          },
-          {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10102/F10102001_G16/DialoguePack_Common_F10102001_G16_N400001.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 90.28779,
-      "ID": 400001,
       "PosX": -87.83,
       "PosY": 5.868217,
-      "PosZ": 52.01
+      "PosZ": 52.01,
+      "RotY": 90.28779,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        1000046
+      ]
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

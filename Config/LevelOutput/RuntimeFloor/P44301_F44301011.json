@@ -1,58 +1,12 @@
 {
-  "FloorID": 44301011,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P101_MainLine_01_StageData/Chap03_MAZ_P101_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    32,
-    16,
-    8
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20311_F20311001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G2.json",
-      "Name": "DefaultGroup",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G3.json",
-      "Name": "ClockToy",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G4.json",
-      "Name": "AirWalls",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G6.json",
-      "Name": "BGM",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G7.json",
-      "Name": "Sound",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G8.json",
-      "Name": "Sound-Reverb",
-      "ID": 8
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_INT_P101_night_01.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
       "CameraPrefabPath": "Level/Maze/Chapter03/Chap03_MAZ_P101_LevelArea.prefab",
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_INT_P101_night_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -62,50 +16,96 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 44301011,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "4": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "7": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "8": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G3.json",
+      "ID": 3,
+      "Name": "ClockToy"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G4.json",
+      "ID": 4,
+      "Name": "AirWalls"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G6.json",
+      "ID": 6,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G7.json",
+      "ID": 7,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301011/LevelGroup_P44301_F44301011_G8.json",
+      "ID": 8,
+      "Name": "Sound-Reverb"
+    }
+  ],
+  "LayerToAreaMask": [
+    32,
+    16,
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20311_F20311001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P101_MainLine_01_StageData/Chap03_MAZ_P101_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

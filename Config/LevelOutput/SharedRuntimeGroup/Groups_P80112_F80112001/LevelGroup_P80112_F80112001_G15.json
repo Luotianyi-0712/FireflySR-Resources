@@ -1,167 +1,167 @@
 {
-  "GroupName": "RogueMachine",
+  "AnchorList": [
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 1,
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
+      "Name": "Anchor1",
+      "PosX": 1.792,
+      "PosY": 14.23,
+      "PosZ": 5.577,
+      "RotX": 51.24666,
+      "RotY": 135.6001,
+      "RotZ": -0.000019,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": 1.485,
+      "PosY": 13.088,
+      "PosZ": 3.79,
+      "RotX": 47.72105,
+      "RotY": 135.6001,
+      "RotZ": 0.000005,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P80112_F80112001_G15",
-  "SaveType": "Permanent",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "RogueMachine",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 403000221
+        "ID": 403000221,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
+        "ID": 403000221,
         "Phase": "Finish",
-        "ID": 403000221
+        "Type": "SubMission"
       }
     ],
     "Operation": "Or"
   },
   "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "RotX": 51.24666,
-      "RotZ": -1.9E-05,
-      "Usage": "Camera",
-      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor1",
-      "RotY": 135.6001,
-      "ID": 1,
-      "PosX": 1.792,
-      "PosY": 14.23,
-      "PosZ": 5.577
-    },
-    {
-      "RotX": 47.72105,
-      "RotZ": 5E-06,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor2",
-      "RotY": 135.6001,
-      "ID": 2,
-      "PosX": 1.485,
-      "PosY": 13.088,
-      "PosZ": 3.79
-    }
-  ],
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 1003,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chapter00_RogueEntry_03.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P80112_F80112001_G15,Anchor1",
-            "Key": "Camera"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P80112_F80112001_G15,Anchor2",
-            "Key": "Camera2"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P80112_F80112001_G15,Anchor1",
-            "Key": "Camera"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P80112_F80112001_G15,Anchor2",
-            "Key": "Camera2"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 1.92,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": [],
-        "Server": true
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "MappingInfoID": 2220,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chapter00_RogueEntry_03.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2220,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 9.252,
+      "PosY": 0.608,
+      "PropID": 1003,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
       "ServerInteractVerificationIDList": [
         16
       ],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
       "StageObjectCapture": {
         "BlockAlias": "RogueLobby_01",
         "PrefabAlias": "RogueEntry",
         "UseOverridePos": true
       },
-      "OverridePropName": {
-        "hash": 371857150
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1.92,
+        "Server": true
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop2",
-      "ID": 300002,
-      "PosX": 9.252,
-      "PosY": 0.608
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera",
+            "Value": "LevelArea_P80112_F80112001_G15,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera2",
+            "Value": "LevelArea_P80112_F80112001_G15,Anchor2"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera",
+            "Value": "LevelArea_P80112_F80112001_G15,Anchor1"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Camera2",
+            "Value": "LevelArea_P80112_F80112001_G15,Anchor2"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,55 +1,11 @@
 {
-  "FloorID": 44301015,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P103_StageData/Chap03_MAZ_P103_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20313_F20313001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G9.json",
-      "Name": "Pinball",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G10.json",
-      "Name": "MainMission8020215_弹珠机",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G11.json",
-      "Name": "Airwall",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G12.json",
-      "Name": "BGM",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G13.json",
-      "Name": "Sound",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G14.json",
-      "Name": "Sound-Reverb",
-      "ID": 14
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P103_DreamEdge_night_01.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P103_DreamEdge_night_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -59,49 +15,93 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 44301015,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "9": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "10": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "11": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "12": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "13": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "14": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G9.json",
+      "ID": 9,
+      "Name": "Pinball"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G10.json",
+      "ID": 10,
+      "Name": "MainMission8020215_弹珠机"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G11.json",
+      "ID": 11,
+      "Name": "Airwall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G12.json",
+      "ID": 12,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G13.json",
+      "ID": 13,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P44301_F44301015/LevelGroup_P44301_F44301015_G14.json",
+      "ID": 14,
+      "Name": "Sound-Reverb"
+    }
+  ],
+  "LayerToAreaMask": [
+    8
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20313_F20313001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P103_StageData/Chap03_MAZ_P103_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

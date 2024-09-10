@@ -1,96 +1,10 @@
 {
-  "FloorID": 40211001,
-  "StartGroupIndex": 5,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X101_MainLine_01_StageData/Chap02_MAZ_X101_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20211_F20211001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G9.json",
-      "Name": "Sound",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G5.json",
-      "Name": "Submission_2020314",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G6.json",
-      "Name": "Submission_202031471",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G7.json",
-      "Name": "MainMission_2020314_Monsters",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G8.json",
-      "Name": "Gameplay_CallPuppy_ForSpecialVision",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G10.json",
-      "Name": "Default",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G11.json",
-      "Name": "Container01",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G12.json",
-      "Name": "Container02",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G13.json",
-      "Name": "Container03",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G14.json",
-      "Name": "Container04",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G15.json",
-      "Name": "New Group",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G16.json",
-      "Name": "Walls",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G20.json",
-      "Name": "SavePoint",
-      "ID": 20
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G27.json",
-      "Name": "MPProp",
-      "ID": 27
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G28.json",
-      "Name": "MainMission_RoadBlock",
-      "ID": 28
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X101_MainLine_01_Day.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X101_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -108,16 +22,16 @@
         13,
         14
       ],
-      "ExclusiveSavedGroupIDList": [],
-      "StartGroupIndex": 5,
-      "StartAnchorID": 1
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1,
+      "StartGroupIndex": 5
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40211001,
   "GroupInstanceCommonMap": {
-    "9": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
     "5": {
       "SaveType": "Reset"
     },
@@ -126,73 +40,159 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 202031471,
             "Phase": "Finish",
-            "ID": 202031471
+            "Type": "SubMission"
           }
         ]
       }
     },
     "7": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "8": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "10": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "11": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "12": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "13": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "14": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "15": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "16": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "20": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "27": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "28": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G9.json",
+      "ID": 9,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G5.json",
+      "ID": 5,
+      "Name": "Submission_2020314"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G6.json",
+      "ID": 6,
+      "Name": "Submission_202031471"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G7.json",
+      "ID": 7,
+      "Name": "MainMission_2020314_Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G8.json",
+      "ID": 8,
+      "Name": "Gameplay_CallPuppy_ForSpecialVision"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G10.json",
+      "ID": 10,
+      "Name": "Default"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G11.json",
+      "ID": 11,
+      "Name": "Container01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G12.json",
+      "ID": 12,
+      "Name": "Container02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G13.json",
+      "ID": 13,
+      "Name": "Container03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G14.json",
+      "ID": 14,
+      "Name": "Container04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G15.json",
+      "ID": 15,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G16.json",
+      "ID": 16,
+      "Name": "Walls"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G20.json",
+      "ID": 20,
+      "Name": "SavePoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G27.json",
+      "ID": 27,
+      "Name": "MPProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40211_F40211001/LevelGroup_P40211_F40211001_G28.json",
+      "ID": 28,
+      "Name": "MainMission_RoadBlock"
+    }
+  ],
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20211_F20211001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X101_MainLine_01_StageData/Chap02_MAZ_X101_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 5,
+  "TempGroupUnloadByY": 10000000
 }

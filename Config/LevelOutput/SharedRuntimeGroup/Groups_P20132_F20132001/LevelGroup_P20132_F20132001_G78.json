@@ -1,97 +1,97 @@
 {
-  "GroupName": "MainMission1011400_",
-  "Category": "Mission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20132_F20132001_G78",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1011400_",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 101140001
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 101140001
+        "ID": 101140001,
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 1011400,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 1011400,
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 0.91,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.5411205,
-          "y": 0.59463793,
-          "z": 0.59463793,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.68169558,
-        "sqrMagnitude": 2.8281
-      },
-      "PropID": 114,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 20.0,
-        "DimY": 4.0,
-        "DimZ": 10.0,
-        "PointList": [],
-        "Server": true
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 5,
-      "MappingInfoID": 2013205,
-      "DialogueTriggerAngle": 120,
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [
-        16
-      ],
-      "RaidID": 2,
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsDelete": true,
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2013205,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "RotY": 315.0,
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 97.18002,
       "PosY": 1.906841,
       "PosZ": 82.96996,
-      "IsDelete": true
+      "PropID": 114,
+      "RaidID": 2,
+      "RotY": 315,
+      "Scale": {
+        "magnitude": 1.68169558,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.5411205,
+          "y": 0.59463793,
+          "z": 0.59463793
+        },
+        "sqrMagnitude": 2.8281,
+        "x": 0.91,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [
+        16
+      ],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 20,
+        "DimY": 4,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Server": true,
+        "Shape": "Box"
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 101140001,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

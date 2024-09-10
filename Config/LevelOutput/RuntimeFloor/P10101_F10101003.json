@@ -1,63 +1,10 @@
 {
-  "FloorID": 10101003,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_FlowerShop_01_StageData/Chap01_INT_FlowerShop_01_StageData.stage",
   "CameraType": "Room",
-  "LayerToAreaMask": [
-    1
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G1.json",
-      "Name": "Default",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G3.json",
-      "Name": "NPCs",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G4.json",
-      "Name": "SE_Test_NPCs",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G2.json",
-      "Name": "SubMission_201140103",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G6.json",
-      "Name": "SubMission_201140103",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G8.json",
-      "Name": "New Group",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G9.json",
-      "Name": "Sound",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G10.json",
-      "Name": "DailyMission",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G11.json",
-      "Name": "CrowdBubble",
-      "ID": 11
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_INT_FlowerShop_01.enviroProfile.asset",
       "CameraType": "Room",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_INT_FlowerShop_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -69,20 +16,17 @@
         7,
         8
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 10101003,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
-    "3": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
-    },
-    "4": {
+      "LoadOnInitial": true,
       "SaveType": "Reset"
     },
     "2": {
@@ -91,12 +35,19 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140104,
             "Phase": "Finish",
-            "ID": 201140104
+            "Type": "SubMission"
           }
         ]
       }
+    },
+    "3": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "4": {
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Mission",
@@ -104,38 +55,38 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140151,
             "Phase": "Finish",
-            "ID": 201140151
+            "Type": "SubMission"
           },
           {
-            "Type": "SubMission",
+            "ID": 201140152,
             "Phase": "Finish",
-            "ID": 201140152
+            "Type": "SubMission"
           },
           {
-            "Type": "SubMission",
+            "ID": 201140153,
             "Phase": "Finish",
-            "ID": 201140153
+            "Type": "SubMission"
           },
           {
-            "Type": "SubMission",
+            "ID": 201140154,
             "Phase": "Finish",
-            "ID": 201140154
+            "Type": "SubMission"
           }
         ],
-        "Operation": "Or",
-        "DelayToLevelReload": true
+        "DelayToLevelReload": true,
+        "Operation": "Or"
       }
     },
     "8": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "9": {
-      "SaveType": "Permanent",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Permanent"
     },
     "10": {
       "Category": "Mission",
@@ -143,20 +94,69 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 301140502,
             "Phase": "Finish",
-            "ID": 301140502
+            "Type": "SubMission"
           }
         ]
       }
     },
     "11": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G1.json",
+      "ID": 1,
+      "Name": "Default"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G3.json",
+      "ID": 3,
+      "Name": "NPCs"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G4.json",
+      "ID": 4,
+      "Name": "SE_Test_NPCs"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G2.json",
+      "ID": 2,
+      "Name": "SubMission_201140103"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G6.json",
+      "ID": 6,
+      "Name": "SubMission_201140103"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G8.json",
+      "ID": 8,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G9.json",
+      "ID": 9,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G10.json",
+      "ID": 10,
+      "Name": "DailyMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P10101_F10101003/LevelGroup_P10101_F10101003_G11.json",
+      "ID": 11,
+      "Name": "CrowdBubble"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_INT_FlowerShop_01_StageData/Chap01_INT_FlowerShop_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

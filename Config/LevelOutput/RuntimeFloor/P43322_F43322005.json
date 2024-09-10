@@ -1,128 +1,6 @@
 {
-  "FloorID": 43322005,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_ADV_P03_ExileColony_StageData/Chap03_ADV_P03_ExileColony_StageData.stage",
-  "LayerToAreaMask": [
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10304_F10304001.json",
-  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P10304_F10304001.json",
-  "SavedValues": [
-    {
-      "ID": 1,
-      "Name": "BuildingState",
-      "DefaultValue": 1,
-      "AllowedValues": [
-        0,
-        1
-      ],
-      "MaxValue": 1
-    }
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G2.json",
-      "Name": "RailBall",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G3.json",
-      "Name": "Switch",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G4.json",
-      "Name": "Elevator",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G5.json",
-      "Name": "TV",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G14.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G15.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G6.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G7.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G8.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 8,
-      "IsDelete": true
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G12.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 12,
-      "IsDelete": true
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G13.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 13,
-      "IsDelete": true
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G9.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G10.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G11.json",
-      "Name": "MainMission2030402_New Group",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G16.json",
-      "Name": "Sound",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G17.json",
-      "Name": "sound-reverb",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G18.json",
-      "Name": "BGM",
-      "ID": 18
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G21.json",
-      "Name": "BattleArea",
-      "ID": 21
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_MAZ_P03_Night.enviroProfile.asset",
       "BattleAreaList": [],
       "CameraPrefabPath": "Level/Maze/Chapter02/Chap03_ADV_P03_LevelArea.prefab",
       "ConstValues": [
@@ -130,32 +8,21 @@
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
           "AgentType": "Prop",
           "GroupID": 4,
-          "InstanceID": 300001,
           "ID": 1,
+          "InstanceID": 300001,
           "Name": "Lift1"
         },
         {
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
           "AgentType": "Prop",
           "GroupID": 4,
-          "InstanceID": 300002,
           "ID": 2,
+          "InstanceID": 300002,
           "Name": "Lift2"
         }
       ],
-      "SavedValues": [
-        {
-          "ID": 1,
-          "Name": "BuildingState",
-          "DefaultValue": 1,
-          "AllowedValues": [
-            0,
-            1
-          ],
-          "MaxValue": 1
-        }
-      ],
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_MAZ_P03_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -175,117 +42,258 @@
         15,
         16,
         17,
-        18
+        18,
+        19
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "DefaultValue": 1,
+          "ID": 1,
+          "MaxValue": 1,
+          "Name": "BuildingState"
+        },
+        {
+          "AllowedValues": [
+            0,
+            1
+          ],
+          "ID": 2,
+          "MaxValue": 1,
+          "Name": "FSV_BlackHoleCrack"
+        }
+      ],
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43322005,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "4": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "5": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "14": {
-      "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
-    },
-    "15": {
-      "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "SaveType": "Permanent"
     },
     "6": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "7": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "8": {
-      "IsDelete": true,
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
-    },
-    "12": {
       "IsDelete": true,
-      "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
-    },
-    "13": {
-      "IsDelete": true,
-      "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "9": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "10": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "11": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "12": {
+      "Category": "Mission",
+      "IsDelete": true,
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "13": {
+      "Category": "Mission",
+      "IsDelete": true,
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "14": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
+    },
+    "15": {
+      "Category": "Mission",
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "16": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "17": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "18": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "21": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "22": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G2.json",
+      "ID": 2,
+      "Name": "RailBall"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G3.json",
+      "ID": 3,
+      "Name": "Switch"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G4.json",
+      "ID": 4,
+      "Name": "Elevator"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G5.json",
+      "ID": 5,
+      "Name": "TV"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G14.json",
+      "ID": 14,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G15.json",
+      "ID": 15,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G6.json",
+      "ID": 6,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G7.json",
+      "ID": 7,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G8.json",
+      "ID": 8,
+      "IsDelete": true,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G12.json",
+      "ID": 12,
+      "IsDelete": true,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G13.json",
+      "ID": 13,
+      "IsDelete": true,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G9.json",
+      "ID": 9,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G10.json",
+      "ID": 10,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G11.json",
+      "ID": 11,
+      "Name": "MainMission2030402_New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G16.json",
+      "ID": 16,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G17.json",
+      "ID": 17,
+      "Name": "sound-reverb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G18.json",
+      "ID": 18,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G21.json",
+      "ID": 21,
+      "Name": "BattleArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43322_F43322005/LevelGroup_P43322_F43322005_G22.json",
+      "ID": 22,
+      "Name": "BlackHoleCrack"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10304_F10304001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P10304_F10304001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_ADV_P03_ExileColony_StageData/Chap03_ADV_P03_ExileColony_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

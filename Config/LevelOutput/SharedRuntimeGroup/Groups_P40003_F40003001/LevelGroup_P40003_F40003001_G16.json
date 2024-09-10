@@ -1,627 +1,1004 @@
 {
-  "GroupName": "SilWolfMission",
-  "AreaAnchorName": "LevelArea_P40003_F40003001_G16",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Usage": "Camera",
-      "Name": "Anchor1",
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 189.91,
       "PosY": 82.79725,
-      "PosZ": 133.456
+      "PosZ": 133.456,
+      "Usage": "Camera"
     },
     {
-      "Name": "Anchor2",
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 191.167,
       "PosY": 82.79725,
       "PosZ": 134.286
     },
     {
-      "Usage": "Camera",
-      "Name": "Anchor3",
-      "RotY": 90.0,
       "ID": 3,
+      "Name": "Anchor3",
       "PosX": 249.55,
       "PosY": 79.92678,
-      "PosZ": 95.62
+      "PosZ": 95.62,
+      "RotY": 90,
+      "Usage": "Camera"
     },
     {
-      "Usage": "Camera",
-      "Name": "Anchor4",
       "ID": 4,
+      "Name": "Anchor4",
       "PosX": 174.04,
       "PosY": 77.01615,
-      "PosZ": 93.71
+      "PosZ": 93.71,
+      "Usage": "Camera"
     },
     {
-      "Usage": "Camera",
-      "Name": "Anchor5",
       "ID": 5,
+      "Name": "Anchor5",
       "PosX": 189.38,
       "PosY": 82.79725,
-      "PosZ": 136.12
+      "PosZ": 136.12,
+      "Usage": "Camera"
     },
     {
-      "Usage": "Camera",
-      "Name": "Anchor6",
-      "RotY": 191.346,
       "ID": 6,
+      "Name": "Anchor6",
       "PosX": 127.31,
       "PosY": 80.48223,
-      "PosZ": 116.96
+      "PosZ": 116.96,
+      "RotY": 191.346,
+      "Usage": "Camera"
     },
     {
-      "Usage": "Camera",
-      "Name": "Anchor7",
-      "RotY": 280.7564,
       "ID": 7,
+      "Name": "Anchor7",
       "PosX": 68.843,
       "PosY": 78.661,
-      "PosZ": 141.569
+      "PosZ": 141.569,
+      "RotY": 280.7564,
+      "Usage": "Camera"
     },
     {
-      "RotX": 9.700639,
-      "RotZ": 3.8E-05,
-      "Usage": "Camera",
-      "Name": "Anchor8",
-      "RotY": 63.77029,
       "ID": 8,
+      "Name": "Anchor8",
       "PosX": 247.245,
       "PosY": 81.438,
-      "PosZ": 92.989
+      "PosZ": 92.989,
+      "RotX": 9.700639,
+      "RotY": 63.77029,
+      "RotZ": 0.000038,
+      "Usage": "Camera"
     },
     {
-      "RotX": 7.082883,
-      "RotZ": 359.9912,
-      "Usage": "Camera",
-      "Name": "Anchor9",
-      "RotY": 85.28095,
       "ID": 9,
+      "Name": "Anchor9",
       "PosX": 42.58905,
       "PosY": 81.65676,
-      "PosZ": 93.67519
+      "PosZ": 93.67519,
+      "RotX": 7.082883,
+      "RotY": 85.28095,
+      "RotZ": 359.9912,
+      "Usage": "Camera"
     },
     {
-      "Name": "Anchor10",
-      "RotY": 100.3291,
       "ID": 10,
+      "Name": "Anchor10",
       "PosX": 45.71,
       "PosY": 80.22298,
-      "PosZ": 95.312
+      "PosZ": 95.312,
+      "RotY": 100.3291
     },
     {
-      "RotX": 32.69416,
-      "RotZ": 359.9872,
-      "Usage": "Camera",
-      "Name": "Anchor11",
-      "RotY": 88.19762,
       "ID": 11,
+      "Name": "Anchor11",
       "PosX": 52.94522,
       "PosY": 87.64525,
-      "PosZ": 87.76728
+      "PosZ": 87.76728,
+      "RotX": 32.69416,
+      "RotY": 88.19762,
+      "RotZ": 359.9872,
+      "Usage": "Camera"
     }
   ],
+  "AreaAnchorName": "LevelArea_P40003_F40003001_G16",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "SilWolfMission",
+  "LoadOnInitial": true,
   "MonsterList": [],
+  "NPCList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
+        "PathwayList": [
+          {
+            "StartAt": 2,
+            "UseGroup": 16,
+            "UseID": 2
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 173.93,
+      "PosY": 77.01686,
+      "PosZ": 96.4,
+      "RotY": 0.657913,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 191.167,
+      "PosY": 82.79725,
+      "PosZ": 134.286,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400003,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC3",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 124.381,
+      "PosY": 80.48223,
+      "PosZ": 123.183,
+      "RotY": 176.0869,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400004,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC4",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 45.68,
+      "PosY": 80.22298,
+      "PosZ": 94.28,
+      "RotY": 102.8416,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400005,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC5",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 82.193,
+      "PosY": 78.661,
+      "PosZ": 141.24,
+      "RotY": 269.3922,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400006,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC6",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 226.78,
+      "PosY": 77.01636,
+      "PosZ": 94.65,
+      "RotY": 86.05946,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400007,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC7",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 250.83,
+      "PosY": 79.92678,
+      "PosZ": 93.48,
+      "RotY": 62.61304,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400008,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC8",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 125.66,
+      "PosY": 80.48223,
+      "PosZ": 116.26,
+      "RotY": 122.181,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
+        "PathwayList": [
+          {
+            "StartAt": 1,
+            "UseGroup": 16,
+            "UseID": 1
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 310060000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400009,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
+      "NPCID": 1006,
+      "Name": "NPC9",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 68.14,
+      "PosY": 78.661,
+      "PosZ": 140.74,
+      "RotY": 314.7517,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 191.7666,
+      "PosY": 82.80611,
+      "PosZ": 133.3468,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": 4.889923,
+      "PosY": 79.62589,
+      "PosZ": 104.3935,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 10.0,
-        "DimY": 5.0,
-        "DimZ": 5.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
       "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
+      "CampID": 4,
+      "CustomTriggerMap": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 173.84,
       "PosY": 82.65,
-      "PosZ": 128.07
-    },
-    {
+      "PosZ": 128.07,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 18.0,
-        "DimY": 5.0,
-        "DimZ": 18.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 5,
+        "DimZ": 5,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop2",
-      "ID": 300002,
+      "OverrideSoundRange": -1,
       "PosX": 125.961,
       "PosY": 80.50056,
-      "PosZ": 115.75
-    },
-    {
+      "PosZ": 115.75,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 15.0,
-        "DimY": 5.0,
-        "DimZ": 35.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 18,
+        "DimY": 5,
+        "DimZ": 18,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop3",
-      "ID": 300003,
+      "OverrideSoundRange": -1,
       "PosX": 49.28,
       "PosY": 80.22298,
-      "PosZ": 94.98
-    },
-    {
+      "PosZ": 94.98,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 10.0,
-        "DimY": 5.0,
-        "DimZ": 10.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 15,
+        "DimY": 5,
+        "DimZ": 35,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300004,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop4",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop4",
-      "ID": 300004,
+      "OverrideSoundRange": -1,
       "PosX": 67.29,
       "PosY": 80.22298,
-      "PosZ": 79.48
-    },
-    {
+      "PosZ": 79.48,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 10.0,
-        "DimY": 5.0,
-        "DimZ": 5.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 5,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300005,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop5",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop5",
-      "ID": 300005,
+      "OverrideSoundRange": -1,
       "PosX": 67.55,
       "PosY": 80.22298,
-      "PosZ": 118.42
-    },
-    {
+      "PosZ": 118.42,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 25.0,
-        "DimY": 5.0,
-        "DimZ": 10.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 5,
+        "DimZ": 5,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300006,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop6",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop6",
-      "ID": 300006,
+      "OverrideSoundRange": -1,
       "PosX": 72.73,
       "PosY": 78.661,
-      "PosZ": 140.15
-    },
-    {
+      "PosZ": 140.15,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 25.0,
-        "DimY": 5.0,
-        "DimZ": 25.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 25,
+        "DimY": 5,
+        "DimZ": 10,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300007,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop7",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop7",
-      "ID": 300007,
+      "OverrideSoundRange": -1,
       "PosX": 234.71,
       "PosY": 77.01636,
-      "PosZ": 96.05998
-    },
-    {
+      "PosZ": 96.05998,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 10.0,
-        "DimY": 5.0,
-        "DimZ": 5.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 25,
+        "DimY": 5,
+        "DimZ": 25,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300008,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop8",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop8",
-      "ID": 300008,
+      "OverrideSoundRange": -1,
       "PosX": 186.832,
       "PosY": 82.65,
-      "PosZ": 138.723
-    },
-    {
+      "PosZ": 138.723,
+      "PropID": 100,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 104,
-      "IsOverrideInitLevelGraph": true,
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 5,
+        "DimZ": 5,
+        "PointList": [],
+        "Radius": 2
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300009,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop9",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop9",
-      "ID": 300009,
+      "OverrideSoundRange": -1,
       "PosX": 254.4,
       "PosY": 79.92678,
-      "PosZ": 95.56
+      "PosZ": 95.56,
+      "PropID": 104,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "DistrictList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
   "WaypointList": [
     {
       "ID": 1,
@@ -647,382 +1024,5 @@
       "PosY": 77.01615,
       "PosZ": 93.71
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": 191.7666,
-      "PosY": 82.80611,
-      "PosZ": 133.3468
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": 4.889923,
-      "PosY": 79.62589,
-      "PosZ": 104.3935
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 2,
-            "StartAt": 2
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 0.657913,
-      "ID": 400001,
-      "PosX": 173.93,
-      "PosY": 77.01686,
-      "PosZ": 96.4
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC2",
-      "ID": 400002,
-      "PosX": 191.167,
-      "PosY": 82.79725,
-      "PosZ": 134.286
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC3",
-      "RotY": 176.0869,
-      "ID": 400003,
-      "PosX": 124.381,
-      "PosY": 80.48223,
-      "PosZ": 123.183
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC4",
-      "RotY": 102.8416,
-      "ID": 400004,
-      "PosX": 45.68,
-      "PosY": 80.22298,
-      "PosZ": 94.28
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC5",
-      "RotY": 269.3922,
-      "ID": 400005,
-      "PosX": 82.193,
-      "PosY": 78.661,
-      "PosZ": 141.24
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC6",
-      "RotY": 86.05946,
-      "ID": 400006,
-      "PosX": 226.78,
-      "PosY": 77.01636,
-      "PosZ": 94.65
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC7",
-      "RotY": 62.61304,
-      "ID": 400007,
-      "PosX": 250.83,
-      "PosY": 79.92678,
-      "PosZ": 93.48
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC8",
-      "RotY": 122.181,
-      "ID": 400008,
-      "PosX": 125.66,
-      "PosY": 80.48223,
-      "PosZ": 116.26
-    },
-    {
-      "NPCID": 1006,
-      "LevelGraph": "Config/Level/Mission/2000701/Mission_20007_NpcInit.json",
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/MazeNPC_FollowPlayer_2000701_Walk.json",
-        "PathwayList": [
-          {
-            "UseGroup": 16,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 310060000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC9",
-      "RotY": 314.7517,
-      "ID": 400009,
-      "PosX": 68.14,
-      "PosY": 78.661,
-      "PosZ": 140.74
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": []
+  ]
 }

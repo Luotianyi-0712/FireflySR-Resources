@@ -1,89 +1,25 @@
 {
-  "FloorID": 40236001,
-  "StartGroupIndex": 1,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_SuiGarden_Ghost_StageData/Chap02_MAZ_SuiGarden_Ghost_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G3.json",
-      "Name": "RaidDoors",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G4.json",
-      "Name": "RecoverPoint",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G5.json",
-      "Name": "Sound",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G6.json",
-      "Name": "Sound",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G7.json",
-      "Name": "MainMission0_BattleArea",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G8.json",
-      "Name": "MainMission8024116_1",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G9.json",
-      "Name": "MainMission8024116_2",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G10.json",
-      "Name": "MainMission8024116_3",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G11.json",
-      "Name": "MainMission8024116_4",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G12.json",
-      "Name": "MainMission8024116_5",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G13.json",
-      "Name": "MainMission8024116_6",
-      "ID": 13
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Room_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [
         {
-          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Sanctum_SuiGarden_Night.enviroProfile.asset",
-          "Tags": [
-            "BattleArea01"
-          ],
           "AudioEnterEvent": [],
-          "PropsGroupID": 7,
+          "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X02_Sanctum_SuiGarden_Night.enviroProfile.asset",
+          "ID": 1,
+          "Name": "BattleArea1",
           "PrefetchMainMissionList": [],
           "PrefetchSubMissionList": [],
-          "Name": "BattleArea1",
-          "RotY": 180.0,
-          "ID": 1
+          "PropsGroupID": 7,
+          "RotY": 180,
+          "Tags": [
+            "BattleArea01"
+          ]
         }
       ],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Room_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -97,75 +33,139 @@
         9,
         10
       ],
-      "ExclusiveSavedGroupIDList": [],
-      "StartGroupIndex": 1,
-      "StartAnchorID": 1
+      "IsExclusiveSaveMapSection": true,
+      "StartAnchorID": 1,
+      "StartGroupIndex": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40236001,
   "GroupInstanceCommonMap": {
     "3": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "5": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "7": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
       "LoadOnInitial": true,
+      "SaveType": "Reset",
       "SystemUnlockCondition": {
         "Operation": "And"
       }
     },
     "8": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "9": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "10": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "11": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "12": {
       "Category": "Mission",
-      "SaveType": "Reset",
-      "IsHoyoGroup": true
+      "IsHoyoGroup": true,
+      "SaveType": "Reset"
     },
     "13": {
       "Category": "Mission",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G3.json",
+      "ID": 3,
+      "Name": "RaidDoors"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G4.json",
+      "ID": 4,
+      "Name": "RecoverPoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G5.json",
+      "ID": 5,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G6.json",
+      "ID": 6,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G7.json",
+      "ID": 7,
+      "Name": "MainMission0_BattleArea"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G8.json",
+      "ID": 8,
+      "Name": "MainMission8024116_1"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G9.json",
+      "ID": 9,
+      "Name": "MainMission8024116_2"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G10.json",
+      "ID": 10,
+      "Name": "MainMission8024116_3"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G11.json",
+      "ID": 11,
+      "Name": "MainMission8024116_4"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G12.json",
+      "ID": 12,
+      "Name": "MainMission8024116_5"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40236_F40236001/LevelGroup_P40236_F40236001_G13.json",
+      "ID": 13,
+      "Name": "MainMission8024116_6"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_SuiGarden_Ghost_StageData/Chap02_MAZ_SuiGarden_Ghost_StageData.stage",
+  "StartAnchorID": 1,
+  "StartGroupIndex": 1,
+  "TempGroupUnloadByY": 10000000
 }

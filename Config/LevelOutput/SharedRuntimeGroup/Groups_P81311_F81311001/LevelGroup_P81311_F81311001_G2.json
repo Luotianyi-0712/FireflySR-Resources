@@ -1,43 +1,22 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P81311_F81311001_G2",
-  "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Operation": "And"
-  },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P81311_F81311001_G2",
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
       "AudioEnterEvent": [
         "Ev_WwiseMatrixReverb_VO_03_datingzhongxing"
       ],
-      "PropsGroupID": 1,
+      "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_night.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "ID": 1
+      "PropsGroupID": 1,
+      "Tags": [
+        "BattleArea01"
+      ]
     },
     {
-      "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_Boss_night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea02"
-      ],
       "AudioEnterEvent": [
         "Ev_WwiseMatrixReverb_VO_24_pnkn_jiudiandatang",
         "Ev_amb_maze_penocony_p1_1_battle"
@@ -48,15 +27,36 @@
           "StateName": "Boss_Sam"
         }
       ],
-      "PropsGroupID": 1,
+      "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_Boss_night.enviroProfile.asset",
+      "ID": 2,
+      "Name": "BattleArea2",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea2",
-      "ID": 2
+      "PropsGroupID": 1,
+      "Tags": [
+        "BattleArea02"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

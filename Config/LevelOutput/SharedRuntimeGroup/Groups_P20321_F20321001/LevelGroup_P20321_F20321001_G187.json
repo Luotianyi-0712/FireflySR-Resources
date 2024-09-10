@@ -1,116 +1,200 @@
 {
-  "GroupName": "DefaultMonster",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20321_F20321001_G187",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultMonster",
+  "GroupRefreshID": 1001,
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20321131,
+      "ID": 200001,
+      "InitialAnimState": "SpecialStandBy2",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 3002010,
+      "Name": "Monster1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -37.71,
+      "PosY": 44.74173,
+      "PosZ": -11,
+      "RotY": 299.9547,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "AIVariableSource": {},
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20321132,
+      "ID": 200002,
+      "InitialAnimState": "SpecialStandBy1",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 3002010,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -25.63705,
+      "PosY": 44.74173,
+      "PosZ": 16.32593,
+      "RotY": 106.4826,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -14.91642,
+      "PosY": 56.53836,
+      "PosZ": 26.75111,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -8.512121,
+      "PosY": 55.66161,
+      "PosZ": -17.84562,
+      "WaypointIDList": [
+        4,
+        5
+      ]
+    },
+    {
+      "ID": 3,
+      "Name": "Pathway3",
+      "PosX": -88.21398,
+      "PosY": 63.05969,
+      "PosZ": 29.49416,
+      "WaypointIDList": [
+        7,
+        8
+      ]
+    },
+    {
+      "ID": 4,
+      "Name": "Pathway4",
+      "PosX": -88.21398,
+      "PosY": 63.05969,
+      "PosZ": 29.49416,
+      "WaypointIDList": [
+        9,
+        10
+      ]
+    },
+    {
+      "ID": 5,
+      "Name": "Pathway5",
+      "PosX": -32.7136,
+      "PosY": 56.63542,
+      "PosZ": 175.4942,
+      "WaypointIDList": [
+        11,
+        12
+      ]
+    },
+    {
+      "ID": 6,
+      "Name": "Pathway6",
+      "PosX": -32.7136,
+      "PosY": 56.63542,
+      "PosZ": 175.4942,
+      "WaypointIDList": [
+        13,
+        14
+      ]
+    },
+    {
+      "ID": 7,
+      "Name": "Pathway7",
+      "PosX": -53.25182,
+      "PosY": 59.20657,
+      "PosZ": -169.4894,
+      "WaypointIDList": [
+        15,
+        16
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
   "SaveType": "Permanent",
   "SavedValueCondition": {
     "Conditions": [
       {
-        "SavedValueName": "SceneStateByMainMission",
         "Operation": "Equal",
+        "SavedValueName": "SceneStateByMainMission",
         "Value": 1
       }
     ],
     "Operation": "And"
   },
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "GroupRefreshID": 1001,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
+  "SmartObjectList": [],
   "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [],
-  "MonsterList": [
-    {
-      "NPCMonsterID": 3002010,
-      "AIConfig": {
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "InitialAnimState": "SpecialStandBy2",
-      "EventID": 20321131,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Monster1",
-      "RotY": 299.9547,
-      "ID": 200001,
-      "PosX": -37.71,
-      "PosY": 44.74173,
-      "PosZ": -11.0
-    },
-    {
-      "NPCMonsterID": 3002010,
-      "AIConfig": {
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "InitialAnimState": "SpecialStandBy1",
-      "EventID": 20321132,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Monster2",
-      "RotY": 106.4826,
-      "ID": 200002,
-      "PosX": -25.63705,
-      "PosY": 44.74173,
-      "PosZ": 16.32593
-    }
-  ],
-  "PropList": [],
-  "DistrictList": [],
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -208,89 +292,5 @@
       "PosY": 56.26078,
       "PosZ": -166.11
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -14.91642,
-      "PosY": 56.53836,
-      "PosZ": 26.75111
-    },
-    {
-      "WaypointIDList": [
-        4,
-        5
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -8.512121,
-      "PosY": 55.66161,
-      "PosZ": -17.84562
-    },
-    {
-      "WaypointIDList": [
-        7,
-        8
-      ],
-      "Name": "Pathway3",
-      "ID": 3,
-      "PosX": -88.21398,
-      "PosY": 63.05969,
-      "PosZ": 29.49416
-    },
-    {
-      "WaypointIDList": [
-        9,
-        10
-      ],
-      "Name": "Pathway4",
-      "ID": 4,
-      "PosX": -88.21398,
-      "PosY": 63.05969,
-      "PosZ": 29.49416
-    },
-    {
-      "WaypointIDList": [
-        11,
-        12
-      ],
-      "Name": "Pathway5",
-      "ID": 5,
-      "PosX": -32.7136,
-      "PosY": 56.63542,
-      "PosZ": 175.4942
-    },
-    {
-      "WaypointIDList": [
-        13,
-        14
-      ],
-      "Name": "Pathway6",
-      "ID": 6,
-      "PosX": -32.7136,
-      "PosY": 56.63542,
-      "PosZ": 175.4942
-    },
-    {
-      "WaypointIDList": [
-        15,
-        16
-      ],
-      "Name": "Pathway7",
-      "ID": 7,
-      "PosX": -53.25182,
-      "PosY": 59.20657,
-      "PosZ": -169.4894
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

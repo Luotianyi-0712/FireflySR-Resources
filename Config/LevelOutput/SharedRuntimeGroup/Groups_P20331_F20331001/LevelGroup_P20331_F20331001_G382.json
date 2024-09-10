@@ -1,192 +1,192 @@
 {
-  "GroupName": "FramPortal_YKJ",
+  "AnchorList": [
+    {
+      "ID": 10,
+      "Name": "Side_Back",
+      "PosX": 386.1915,
+      "PosY": 50.12003,
+      "PosZ": 433.8539,
+      "RotY": 180
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 13,
+      "Name": "YKJE_S",
+      "PosX": 371.2314,
+      "PosY": 52.938,
+      "PosZ": 402.569,
+      "RotY": 180,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 14,
+      "Name": "YKJE_E",
+      "PosX": 371.2314,
+      "PosY": 52.938,
+      "PosZ": 397.574,
+      "RotY": 180,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20331_F20331001_G382",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "FramPortal_YKJ",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "InteractTrigger": {
+          "PointList": [],
+          "Radius": 3,
+          "Server": true
+        }
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_Portal_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Portal_SideRoom01_YKJ_Start",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "OverrideTriggerValidGuestConfig": true,
+      "PosX": 371.2314,
+      "PosY": 50.55004,
+      "PosZ": 394.962,
+      "PropID": 103013,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "Open",
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "FakePlayer": true,
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetRegionIndex",
+            "Value": 5
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetAnchorGroupID",
+            "Value": 382
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetAnchorInstanceID",
+            "Value": 10
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CameraAnchorRef01",
+            "Value": "LevelArea_P20331_F20331001_G382,YKJE_S"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CameraAnchorRef02",
+            "Value": "LevelArea_P20331_F20331001_G382,YKJE_E"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetRegionIndex",
+            "Value": 5
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetAnchorGroupID",
+            "Value": 382
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "TargetAnchorInstanceID",
+            "Value": 10
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CameraAnchorRef01",
+            "Value": "LevelArea_P20331_F20331001_G382,YKJE_S"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "CameraAnchorRef02",
+            "Value": "LevelArea_P20331_F20331001_G382,YKJE_E"
+          }
+        ]
+      }
+    }
+  ],
   "SaveType": "Permanent",
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
   },
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
+  "SmartObjectList": [],
   "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [
-    {
-      "Name": "Side_Back",
-      "RotY": 180.0,
-      "ID": 10,
-      "PosX": 386.1915,
-      "PosY": 50.12003,
-      "PosZ": 433.8539
-    },
-    {
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "YKJE_S",
-      "RotY": 180.0,
-      "ID": 13,
-      "PosX": 371.2314,
-      "PosY": 52.938,
-      "PosZ": 402.569
-    },
-    {
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "YKJE_E",
-      "RotY": 180.0,
-      "ID": 14,
-      "PosX": 371.2314,
-      "PosY": 52.938,
-      "PosZ": 397.574
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 103013,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_Portal_01.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 5,
-            "Key": "TargetRegionIndex"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 382,
-            "Key": "TargetAnchorGroupID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 10,
-            "Key": "TargetAnchorInstanceID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20331_F20331001_G382,YKJE_S",
-            "Key": "CameraAnchorRef01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20331_F20331001_G382,YKJE_E",
-            "Key": "CameraAnchorRef02"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 5,
-            "Key": "TargetRegionIndex"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 382,
-            "Key": "TargetAnchorGroupID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 10,
-            "Key": "TargetAnchorInstanceID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20331_F20331001_G382,YKJE_S",
-            "Key": "CameraAnchorRef01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20331_F20331001_G382,YKJE_E",
-            "Key": "CameraAnchorRef02"
-          }
-        ]
-      },
-      "CampID": 4,
-      "State": "Open",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {
-        "InteractTrigger": {
-          "Radius": 3.0,
-          "PointList": [],
-          "Server": true
-        }
-      },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "OverrideTriggerValidGuestConfig": true,
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true,
-        "FakePlayer": true
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Portal_SideRoom01_YKJ_Start",
-      "ID": 300002,
-      "PosX": 371.2314,
-      "PosY": 50.55004,
-      "PosZ": 394.962
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "ValueSource": {},
+  "WaypointList": []
 }

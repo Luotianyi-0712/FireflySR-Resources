@@ -1,39 +1,39 @@
 {
-  "GroupName": "MainMission2011412_",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F40101006/Group_F40101006_G31.json",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P40101_F40101006_G31",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2011412_",
+  "LevelGraph": "Config/Level/GroupGraph/F40101006/Group_F40101006_G31.json",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 201141228
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 201141228
+        "ID": 201141228,
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 2011412,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [],
-  "CrowdList": [],
+  "OwnerMainMissionID": 2011412,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201141228,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

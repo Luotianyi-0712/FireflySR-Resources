@@ -1,124 +1,124 @@
 {
-  "GroupName": "MainMission1032602_01",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F10305001/Group_F10305001_G132.json",
-  "AreaAnchorName": "LevelArea_P10305_F10305001_G132",
-  "SaveType": "Reset",
-  "OwnerMainMissionID": 1032602,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "Usage": "Actor",
-      "Name": "Anchor1",
-      "RotY": 269.0736,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 35.48,
       "PosY": -15.92506,
-      "PosZ": -259.8497
+      "PosZ": -259.8497,
+      "RotY": 269.0736,
+      "Usage": "Actor"
     },
     {
-      "Usage": "Actor",
-      "Name": "Anchor2",
-      "RotY": 99.70779,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": -36.78848,
       "PosY": -15.92507,
-      "PosZ": -260.244
+      "PosZ": -260.244,
+      "RotY": 99.70779,
+      "Usage": "Actor"
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P10305_F10305001_G132",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "Trigger": {
-        "Shape": "GeometryBox",
-        "Radius": 1.0,
-        "DimX": 6.0,
-        "DimY": 4.0,
-        "DimZ": 7.0,
-        "PointList": []
-      },
-      "LoadOnInitial": true,
       "DistrictType": "Level",
-      "NPCCrowdRadius": 25.0,
-      "ValueSource": {},
-      "Name": "District1",
       "ID": 1,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
       "PosX": 39.53,
       "PosY": -15.92506,
-      "PosZ": -259.93
-    },
-    {
+      "PosZ": -259.93,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "GeometryBox",
-        "Radius": 1.0,
-        "DimX": 4.0,
-        "DimY": 4.0,
-        "DimZ": 7.0,
-        "PointList": []
+        "DimX": 6,
+        "DimY": 4,
+        "DimZ": 7,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "GeometryBox"
       },
-      "LoadOnInitial": true,
+      "ValueSource": {}
+    },
+    {
       "DistrictType": "Level",
-      "NPCCrowdRadius": 25.0,
-      "ValueSource": {},
-      "Name": "District2",
       "ID": 2,
+      "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District2",
       "PosX": -40.23,
       "PosY": -15.92507,
-      "PosZ": -259.64
+      "PosZ": -259.64,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 4,
+        "DimY": 4,
+        "DimZ": 7,
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "GeometryBox"
+      },
+      "ValueSource": {}
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "MainMission1032602_01",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F10305001/Group_F10305001_G132.json",
+  "MonsterList": [],
   "NPCList": [],
-  "CrowdList": [],
+  "OwnerMainMissionID": 1032602,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

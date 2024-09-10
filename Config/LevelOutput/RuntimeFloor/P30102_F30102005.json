@@ -1,56 +1,11 @@
 {
-  "FloorID": 30102005,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X201_MainLine_01_StageData/Chap02_MAZ_X201_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20221_F20221001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G2.json",
-      "Name": "DefaultGroup",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G3.json",
-      "Name": "enviroProfile",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G4.json",
-      "Name": "Sound",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G5.json",
-      "Name": "BATProp",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G6.json",
-      "Name": "Contents",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G7.json",
-      "Name": "Contents",
-      "ID": 7
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X201_MainLine_01_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X201_MainLine_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -60,34 +15,35 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "FloorID": 30102005,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "4": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "5": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Custom",
@@ -100,5 +56,49 @@
       "LoadSide": "Server"
     }
   },
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G3.json",
+      "ID": 3,
+      "Name": "enviroProfile"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G4.json",
+      "ID": 4,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G5.json",
+      "ID": 5,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G6.json",
+      "ID": 6,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102005/LevelGroup_P30102_F30102005_G7.json",
+      "ID": 7,
+      "Name": "Contents"
+    }
+  ],
+  "LayerToAreaMask": [
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20221_F20221001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X201_MainLine_01_StageData/Chap02_MAZ_X201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

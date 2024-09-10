@@ -1,125 +1,125 @@
 {
-  "GroupName": "Checkpoint_MissionUnloack",
+  "AnchorList": [
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": 47.85,
+      "PosY": 3.4383,
+      "PosZ": -115.07,
+      "RotY": 200
+    }
+  ],
   "AreaAnchorName": "LevelArea_P43201_F43201003_G2",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Checkpoint_MissionUnloack",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 202050405,
         "Phase": "Finish",
-        "ID": 202050405
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor2",
-      "RotY": 200.0,
-      "ID": 2,
-      "PosX": 47.85,
-      "PosY": 3.4383,
-      "PosZ": -115.07
-    }
-  ],
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 3002,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
-      "ValueSource": {},
+      "AnchorGroupID": 2,
+      "AnchorID": 2,
+      "BridgeStateRotations": [],
       "CampID": 4,
-      "State": "CheckPointEnable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
-          "Radius": 12.0,
           "Offset": {
-            "z": -7.0,
+            "magnitude": 7,
             "normalized": {
-              "z": -1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": -1
             },
-            "magnitude": 7.0,
-            "sqrMagnitude": 49.0
+            "sqrMagnitude": 49,
+            "z": -7
           },
           "PointList": [],
+          "Radius": 12,
           "Server": true
         }
       },
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "AnchorGroupID": 2,
-      "AnchorID": 2,
-      "MappingInfoID": 2102,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Raid/InitLevelGraph_Prop_Raid_CheckPoint_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2102,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
+      "OverrideSoundRange": -1,
+      "PosX": 48.86712,
+      "PosY": 3.7383,
+      "PosZ": -109.9003,
+      "PropID": 3002,
+      "RotY": 20,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop2",
-      "RotY": 20.0,
-      "ID": 300002,
-      "PosX": 48.86712,
-      "PosY": 3.7383,
-      "PosZ": -109.9003
+      "State": "CheckPointEnable",
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

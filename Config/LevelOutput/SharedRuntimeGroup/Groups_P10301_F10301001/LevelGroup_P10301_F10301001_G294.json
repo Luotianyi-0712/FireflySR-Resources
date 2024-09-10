@@ -1,133 +1,136 @@
 {
-  "GroupName": "BlockLine01",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10301_F10301001_G294",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "BlockLine01",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "EnterTrigger": {
+          "DimX": 12,
+          "DimY": 2,
+          "DimZ": 14,
+          "Offset": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
+          },
+          "PointList": [],
+          "Radius": 1,
+          "Shape": "Box"
+        },
+        "ExitTrigger": {
+          "DimX": 12,
+          "DimY": 2,
+          "DimZ": 14,
+          "Offset": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
+          },
+          "PointList": [],
+          "Radius": 1,
+          "Shape": "Box"
+        }
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosY": -14.39593,
+      "PosZ": 28.35,
+      "PropID": 140,
+      "RotY": -0.00007,
+      "Scale": {
+        "magnitude": 2.13541579,
+        "normalized": {
+          "magnitude": 0.9999999,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "x": 0.749268651,
+            "y": 0.468292922,
+            "z": 0.468292922
+          },
+          "sqrMagnitude": 0.999999762,
+          "x": 0.7492686,
+          "y": 0.468292862,
+          "z": 0.468292862
+        },
+        "sqrMagnitude": 4.56000042,
+        "x": 1.6,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap03_P01_LockedHotelToast"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap03_P01_LockedHotelToast"
+          }
+        ]
+      }
+    }
+  ],
   "SaveType": "Reset",
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
   },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
+  "SmartObjectList": [],
   "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.6,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.7492686,
-          "y": 0.468292862,
-          "z": 0.468292862,
-          "normalized": {
-            "x": 0.749268651,
-            "y": 0.468292922,
-            "z": 0.468292922,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.9999999,
-          "sqrMagnitude": 0.999999762
-        },
-        "magnitude": 2.13541579,
-        "sqrMagnitude": 4.56000042
-      },
-      "PropID": 140,
-      "LoadOnInitial": true,
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Chap03_P01_LockedHotelToast",
-            "Key": "TosatPileText"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Chap03_P01_LockedHotelToast",
-            "Key": "TosatPileText"
-          }
-        ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {
-        "EnterTrigger": {
-          "Shape": "Box",
-          "Radius": 1.0,
-          "DimX": 12.0,
-          "DimY": 2.0,
-          "DimZ": 14.0,
-          "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "PointList": []
-        },
-        "ExitTrigger": {
-          "Shape": "Box",
-          "Radius": 1.0,
-          "DimX": 12.0,
-          "DimY": 2.0,
-          "DimZ": 14.0,
-          "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "PointList": []
-        }
-      },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop1",
-      "RotY": -7E-05,
-      "ID": 300001,
-      "PosY": -14.39593,
-      "PosZ": 28.35
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,8 +1,71 @@
 {
-  "GroupName": "NPC",
-  "Category": "Atmosphere",
+  "AnchorList": [
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -172.3431,
+      "PosY": -11.006,
+      "PosZ": 173.936,
+      "RotY": 260.6326,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -172.5841,
+      "PosY": -11.86017,
+      "PosZ": 173.334,
+      "RotY": 278.7289,
+      "Usage": "Actor"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 3,
+      "Name": "Anchor3",
+      "PosX": -171.7861,
+      "PosY": -10.111,
+      "PosZ": 173.73,
+      "RotX": 18.95504,
+      "RotY": 258.9531,
+      "RotZ": 0.000005,
+      "Usage": "Camera"
+    },
+    {
+      "ID": 4,
+      "Name": "Anchor4",
+      "PosX": -172.356,
+      "PosY": -11.009,
+      "PosZ": 175.857,
+      "RotY": 124.6978,
+      "Usage": "Actor"
+    },
+    {
+      "ID": 5,
+      "Name": "Anchor5",
+      "PosX": -173.4501,
+      "PosY": -11.82581,
+      "PosZ": 173.742
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 6,
+      "Name": "Anchor6",
+      "PosX": -171.099,
+      "PosY": -10.695,
+      "PosZ": 174.547,
+      "RotX": 347.8897,
+      "RotY": 316.7477,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P10301_F10301001_G192",
-  "SaveType": "Reset",
   "AtmosphereCondition": {
     "Conditions": [
       {
@@ -12,182 +75,119 @@
     ],
     "Operation": "And"
   },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [
-    {
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor1",
-      "RotY": 260.6326,
-      "ID": 1,
-      "PosX": -172.3431,
-      "PosY": -11.006,
-      "PosZ": 173.936
-    },
-    {
-      "Usage": "Actor",
-      "Name": "Anchor2",
-      "RotY": 278.7289,
-      "ID": 2,
-      "PosX": -172.5841,
-      "PosY": -11.86017,
-      "PosZ": 173.334
-    },
-    {
-      "RotX": 18.95504,
-      "RotZ": 5E-06,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor3",
-      "RotY": 258.9531,
-      "ID": 3,
-      "PosX": -171.7861,
-      "PosY": -10.111,
-      "PosZ": 173.73
-    },
-    {
-      "Usage": "Actor",
-      "Name": "Anchor4",
-      "RotY": 124.6978,
-      "ID": 4,
-      "PosX": -172.356,
-      "PosY": -11.009,
-      "PosZ": 175.857
-    },
-    {
-      "Name": "Anchor5",
-      "ID": 5,
-      "PosX": -173.4501,
-      "PosY": -11.82581,
-      "PosZ": 173.742
-    },
-    {
-      "RotX": 347.8897,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor6",
-      "RotY": 316.7477,
-      "ID": 6,
-      "PosX": -171.099,
-      "PosY": -10.695,
-      "PosZ": 174.547
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
   "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 13312,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1,
         128,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": -963625431
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100040000,
-      "BornType": "Mission",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
+      "LoadOnInitial": true,
+      "NPCID": 13312,
+      "Name": "NPC1",
       "OverrideBehaviorType": "DreamlandActor",
-      "CameraCenterEntityList": [],
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": -963625431
+      },
+      "PosX": -173.4501,
+      "PosY": -11.82581,
+      "PosZ": 173.742,
+      "RotY": 80.92567,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
-        "TryCapture": true,
         "CaptureDistanceTolerance": 1.5,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "Name": "NPC1",
-      "RotY": 80.92567,
-      "ID": 400001,
-      "PosX": -173.4501,
-      "PosY": -11.82581,
-      "PosZ": 173.742
+      "ValueSource": {}
     },
     {
-      "NPCID": 13312,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100040000,
-      "BornType": "Mission",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400002,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
+      "NPCID": 13312,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -172.356,
+      "PosY": -11.009,
+      "PosZ": 175.857,
+      "RotY": 130.6474,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
-        "TryCapture": true,
         "CaptureDistanceTolerance": 1.5,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "Name": "NPC2",
-      "RotY": 130.6474,
-      "ID": 400002,
-      "PosX": -172.356,
-      "PosY": -11.009,
-      "PosZ": 175.857
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

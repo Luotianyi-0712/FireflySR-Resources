@@ -1,455 +1,455 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P43103_F43103004_G1",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 301.6211,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": 201.6706,
       "PosY": 28.3764,
-      "PosZ": -139.4168
+      "PosZ": -139.4168,
+      "RotY": 301.6211
     },
     {
-      "Name": "Anchor2",
-      "RotY": 191.3,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 185.99,
       "PosY": 28.5299,
-      "PosZ": -134.6018
+      "PosZ": -134.6018,
+      "RotY": 191.3
     },
     {
-      "Name": "Anchor3",
-      "RotY": 253.1,
       "ID": 3,
+      "Name": "Anchor3",
       "PosX": 144.8868,
       "PosY": 46.34257,
-      "PosZ": -69.03832
+      "PosZ": -69.03832,
+      "RotY": 253.1
     },
     {
-      "Name": "Anchor4",
-      "RotY": 148.6,
       "ID": 4,
+      "Name": "Anchor4",
       "PosX": 100.99,
       "PosY": 58.91933,
-      "PosZ": -85.93
+      "PosZ": -85.93,
+      "RotY": 148.6
     },
     {
-      "Name": "Anchor5",
-      "RotY": 60.42,
       "ID": 5,
+      "Name": "Anchor5",
       "PosX": 127.6073,
       "PosY": 58.98462,
-      "PosZ": -129.1276
+      "PosZ": -129.1276,
+      "RotY": 60.42
     }
   ],
+  "AreaAnchorName": "LevelArea_P43103_F43103004_G1",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 101,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
-      "Trigger": {
-        "Offset": {
-          "y": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "PointList": []
-      },
-      "State": "CheckPointDisable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {
-        "CustomTrigger_Spring": {
-          "Radius": 8.0,
-          "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "PointList": [],
-          "Server": true
-        }
-      },
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
       "AnchorGroupID": 1,
       "AnchorID": 2,
-      "MappingInfoID": 2323,
-      "DialogueTriggerAngle": 120,
+      "BridgeStateRotations": [],
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "Offset": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
+          },
+          "PointList": [],
+          "Radius": 8,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2323,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 188.3438,
       "PosY": 28.86717,
-      "PosZ": -136.0981
-    },
-    {
+      "PosZ": -136.0981,
+      "PropID": 101,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 101,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
-      "ValueSource": {},
+      "ServerInteractVerificationIDList": [],
+      "State": "CheckPointDisable",
+      "TalkDialogGroupIDList": [],
       "Trigger": {
         "Offset": {
-          "y": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "y": 1
         },
         "PointList": []
-      },
-      "State": "CheckPointDisable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {
-        "CustomTrigger_Spring": {
-          "Radius": 8.0,
-          "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "PointList": [],
-          "Server": true
-        }
-      },
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
+      }
+    },
+    {
       "AnchorGroupID": 1,
       "AnchorID": 3,
-      "MappingInfoID": 2324,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop2",
-      "ID": 300002,
-      "PosX": 144.3682,
-      "PosY": 46.40452,
-      "PosZ": -67.58005
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 101,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
-      "ValueSource": {},
-      "Trigger": {
-        "Offset": {
-          "y": 1.0,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "PointList": []
-      },
-      "State": "CheckPointDisable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "BridgeStateRotations": [],
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
-          "Radius": 7.0,
+          "Offset": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
+          },
           "PointList": [],
+          "Radius": 8,
           "Server": true
         }
       },
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "AnchorGroupID": 1,
-      "AnchorID": 4,
-      "MappingInfoID": 2325,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2324,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop3",
-      "ID": 300003,
-      "PosX": 102.8114,
-      "PosY": 58.73938,
-      "PosZ": -83.45627
-    },
-    {
+      "OverrideSoundRange": -1,
+      "PosX": 144.3682,
+      "PosY": 46.40452,
+      "PosZ": -67.58005,
+      "PropID": 101,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 301079,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "4,300004",
-            "Key": "HintProp"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "4,300004",
-            "Key": "HintProp"
-          }
-        ]
-      },
+      "ServerInteractVerificationIDList": [],
+      "State": "CheckPointDisable",
+      "TalkDialogGroupIDList": [],
       "Trigger": {
-        "Radius": 1.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
+        "Offset": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "y": 1
+        },
         "PointList": []
       },
-      "CampID": 4,
+      "ValueSource": {}
+    },
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 4,
+      "BridgeStateRotations": [],
+      "CustomTriggerMap": {
+        "CustomTrigger_Spring": {
+          "PointList": [],
+          "Radius": 7,
+          "Server": true
+        }
+      },
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2325,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 102.8114,
+      "PosY": 58.73938,
+      "PosZ": -83.45627,
+      "PropID": 101,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
       "State": "CheckPointDisable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "Offset": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "y": 1
+        },
+        "PointList": []
+      },
+      "ValueSource": {}
+    },
+    {
+      "AnchorGroupID": 1,
+      "AnchorID": 5,
+      "BridgeStateRotations": [],
+      "CampID": 4,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
-          "Radius": 10.0,
           "PointList": [],
+          "Radius": 10,
           "Server": true
         },
         "CustomTrigger_02": {
-          "Radius": 8.0,
           "PointList": [],
-          "Server": true
-        },
-        "CustomTrigger_Tutorial": {
-          "Radius": 8.0,
-          "PointList": [],
+          "Radius": 8,
           "Server": true
         },
         "CustomTrigger_03": {
-          "Radius": 8.0,
           "PointList": [],
+          "Radius": 8,
           "Server": true
         },
         "CustomTrigger_Spring": {
-          "Radius": 10.0,
           "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
           },
           "PointList": [],
+          "Radius": 10,
+          "Server": true
+        },
+        "CustomTrigger_Tutorial": {
+          "PointList": [],
+          "Radius": 8,
           "Server": true
         }
       },
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "AnchorGroupID": 1,
-      "AnchorID": 5,
-      "MappingInfoID": 2352,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300004,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 2352,
+      "Name": "Prop4",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": 145,
       "OverrideMapStateIcons": [
         {
           "State": "CheckPointDisable"
         },
         {
-          "State": "CheckPointEnable",
-          "IconID": 145
+          "IconID": 145,
+          "State": "CheckPointEnable"
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop4",
-      "ID": 300004,
+      "OverrideSoundRange": -1,
       "PosX": 129.086,
       "PosY": 58.98462,
-      "PosZ": -126.05
-    },
-    {
-      "RotX": 358.2452,
-      "RotZ": 0.356356,
+      "PosZ": -126.05,
+      "PropID": 301079,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 301014,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {},
+      "ServerInteractVerificationIDList": [],
+      "State": "CheckPointDisable",
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "HintProp",
+            "Value": "4,300004"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "HintProp",
+            "Value": "4,300004"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300005,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop5",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop5",
-      "RotY": 350.8409,
-      "ID": 300005,
+      "OverrideSoundRange": -1,
       "PosX": 127.878,
       "PosY": 46.709,
-      "PosZ": -17.607
+      "PosZ": -17.607,
+      "PropID": 301014,
+      "RotX": 358.2452,
+      "RotY": 350.8409,
+      "RotZ": 0.356356,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

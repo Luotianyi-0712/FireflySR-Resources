@@ -1,172 +1,172 @@
 {
-  "GroupName": "Active",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P40002_F40002102_G33",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Active",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 800020219,
         "Phase": "Finish",
-        "ID": 800020219
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
+        "ID": 800020220,
         "Phase": "Finish",
-        "ID": 800020220
+        "Type": "SubMission"
       }
     ],
     "Operation": "Or"
   },
   "LoadSide": "Server",
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_Console02_EnergyBridge_06.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -156.15,
+      "PosY": -0.162675,
+      "PosZ": -64.67,
+      "PropID": 100014,
+      "RotY": 90,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "PropID": 100014,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_Console02_EnergyBridge_06.json",
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300011",
-            "Key": "FlipBridge02"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300010",
-            "Key": "FlipBridge01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300013",
-            "Key": "FlipBridge03"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300014",
-            "Key": "FlipBridge04"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Chap00_MAZ_N202_LevelArea,LookToBridge_Cam_02",
-            "Key": "Vcam01"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300015",
-            "Key": "Controller02"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300016",
-            "Key": "Controller03"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "33,300001",
-            "Key": "MainController"
-          }
-        ],
         "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300011",
-            "Key": "FlipBridge02"
+            "Key": "FlipBridge02",
+            "Value": "6,300011"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300010",
-            "Key": "FlipBridge01"
+            "Key": "FlipBridge01",
+            "Value": "6,300010"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300013",
-            "Key": "FlipBridge03"
+            "Key": "FlipBridge03",
+            "Value": "6,300013"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300014",
-            "Key": "FlipBridge04"
+            "Key": "FlipBridge04",
+            "Value": "6,300014"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Chap00_MAZ_N202_LevelArea,LookToBridge_Cam_02",
-            "Key": "Vcam01"
+            "Key": "Vcam01",
+            "Value": "Chap00_MAZ_N202_LevelArea,LookToBridge_Cam_02"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300015",
-            "Key": "Controller02"
+            "Key": "Controller02",
+            "Value": "6,300015"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "6,300016",
-            "Key": "Controller03"
+            "Key": "Controller03",
+            "Value": "6,300016"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "33,300001",
-            "Key": "MainController"
+            "Key": "MainController",
+            "Value": "33,300001"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FlipBridge02",
+            "Value": "6,300011"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FlipBridge01",
+            "Value": "6,300010"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FlipBridge03",
+            "Value": "6,300013"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "FlipBridge04",
+            "Value": "6,300014"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Vcam01",
+            "Value": "Chap00_MAZ_N202_LevelArea,LookToBridge_Cam_02"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Controller02",
+            "Value": "6,300015"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "Controller03",
+            "Value": "6,300016"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "MainController",
+            "Value": "33,300001"
           }
         ]
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "RotY": 90.0,
-      "ID": 300001,
-      "PosX": -156.15,
-      "PosY": -0.162675,
-      "PosZ": -64.67
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

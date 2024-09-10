@@ -1,58 +1,58 @@
 {
-  "GroupName": "Monster_ChestMonster",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20132_F20132001_G15",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Monster_ChestMonster",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1011301
+        "ID": 1011301,
+        "Phase": "Finish"
       }
     ],
     "DelayToLevelReload": true
   },
   "LoadSide": "Server",
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [
     {
-      "NPCMonsterID": 8002040,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 20132113,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20132113,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 8002040,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 270.0,
-      "ID": 200001,
       "PosX": -21.15,
       "PosY": 0.003,
-      "PosZ": 67.79
+      "PosZ": 67.79,
+      "RotY": 270
     }
   ],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

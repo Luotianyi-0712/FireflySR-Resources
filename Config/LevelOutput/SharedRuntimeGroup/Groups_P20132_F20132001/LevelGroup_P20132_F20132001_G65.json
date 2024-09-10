@@ -1,136 +1,136 @@
 {
-  "GroupName": "RaidEntrance",
-  "ConfigPrefabPath": "Level/Maze/Chapter01/Chap01_MAZ_M203_LevelArea.prefab",
-  "AreaAnchorName": "LevelArea_P20132_F20132001_G65",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "GroupRefreshID": 1,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Checkpoint1",
-      "RotY": 184.3722,
       "ID": 1,
+      "Name": "Checkpoint1",
       "PosX": 115.4159,
       "PosY": -5.03,
-      "PosZ": 311.8008
+      "PosZ": 311.8008,
+      "RotY": 184.3722
     },
     {
-      "RotX": 14.19762,
-      "RotZ": 0.013632,
-      "Usage": "Camera",
-      "Name": "Camera",
-      "RotY": 180.2089,
       "ID": 2,
+      "Name": "Camera",
       "PosX": 113.7014,
       "PosY": -2.471561,
-      "PosZ": 315.5267
+      "PosZ": 315.5267,
+      "RotX": 14.19762,
+      "RotY": 180.2089,
+      "RotZ": 0.013632,
+      "Usage": "Camera"
     }
   ],
+  "AreaAnchorName": "LevelArea_P20132_F20132001_G65",
+  "BattleAreaList": [],
+  "ConfigPrefabPath": "Level/Maze/Chapter01/Chap01_MAZ_M203_LevelArea.prefab",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "RaidEntrance",
+  "GroupRefreshID": 1,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 3001,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_ChallengeRaid_Entrance.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20132_F20132001_G65,Camera",
-            "Key": "VCam"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20132_F20132001_G65,Camera",
-            "Key": "VCam"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 2.5,
-        "DimX": 2.0,
-        "DimY": 4.0,
-        "DimZ": 14.0,
-        "Offset": {
-          "x": 2.0,
-          "normalized": {
-            "x": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 2.0,
-          "sqrMagnitude": 4.0
-        },
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {
-        "CustomTrigger_DoorClose": {
-          "Radius": 12.0,
-          "PointList": []
-        }
-      },
-      "BridgeStateRotations": [],
       "AnchorGroupID": 65,
       "AnchorID": 1,
-      "DialogueTriggerAngle": 120,
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {
+        "CustomTrigger_DoorClose": {
+          "PointList": [],
+          "Radius": 12
+        }
+      },
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Maze/MazeProp/Maze_Prop_ChallengeRaid_Entrance.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 115.2732,
+      "PosY": -5.034,
+      "PosZ": 309.9352,
+      "PropID": 3001,
+      "RaidID": 4013201,
+      "RotY": 270,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
       "ServerInteractVerificationIDList": [
         16
       ],
-      "RaidID": 4013201,
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 2,
+        "DimY": 4,
+        "DimZ": 14,
+        "Offset": {
+          "magnitude": 2,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "x": 1
+          },
+          "sqrMagnitude": 4,
+          "x": 2
+        },
+        "PointList": [],
+        "Radius": 2.5
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop3",
-      "RotY": 270.0,
-      "ID": 300003,
-      "PosX": 115.2732,
-      "PosY": -5.034,
-      "PosZ": 309.9352
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "VCam",
+            "Value": "LevelArea_P20132_F20132001_G65,Camera"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "VCam",
+            "Value": "LevelArea_P20132_F20132001_G65,Camera"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

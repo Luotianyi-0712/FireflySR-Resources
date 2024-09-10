@@ -1,73 +1,9 @@
 {
-  "FloorID": 80409002,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P301_StageData/Chap03_MAZ_P301_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    64,
-    32,
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20331_F20331001.json",
-  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20331_F20331001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G2.json",
-      "Name": "Sound",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G3.json",
-      "Name": "BGM",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G5.json",
-      "Name": "Sound_Reverb",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G6.json",
-      "Name": "RogueDLC160_Area",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G7.json",
-      "Name": "RogueBase_Common",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G8.json",
-      "Name": "WolfGunPlay",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G9.json",
-      "Name": "RogueDLC160_Area",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G10.json",
-      "Name": "RogueBase_Common",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G11.json",
-      "Name": "WolfGunPlay",
-      "ID": 11
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P301_Night_01.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
+      "CameraType": "Maze",
       "ConstValues": [
         {
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
@@ -150,7 +86,8 @@
           "Name": "7To5And6"
         }
       ],
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P301_Night_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -163,77 +100,140 @@
         8,
         9
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 80409002,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "5": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "7": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "8": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "9": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "10": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "11": {
       "Category": "Custom",
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G3.json",
+      "ID": 3,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G5.json",
+      "ID": 5,
+      "Name": "Sound_Reverb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G6.json",
+      "ID": 6,
+      "Name": "RogueDLC160_Area"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G7.json",
+      "ID": 7,
+      "Name": "RogueBase_Common"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G8.json",
+      "ID": 8,
+      "Name": "WolfGunPlay"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G9.json",
+      "ID": 9,
+      "Name": "RogueDLC160_Area"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G10.json",
+      "ID": 10,
+      "Name": "RogueBase_Common"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P80409_F80409002/LevelGroup_P80409_F80409002_G11.json",
+      "ID": 11,
+      "Name": "WolfGunPlay"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    64,
+    32,
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20331_F20331001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20331_F20331001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P301_StageData/Chap03_MAZ_P301_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

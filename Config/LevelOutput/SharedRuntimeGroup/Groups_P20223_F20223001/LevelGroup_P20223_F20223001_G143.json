@@ -1,170 +1,213 @@
 {
-  "GroupName": "DefaultMonster",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20223_F20223001_G143",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultMonster",
+  "GroupRefreshID": 1001,
+  "IsHoyoGroup": true,
+  "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20223114,
+      "ID": 200010,
+      "InitialAnimState": "SpecialStandBy2",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022110,
+      "Name": "Monster10",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -65.0199,
+      "PosY": 7.502587,
+      "PosZ": -73.4266,
+      "RotY": 250,
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20223115,
+      "ID": 200008,
+      "InitialAnimState": "SpecialStandBy1",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022010,
+      "Name": "Monster8",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -69.72631,
+      "PosY": 7.552287,
+      "PosZ": -74.26036,
+      "RotY": 60,
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [
+          {
+            "StartAt": 7,
+            "UseGroup": 143,
+            "UseID": 3,
+            "UseOwnerGroup": true
+          }
+        ],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20223116,
+      "ID": 200011,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022110,
+      "Name": "Monster11",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -75.33064,
+      "PosY": 8.79782,
+      "PosZ": -90.41803,
+      "RotY": 270,
+      "TagList": [],
+      "ValueSource": {}
+    },
+    {
+      "AIConfig": {
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 1,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20223117,
+      "ID": 200012,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2022110,
+      "Name": "Monster12",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -107.878,
+      "PosY": 10.44784,
+      "PosZ": -60.72321,
+      "RotY": 70,
+      "TagList": [],
+      "ValueSource": {}
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -77.89774,
+      "PosY": -10.74839,
+      "PosZ": 59.2454,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -96.07859,
+      "PosY": 1.628178,
+      "PosZ": -37.51757,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    },
+    {
+      "ID": 3,
+      "Name": "Pathway3",
+      "PosX": -74.12638,
+      "PosY": 8.615856,
+      "PosZ": -88.8614,
+      "WaypointIDList": [
+        5,
+        6,
+        7,
+        6
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
   "SaveType": "Permanent",
   "SavedValueCondition": {
     "Conditions": [
       {
-        "SavedValueName": "SceneStateByMainMission",
         "Operation": "Equal",
+        "SavedValueName": "SceneStateByMainMission",
         "Value": 1
       }
     ],
     "Operation": "And"
   },
-  "LoadSide": "Server",
-  "GroupRefreshID": 1001,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
+  "SmartObjectList": [],
   "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [],
-  "MonsterList": [
-    {
-      "NPCMonsterID": 2022110,
-      "AIConfig": {
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "InitialAnimState": "SpecialStandBy2",
-      "EventID": 20223114,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster10",
-      "RotY": 250.0,
-      "ID": 200010,
-      "PosX": -65.0199,
-      "PosY": 7.502587,
-      "PosZ": -73.4266
-    },
-    {
-      "NPCMonsterID": 2022010,
-      "AIConfig": {
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "InitialAnimState": "SpecialStandBy1",
-      "EventID": 20223115,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster8",
-      "RotY": 60.0,
-      "ID": 200008,
-      "PosX": -69.72631,
-      "PosY": 7.552287,
-      "PosZ": -74.26036
-    },
-    {
-      "NPCMonsterID": 2022110,
-      "AIConfig": {
-        "PathwayList": [
-          {
-            "UseOwnerGroup": true,
-            "UseGroup": 143,
-            "UseID": 3,
-            "StartAt": 7
-          }
-        ],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "EventID": 20223116,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster11",
-      "RotY": 270.0,
-      "ID": 200011,
-      "PosX": -75.33064,
-      "PosY": 8.79782,
-      "PosZ": -90.41803
-    },
-    {
-      "NPCMonsterID": 2022110,
-      "AIConfig": {
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 1,
-        "ID": 1
-      },
-      "EventID": 20223117,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster12",
-      "RotY": 70.0,
-      "ID": 200012,
-      "PosX": -107.878,
-      "PosY": 10.44784,
-      "PosZ": -60.72321
-    }
-  ],
-  "PropList": [],
-  "DistrictList": [],
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -208,48 +251,5 @@
       "PosY": 11.34973,
       "PosZ": -90.4872
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -77.89774,
-      "PosY": -10.74839,
-      "PosZ": 59.2454
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -96.07859,
-      "PosY": 1.628178,
-      "PosZ": -37.51757
-    },
-    {
-      "WaypointIDList": [
-        5,
-        6,
-        7,
-        6
-      ],
-      "Name": "Pathway3",
-      "ID": 3,
-      "PosX": -74.12638,
-      "PosY": 8.615856,
-      "PosZ": -88.8614
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

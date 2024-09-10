@@ -1,110 +1,110 @@
 {
-  "GroupName": "MainMission1010902_",
-  "Category": "Mission",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -4.24,
+      "PosY": 20.27129,
+      "PosZ": -16.47,
+      "RotY": 177.7257
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20123_F20123001_G21",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission1010902_",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 101090215
+        "ID": 101090215,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090222
+        "ID": 101090222,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090216
+        "ID": 101090216,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090217
+        "ID": 101090217,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090218
+        "ID": 101090218,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090231
+        "ID": 101090231,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090227
+        "ID": 101090227,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090232
+        "ID": 101090232,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090219
+        "ID": 101090219,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090221
+        "ID": 101090221,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 101090233
+        "ID": 101090233,
+        "Type": "SubMission"
       }
     ],
-    "Operation": "Or",
-    "DelayToLevelReload": true
+    "DelayToLevelReload": true,
+    "Operation": "Or"
   },
-  "OwnerMainMissionID": 1010902,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 177.7257,
-      "ID": 1,
-      "PosX": -4.24,
-      "PosY": 20.27129,
-      "PosZ": -16.47
-    }
-  ],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 2104,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        101070124
-      ],
-      "ServerInteractVerificationIDList": [],
       "BoardShowList": [
         4
       ],
-      "OverrideNPCName": {
-        "hash": -1386130853
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 200080000,
-      "BornType": "Mission",
+      "DialogueGroups": [
+        101070124
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
+      "LoadOnInitial": true,
+      "NPCID": 2104,
       "Name": "NPC1",
-      "RotY": 307.7,
-      "ID": 400001,
+      "OverrideNPCName": {
+        "Hash": -1386130853
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": -4.09,
       "PosY": 20.1175,
-      "PosZ": -18.45
+      "PosZ": -18.45,
+      "RotY": 307.7,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "OwnerMainMissionID": 1010902,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

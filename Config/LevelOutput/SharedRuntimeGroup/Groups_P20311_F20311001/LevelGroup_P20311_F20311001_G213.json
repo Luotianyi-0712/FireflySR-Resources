@@ -1,110 +1,110 @@
 {
-  "GroupName": "MainMission4240302_NPC",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F20311001/Group_F20311001_G213.json",
-  "AreaAnchorName": "LevelArea_P20311_F20311001_G213",
-  "SaveType": "Reset",
-  "OwnerMainMissionID": 4240302,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "RotX": 10.96964,
-      "RotZ": 0.204232,
-      "Usage": "Camera",
       "CustomParameter": {
         "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
       },
-      "Name": "Anchor1",
-      "RotY": 310.7942,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 132.074,
       "PosY": 23.094,
-      "PosZ": -179.444
+      "PosZ": -179.444,
+      "RotX": 10.96964,
+      "RotY": 310.7942,
+      "RotZ": 0.204232,
+      "Usage": "Camera"
     },
     {
-      "RotX": 358.0203,
-      "RotZ": 359.2128,
-      "Usage": "Camera",
       "CustomParameter": {
         "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
       },
-      "Name": "Anchor2",
-      "RotY": 294.6127,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 131.899,
       "PosY": 22.921,
-      "PosZ": -178.979
+      "PosZ": -178.979,
+      "RotX": 358.0203,
+      "RotY": 294.6127,
+      "RotZ": 359.2128,
+      "Usage": "Camera"
     },
     {
-      "Name": "Anchor3",
       "ID": 3,
+      "Name": "Anchor3",
       "PosX": 131.1,
       "PosY": 22.09001,
       "PosZ": -178.651
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P20311_F20311001_G213",
   "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission4240302_NPC",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F20311001/Group_F20311001_G213.json",
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 13312,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1,
         128,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100040000,
-      "BornType": "Mission",
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
+      "LoadOnInitial": true,
+      "NPCID": 13312,
+      "Name": "NPC1",
       "OverrideBehaviorType": "DreamlandActor",
-      "CameraCenterEntityList": [],
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 131.1,
+      "PosY": 22.09001,
+      "PosZ": -178.651,
+      "RotY": 225.1017,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
-        "TryCapture": true,
         "CaptureDistanceTolerance": 1.5,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
+      "TalkDialogGroupIDList": [],
       "TriggerValidGuest": {
         "LocalPlayer": true,
         "Teammember": true
       },
-      "Name": "NPC1",
-      "RotY": 225.1017,
-      "ID": 400001,
-      "PosX": 131.1,
-      "PosY": 22.09001,
-      "PosZ": -178.651
+      "ValueSource": {}
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 4240302,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

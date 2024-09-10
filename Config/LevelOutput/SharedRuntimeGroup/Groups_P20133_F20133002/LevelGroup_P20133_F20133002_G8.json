@@ -1,103 +1,15 @@
 {
-  "GroupName": "Sound",
-  "AreaAnchorName": "LevelArea_P20133_F20133002_G8",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Maze/Chapter01/Maze20133/Maze_Chap01_M303_LancerSound.json",
-      "Trigger": {
-        "Radius": 10.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "ID": 300001,
-      "PosX": -148.014,
-      "PosY": 0.034,
-      "PosZ": 242.043
-    }
-  ],
+  "AreaAnchorName": "LevelArea_P20133_F20133002_G8",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "Trigger": {
-        "Radius": 300.0,
-        "DimX": 500.0,
-        "DimY": 10.0,
-        "DimZ": 500.0,
-        "PointList": []
-      },
+      "ID": 1,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "命途空间",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_3",
@@ -106,146 +18,234 @@
       ],
       "OnEnterRTPC": [
         {
-          "RTPCName": "RTPC_Wind_Type",
-          "RTPCValue": 50.0,
           "IsRandom": true,
-          "RandomFrequncy": 5.0,
-          "RTPCRangeMin": 40.0,
-          "RTPCRangeMax": 60.0
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 60,
+          "RTPCRangeMin": 40,
+          "RTPCValue": 50,
+          "RandomFrequncy": 5
         },
         {
-          "RTPCName": "RTPC_Wind_Strength",
-          "RTPCValue": 50.0,
           "IsRandom": true,
-          "RandomFrequncy": 5.0,
-          "RTPCRangeMin": 10.0,
-          "RTPCRangeMax": 60.0
+          "RTPCName": "RTPC_Wind_Strength",
+          "RTPCRangeMax": 60,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 50,
+          "RandomFrequncy": 5
         },
         {
           "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 9.0,
-          "RandomFrequncy": 5.0
+          "RTPCValue": 9,
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "命途空间",
-      "ID": 1,
       "PosX": -102.7,
-      "PosZ": 179.3
-    },
-    {
+      "PosZ": 179.3,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 200.0,
-        "DimX": 10.0,
-        "DimY": 100.0,
-        "DimZ": 100.0,
-        "PointList": []
-      },
+        "DimX": 500,
+        "DimY": 10,
+        "DimZ": 500,
+        "PointList": [],
+        "Radius": 300
+      }
+    },
+    {
+      "ID": 2,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "旋转中心",
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_common_destinylight",
         "StopEventName": "Ev_sfx_common_destinylight_stop",
         "TransformList": [
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": -164.6,
-              "y": 2.1,
-              "z": 241.5,
+              "magnitude": 292.2667,
               "normalized": {
-                "x": -0.563184261,
-                "y": 0.007185218,
-                "z": 0.8263001,
+                "magnitude": 0.99999994,
                 "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
                   "x": -0.5631843,
                   "y": 0.00718521839,
-                  "z": 0.826300144,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
+                  "z": 0.826300144
                 },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
+                "sqrMagnitude": 0.99999994,
+                "x": -0.563184261,
+                "y": 0.007185218,
+                "z": 0.8263001
               },
-              "magnitude": 292.2667,
-              "sqrMagnitude": 85419.82
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 85419.82,
+              "x": -164.6,
+              "y": 2.1,
+              "z": 241.5
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           },
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": -126.17,
-              "y": -0.82,
-              "z": 242.3,
+              "magnitude": 273.1828,
               "normalized": {
-                "x": -0.461851925,
-                "y": -0.00300165312,
-                "z": 0.8869519,
+                "magnitude": 0.99999994,
                 "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
                   "x": -0.461851954,
                   "y": -0.00300165336,
-                  "z": 0.886952,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.0
+                  "z": 0.886952
                 },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
+                "sqrMagnitude": 0.99999994,
+                "x": -0.461851925,
+                "y": -0.00300165312,
+                "z": 0.8869519
               },
-              "magnitude": 273.1828,
-              "sqrMagnitude": 74628.8359
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 74628.8359,
+              "x": -126.17,
+              "y": -0.82,
+              "z": 242.3
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           }
         ]
       },
-      "NPCCrowdRadius": 25.0,
-      "Name": "旋转中心",
-      "ID": 2,
-      "PosX": -161.0,
-      "PosZ": 242.3
+      "PosX": -161,
+      "PosZ": 242.3,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 10,
+        "DimY": 100,
+        "DimZ": 100,
+        "PointList": [],
+        "Radius": 200
+      }
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Maze/Chapter01/Maze20133/Maze_Chap01_M303_LancerSound.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -148.014,
+      "PosY": 0.034,
+      "PosZ": 242.043,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 10
+      }
+    }
+  ],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

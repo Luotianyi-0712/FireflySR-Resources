@@ -1,58 +1,58 @@
 {
-  "GroupName": "Default",
-  "AreaAnchorName": "LevelArea_P44201_F44201001_G1",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 90.0,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": -193.5252,
       "PosY": 15.70887,
-      "PosZ": 4.448945
+      "PosZ": 4.448945,
+      "RotY": 90
     },
     {
-      "Name": "Anchor2",
-      "RotY": 90.0,
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": -60.76793,
       "PosY": 1.619322,
-      "PosZ": 4.518696
+      "PosZ": 4.518696,
+      "RotY": 90
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P44201_F44201001_G1",
   "BattleAreaList": [
     {
       "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Day.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "ID": 1
+      "Tags": [
+        "BattleArea01"
+      ]
     },
     {
       "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
-      "Tags": [
-        "BattleArea02"
-      ],
-      "PropsGroupID": 81,
+      "ID": 2,
+      "Name": "BattleArea2",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea2",
-      "ID": 2
+      "PropsGroupID": 81,
+      "Tags": [
+        "BattleArea02"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Default",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

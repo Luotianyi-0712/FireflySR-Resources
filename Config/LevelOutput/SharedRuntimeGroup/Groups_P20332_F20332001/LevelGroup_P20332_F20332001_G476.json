@@ -1,452 +1,454 @@
 {
-  "GroupName": "MainMission8023105_OrigamiBird_Chasing",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F20332001/Group_F20332001_G476.json",
-  "AreaAnchorName": "LevelArea_P20332_F20332001_G476",
-  "SaveType": "Permanent",
-  "IsPendedUnload": true,
-  "LoadSide": "Server",
-  "OwnerMainMissionID": 8023105,
-  "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "Talk_802310502",
-        "Key": "MissionStr"
-      },
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "E",
-        "Key": "TriggerPerformanceType"
-      },
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "802310509",
-        "Key": "TriggerPerformance"
-      }
-    ],
-    "SharedValues": [
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "Talk_802310502",
-        "Key": "MissionStr"
-      },
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "E",
-        "Key": "TriggerPerformanceType"
-      },
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "802310509",
-        "Key": "TriggerPerformance"
-      }
-    ]
-  },
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P20332_F20332001_G476",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission8023105_OrigamiBird_Chasing",
+  "IsHoyoGroup": true,
+  "IsPendedUnload": true,
+  "LevelGraph": "Config/Level/GroupGraph/F20332001/Group_F20332001_G476.json",
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        2,
+        4,
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "CampID": 1,
+      "DefaultIdleFreeStyleMotionID": 900090266,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsClientOnly": true,
+      "LoadOnInitial": true,
+      "NPCID": 3026,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 152.889,
+      "PosY": 7.125816,
+      "PosZ": -391.943,
+      "RotY": 181.6368,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "StaticNPC": true,
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {
+        "SharedValues": [],
+        "Values": []
+      }
+    }
+  ],
+  "OwnerMainMissionID": 8023105,
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "RotX": 354.7651,
-      "RotZ": 3.108073,
-      "Scale": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.8660254,
-        "sqrMagnitude": 0.75
-      },
-      "PropID": 103250,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Key": "DefaultIsOverrideButton"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Key": "DefaultIsOverrideButton"
-          }
-        ]
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "State": "EventClose",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
-          "Radius": 5.0,
-          "DimX": 2.0,
-          "DimY": 2.0,
-          "DimZ": 2.0,
+          "DimX": 2,
+          "DimY": 2,
+          "DimZ": 2,
           "Offset": {
-            "y": -2.0,
+            "magnitude": 2,
             "normalized": {
-              "y": -1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": -1
             },
-            "magnitude": 2.0,
-            "sqrMagnitude": 4.0
+            "sqrMagnitude": 4,
+            "y": -2
           },
-          "PointList": []
+          "PointList": [],
+          "Radius": 5
         }
       },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop1",
-      "RotY": 297.3176,
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": 139.9434,
       "PosY": 8.2816,
-      "PosZ": -395.4258
-    },
-    {
+      "PosZ": -395.4258,
+      "PropID": 103250,
+      "RotX": 354.7651,
+      "RotY": 297.3176,
+      "RotZ": 3.108073,
       "Scale": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5,
+        "magnitude": 0.8660254,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 0.8660254,
-        "sqrMagnitude": 0.75
+        "sqrMagnitude": 0.75,
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
       },
-      "PropID": 103250,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "State": "EventClose",
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
+        "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
           },
           {
             "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
             "Key": "DefaultIsOverrideButton"
           }
         ],
-        "SharedValues": [
+        "Values": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
           },
           {
             "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
             "Key": "DefaultIsOverrideButton"
           }
         ]
-      },
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
-          "Radius": 5.0,
-          "DimX": 2.0,
-          "DimY": 2.0,
-          "DimZ": 2.0,
+          "DimX": 2,
+          "DimY": 2,
+          "DimZ": 2,
           "Offset": {
-            "y": -2.0,
+            "magnitude": 2,
             "normalized": {
-              "y": -1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": -1
             },
-            "magnitude": 2.0,
-            "sqrMagnitude": 4.0
+            "sqrMagnitude": 4,
+            "y": -2
           },
-          "PointList": []
+          "PointList": [],
+          "Radius": 5
         }
       },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop2",
-      "RotY": 161.8419,
-      "ID": 300002,
+      "OverrideSoundRange": -1,
       "PosX": 150.7378,
       "PosY": 8.2633,
-      "PosZ": -409.1588
-    },
-    {
-      "RotX": 8.855026,
-      "RotZ": 146.7991,
+      "PosZ": -409.1588,
+      "PropID": 103250,
+      "RotY": 161.8419,
       "Scale": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5,
+        "magnitude": 0.8660254,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 0.8660254,
-        "sqrMagnitude": 0.75
+        "sqrMagnitude": 0.75,
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
       },
-      "PropID": 103250,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TalkDialogGroupIDList": [],
       "ValueSource": {
-        "Values": [
+        "SharedValues": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
           },
           {
             "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
             "Key": "DefaultIsOverrideButton"
           }
         ],
-        "SharedValues": [
+        "Values": [
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut",
-            "Key": "OverrideButtonText"
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
           },
           {
             "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png",
-            "Key": "OverrideButtonIcon"
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
           },
           {
             "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
             "Key": "DefaultIsOverrideButton"
           }
         ]
-      },
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
-          "Radius": 5.0,
-          "DimX": 2.0,
-          "DimY": 2.0,
-          "DimZ": 2.0,
+          "DimX": 2,
+          "DimY": 2,
+          "DimZ": 2,
           "Offset": {
-            "y": -2.0,
+            "magnitude": 2,
             "normalized": {
-              "y": -1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": -1
             },
-            "magnitude": 2.0,
-            "sqrMagnitude": 4.0
+            "sqrMagnitude": 4,
+            "y": -2
           },
-          "PointList": []
+          "PointList": [],
+          "Radius": 5
         }
       },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_OrigamiBird_05.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
+      "OverrideSoundRange": -1,
+      "PosX": 153.1282,
+      "PosY": 8.6674,
+      "PosZ": -391.5252,
+      "PropID": 103250,
+      "RotX": 8.855026,
+      "RotY": 32.53178,
+      "RotZ": 146.7991,
+      "Scale": {
+        "magnitude": 0.8660254,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 0.75,
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
       },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop3",
-      "RotY": 32.53178,
-      "ID": 300003,
-      "PosX": 153.1282,
-      "PosY": 8.6674,
-      "PosZ": -391.5252
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "DefaultIsOverrideButton"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OverrideButtonText",
+            "Value": "MazeText_Maze_OrigamiBird_Normal_PullOut"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "OverrideButtonIcon",
+            "Value": "SpriteOutput/TalkIcon/PickUpIcon.png"
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "DefaultIsOverrideButton"
+          }
+        ]
+      }
     },
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 211,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {
-        "Values": [],
-        "SharedValues": []
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "State": "Open",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
-        "MissionTrigger": {
-          "Radius": 3.0,
-          "PointList": []
-        },
         "InteractTrigger": {
-          "Radius": 15.0,
-          "PointList": []
+          "PointList": [],
+          "Radius": 15
+        },
+        "MissionTrigger": {
+          "PointList": [],
+          "Radius": 3
         }
       },
-      "BridgeStateRotations": [],
-      "MappingInfoID": 10055,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300004,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 10055,
+      "Name": "Prop4",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": 158,
       "OverrideMapStateIcons": [
         {
@@ -454,92 +456,90 @@
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop4",
-      "RotY": 3.479768,
-      "ID": 300004,
+      "OverrideSoundRange": -1,
       "PosX": 153.167,
       "PosY": 6.400031,
-      "PosZ": -391.671
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 3026,
-      "LoadOnInitial": true,
-      "ValueSource": {
-        "Values": [],
-        "SharedValues": []
+      "PosZ": -391.671,
+      "PropID": 211,
+      "RotY": 3.479768,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "CampID": 1,
-      "StaticNPC": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        2,
-        4,
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultIdleFreeStyleMotionID": 900090266,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
       "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "IsClientOnly": true,
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "Name": "NPC1",
-      "RotY": 181.6368,
-      "ID": 400001,
-      "PosX": 152.889,
-      "PosY": 7.125816,
-      "PosZ": -391.943
+      "State": "Open",
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [],
+        "Values": []
+      }
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "MissionStr",
+        "Value": "Talk_802310502"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "TriggerPerformanceType",
+        "Value": "E"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "TriggerPerformance",
+        "Value": "802310509"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "MissionStr",
+        "Value": "Talk_802310502"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "TriggerPerformanceType",
+        "Value": "E"
+      },
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "TriggerPerformance",
+        "Value": "802310509"
+      }
+    ]
+  },
+  "WaypointList": []
 }

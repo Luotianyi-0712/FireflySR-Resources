@@ -1,110 +1,11 @@
 {
-  "FloorID": 43103001,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P43103_F43103001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G2.json",
-      "Name": "DefaultData",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G3.json",
-      "Name": "Sound",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G4.json",
-      "Name": "MainMission_Prop",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G5.json",
-      "Name": "NPC_avatar_test",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G6.json",
-      "Name": "MissionPropGroup",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G8.json",
-      "Name": "MonsterGroup",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G9.json",
-      "Name": "New Group",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G10.json",
-      "Name": "New Group",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G13.json",
-      "Name": "MainMission8014102_Mission",
-      "ID": 13
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G14.json",
-      "Name": "NPC",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G15.json",
-      "Name": "New Group",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G17.json",
-      "Name": "BoxMan",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G18.json",
-      "Name": "BoxMan",
-      "ID": 18
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G19.json",
-      "Name": "BoxMan",
-      "ID": 19
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G20.json",
-      "Name": "BoxMan",
-      "ID": 20
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G21.json",
-      "Name": "MainMission_Prop",
-      "ID": 21
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G22.json",
-      "Name": "BoxManCamera",
-      "ID": 22
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -125,74 +26,75 @@
         16,
         17
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "FloorID": 43103001,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "LoadOnInitial": true,
+      "SaveType": "Reset",
       "SystemUnlockCondition": {
         "Operation": "And"
       }
     },
     "2": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "3": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
+      "GroupRefreshID": 1,
       "LoadOnInitial": true,
-      "GroupRefreshID": 1
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "5": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "6": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "8": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "9": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "10": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "13": {
       "Category": "Mission",
+      "ForceUnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 8014102,
+            "Phase": "Cancel"
+          }
+        ]
+      },
       "SaveType": "Reset",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Phase": "Finish",
-            "ID": 8014102
-          }
-        ]
-      },
-      "ForceUnloadCondition": {
-        "Conditions": [
-          {
-            "Phase": "Cancel",
-            "ID": 8014102
+            "ID": 8014102,
+            "Phase": "Finish"
           }
         ]
       }
@@ -204,34 +106,132 @@
       "SaveType": "Reset"
     },
     "17": {
-      "SaveType": "Reset",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Reset"
     },
     "18": {
-      "SaveType": "Reset",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Reset"
     },
     "19": {
-      "SaveType": "Reset",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Reset"
     },
     "20": {
-      "SaveType": "Reset",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Reset"
     },
     "21": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server"
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "22": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G2.json",
+      "ID": 2,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G3.json",
+      "ID": 3,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G4.json",
+      "ID": 4,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G5.json",
+      "ID": 5,
+      "Name": "NPC_avatar_test"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G6.json",
+      "ID": 6,
+      "Name": "MissionPropGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G8.json",
+      "ID": 8,
+      "Name": "MonsterGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G9.json",
+      "ID": 9,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G10.json",
+      "ID": 10,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G13.json",
+      "ID": 13,
+      "Name": "MainMission8014102_Mission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G14.json",
+      "ID": 14,
+      "Name": "NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G15.json",
+      "ID": 15,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G17.json",
+      "ID": 17,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G18.json",
+      "ID": 18,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G19.json",
+      "ID": 19,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G20.json",
+      "ID": 20,
+      "Name": "BoxMan"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G21.json",
+      "ID": 21,
+      "Name": "MainMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43103_F43103001/LevelGroup_P43103_F43103001_G22.json",
+      "ID": 22,
+      "Name": "BoxManCamera"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P43103_F43103001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

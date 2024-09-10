@@ -1,57 +1,8 @@
 {
-  "FloorID": 43202002,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_ADV_X01_Starskiff_StageData/Chap02_ADV_X01_Starskiff_StageData.stage",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10201_F10201001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G2.json",
-      "Name": "Sound",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G4.json",
-      "Name": "MainMission2021002_01",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G3.json",
-      "Name": "Gameplay_CallPuppy_ForSpecialVision",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G5.json",
-      "Name": "MainMission2021002_03",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G6.json",
-      "Name": "MainMission2021002_04",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G7.json",
-      "Name": "MainMission2021002_05",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G8.json",
-      "Name": "MainMission2021002_05",
-      "ID": 8
-    }
-  ],
   "DimensionList": [
     {
       "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X01_Starskiff_Day.enviroProfile.asset",
-      "IsExclusiveSaveMapSection": true,
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -62,18 +13,34 @@
         6,
         7
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 43202002,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "3": {
       "SaveType": "Reset",
-      "LoadOnInitial": true
+      "UnloadCondition": {
+        "Conditions": [
+          {
+            "ID": 202100209,
+            "Phase": "Finish",
+            "Type": "SubMission"
+          }
+        ]
+      }
     },
     "4": {
       "Category": "Mission",
@@ -81,21 +48,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 202100208,
             "Phase": "Finish",
-            "ID": 202100208
-          }
-        ]
-      }
-    },
-    "3": {
-      "SaveType": "Reset",
-      "UnloadCondition": {
-        "Conditions": [
-          {
-            "Type": "SubMission",
-            "Phase": "Finish",
-            "ID": 202100209
+            "Type": "SubMission"
           }
         ]
       }
@@ -106,9 +61,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 202100210,
             "Phase": "Finish",
-            "ID": 202100210
+            "Type": "SubMission"
           }
         ]
       }
@@ -119,9 +74,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 202100249,
             "Phase": "Finish",
-            "ID": 202100249
+            "Type": "SubMission"
           }
         ]
       }
@@ -136,16 +91,61 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 202100209,
             "Phase": "Finish",
-            "ID": 202100209
+            "Type": "SubMission"
           }
         ]
       }
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G4.json",
+      "ID": 4,
+      "Name": "MainMission2021002_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G3.json",
+      "ID": 3,
+      "Name": "Gameplay_CallPuppy_ForSpecialVision"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G5.json",
+      "ID": 5,
+      "Name": "MainMission2021002_03"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G6.json",
+      "ID": 6,
+      "Name": "MainMission2021002_04"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G7.json",
+      "ID": 7,
+      "Name": "MainMission2021002_05"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P43202_F43202002/LevelGroup_P43202_F43202002_G8.json",
+      "ID": 8,
+      "Name": "MainMission2021002_05"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P10201_F10201001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_ADV_X01_Starskiff_StageData/Chap02_ADV_X01_Starskiff_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

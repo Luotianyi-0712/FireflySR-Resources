@@ -1,2068 +1,2068 @@
 {
-  "GroupName": "Crowd_Plan1",
-  "Category": "Atmosphere",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -13.506,
+      "PosY": 5.433091,
+      "PosZ": 83.311,
+      "RotY": 350.549
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -11.58175,
+      "PosY": 5.52344,
+      "PosZ": 78.96944,
+      "RotY": 88.39572
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20136_F20136001_G18",
-  "SaveType": "Reset",
   "AtmosphereCondition": {
     "Conditions": [
       {
         "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition, RPG.GameCore.Config",
-        "SavedValueName": "CrowdPlane",
-        "Operation": "Equal"
+        "Operation": "Equal",
+        "SavedValueName": "CrowdPlane"
       }
     ],
     "Operation": "And"
   },
-  "IsPendedLoad": true,
-  "IsPendedUnload": true,
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 350.549,
-      "ID": 1,
-      "PosX": -13.506,
-      "PosY": 5.433091,
-      "PosZ": 83.311
-    },
-    {
-      "Name": "Anchor2",
-      "RotY": 88.39572,
-      "ID": 2,
-      "PosX": -11.58175,
-      "PosY": 5.52344,
-      "PosZ": 78.96944
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20136001/LG_Prop_F20136001_G18_300001.json",
-      "ValueSource": {},
-      "Trigger": {
-        "Radius": 3.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop1",
-      "ID": 300001,
-      "PosX": -14.6055,
-      "PosY": 5.514296,
-      "PosZ": 85.22
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0002.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0002",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400006
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0002.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0002",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400006
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop2",
-      "ID": 300002,
-      "PosX": -18.34,
-      "PosY": 10.79894,
-      "PosZ": 56.04
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0003.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0003",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400002
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0003.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0003",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400002
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop3",
-      "ID": 300003,
-      "PosX": 9.56,
-      "PosY": 10.85662,
-      "PosZ": 55.41
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0004.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0004",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400008
-              },
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "2",
-                "GroupInstanceID": 400004
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0004.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0004",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400008
-              },
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "2",
-                "GroupInstanceID": 400004
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop4",
-      "ID": 300004,
-      "PosX": 5.91,
-      "PosY": 10.79837,
-      "PosZ": 69.44
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "414010115",
-            "Key": "PlayPerformanceE"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "414010115",
-            "Key": "PlayPerformanceE"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 2.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop5",
-      "ID": 300005,
-      "PosX": 5.83,
-      "PosY": 10.80253,
-      "PosZ": 69.43
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0005.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0005",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400009
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0005.json",
-            "Key": "PlayMunicipalChatPath"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MunicipalChatConfig_F20136001_0005",
-            "Key": "PlayMunicipalChatName"
-          },
-          {
-            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
-            "Value": [
-              {
-                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
-                "UniqueName": "1",
-                "GroupInstanceID": 400009
-              }
-            ],
-            "Key": "PlayMunicipalChatCharacterList"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.5,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop6",
-      "ID": 300006,
-      "PosX": 13.1,
-      "PosY": 10.79382,
-      "PosZ": 61.76
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "ValueSource": {},
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop8",
-      "ID": 300008,
-      "PosX": 3.57,
-      "PosY": 11.44,
-      "PosZ": 93.33
-    },
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20136001/LG_Prop_F20136001_G18_300009.json",
-      "ValueSource": {},
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 10.0,
-        "DimX": 20.0,
-        "DimY": 10.0,
-        "DimZ": 5.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Prop9",
-      "ID": 300009,
-      "PosX": 2.23,
-      "PosY": 9.6,
-      "PosZ": 78.97
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AudienceList": [],
   "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 2107,
-      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200090000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC1",
-      "RotY": 26.29687,
-      "ID": 400001,
-      "PosX": 8.73,
-      "PosY": 10.79383,
-      "PosZ": 54.98
-    },
-    {
-      "NPCID": 11311,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100040231,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC2",
-      "RotY": 335.29,
-      "ID": 400002,
-      "PosX": 10.71,
-      "PosY": 10.79383,
-      "PosZ": 55.74
-    },
-    {
-      "NPCID": 2205,
-      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200250000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC3",
-      "RotY": 181.056,
-      "ID": 400003,
-      "PosX": 5.99,
-      "PosY": 10.79383,
-      "PosZ": 70.63
-    },
-    {
-      "NPCID": 12214,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100020222,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC4",
-      "RotY": 93.75413,
-      "ID": 400004,
-      "PosX": 5.612,
-      "PosY": 10.79383,
-      "PosZ": 69.208
-    },
-    {
-      "NPCID": 2901,
-      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200640000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC5",
-      "RotY": 112.7345,
-      "ID": 400005,
-      "PosX": -19.38,
-      "PosY": 10.8367,
-      "PosZ": 56.47
-    },
-    {
-      "NPCID": 10406,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100030236,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC6",
-      "RotY": 299.2961,
-      "ID": 400006,
-      "PosX": -17.57,
-      "PosY": 10.79491,
-      "PosZ": 55.35
-    },
-    {
-      "NPCID": 11314,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100040328,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC7",
-      "RotY": 315.8142,
-      "ID": 400007,
-      "PosX": 6.444,
-      "PosY": 10.79383,
-      "PosZ": 69.799
-    },
-    {
-      "NPCID": 11306,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100040327,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC8",
-      "RotY": 286.3297,
-      "ID": 400008,
-      "PosX": 6.494,
-      "PosY": 10.79383,
-      "PosZ": 68.886
-    },
-    {
-      "NPCID": 2213,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200520000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC9",
-      "RotY": 241.2874,
-      "ID": 400009,
-      "PosX": 13.16,
-      "PosY": 10.79382,
-      "PosZ": 61.8
-    },
-    {
-      "NPCID": 2213,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 200520000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC10",
-      "RotY": 174.9761,
-      "ID": 400010,
-      "PosX": -14.60598,
-      "PosY": 5.514296,
-      "PosZ": 84.25401
-    }
-  ],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
   "CrowdList": [
     {
+      "CenterPos": {
+        "magnitude": 0.9060994,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1.00000012,
+            "x": 0.9830401,
+            "y": 0.006893284,
+            "z": 0.183261365
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.983040035,
+          "y": 0.00689328369,
+          "z": 0.18326135
+        },
+        "sqrMagnitude": 0.821016133,
+        "x": 0.890732,
+        "y": 0.006246,
+        "z": 0.166053
+      },
+      "ID": 1,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_OldMale",
           "AssemNPCID": "W1_DownTown_Folks_OldMale_Old_01",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100030000,
           "DefaultState": "Sit01",
-          "UniqueName": "18_1_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_1_03",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_OldMale",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": -0.551,
-            "y": 0.019456,
-            "z": -0.216999,
+            "magnitude": 0.59251,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": -0.929942131,
               "y": 0.0328365751,
-              "z": -0.366236866,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": -0.366236866
             },
-            "magnitude": 0.59251,
-            "sqrMagnitude": 0.3510681
+            "sqrMagnitude": 0.3510681,
+            "x": -0.551,
+            "y": 0.019456,
+            "z": -0.216999
           },
           "LocalRotationY": 88.11843,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100030000
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_1_03",
+          "UniqueName": "18_1_01"
         },
         {
-          "Identity": "UpTown_Nobles",
-          "FeatureID": "UpTown_Nobles_ChildBoy",
           "AssemNPCID": "W1_UpTown_Nobles_ChildBoy_Child_01",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040209,
           "DefaultState": "SitChatting01Loop",
-          "UniqueName": "18_1_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_1_03",
-          "LookAtPosition": {},
+          "FeatureID": "UpTown_Nobles_ChildBoy",
+          "Identity": "UpTown_Nobles",
           "LocalPosition": {
-            "x": 1.755,
-            "y": -0.0029,
-            "z": 0.844002,
+            "magnitude": 1.94740152,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": 0.9012009,
               "y": -0.00148916384,
-              "z": 0.433399081,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": 0.433399081
             },
-            "magnitude": 1.94740152,
-            "sqrMagnitude": 3.7923727
+            "sqrMagnitude": 3.7923727,
+            "x": 1.755,
+            "y": -0.0029,
+            "z": 0.844002
           },
           "LocalRotationY": 216.8328,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040209
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_1_03",
+          "UniqueName": "18_1_02"
         },
         {
-          "Identity": "UpTown_Nobles",
-          "FeatureID": "UpTown_Nobles_ChildGirl",
           "AssemNPCID": "W1_UpTown_Nobles_ChildGirl_Child_01",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040329,
           "DefaultState": "Exciting02Loop",
-          "UniqueName": "18_1_03",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_1_01",
-          "LookAtPosition": {},
+          "FeatureID": "UpTown_Nobles_ChildGirl",
+          "Identity": "UpTown_Nobles",
           "LocalPosition": {
-            "x": 1.468196,
-            "y": 0.002183,
-            "z": -0.128845,
+            "magnitude": 1.47384036,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": 0.996170342,
               "y": 0.0014811646,
-              "z": -0.0874212757,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": -0.0874212757
             },
-            "magnitude": 1.47384036,
-            "sqrMagnitude": 2.17220545
+            "sqrMagnitude": 2.17220545,
+            "x": 1.468196,
+            "y": 0.002183,
+            "z": -0.128845
           },
           "LocalRotationY": 247.7065,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040329
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_1_01",
+          "UniqueName": "18_1_03"
         }
       ],
+      "Name": "Crowd1",
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0006.json",
       "NewMunicipalChatCrowdInfos": [
         {
-          "UniqueName": "1",
-          "CrowdUniqueName": "18_1_01"
+          "CrowdUniqueName": "18_1_01",
+          "UniqueName": "1"
         },
         {
-          "UniqueName": "2",
-          "CrowdUniqueName": "18_1_02"
+          "CrowdUniqueName": "18_1_02",
+          "UniqueName": "2"
         },
         {
-          "UniqueName": "3",
-          "CrowdUniqueName": "18_1_03"
+          "CrowdUniqueName": "18_1_03",
+          "UniqueName": "3"
         }
       ],
-      "TriggerRudius": 3.0,
-      "CenterPos": {
-        "x": 0.890732,
-        "y": 0.006246,
-        "z": 0.166053,
-        "normalized": {
-          "x": 0.983040035,
-          "y": 0.00689328369,
-          "z": 0.18326135,
-          "normalized": {
-            "x": 0.9830401,
-            "y": 0.006893284,
-            "z": 0.183261365,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.9060994,
-        "sqrMagnitude": 0.821016133
-      },
-      "Name": "Crowd1",
-      "ID": 1,
       "PosX": -8.3,
       "PosY": 10.81427,
-      "PosZ": 48.30749
+      "PosZ": 48.30749,
+      "TriggerRudius": 3
     },
     {
+      "CenterPos": {
+        "magnitude": 0.415780336,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1.00000012,
+          "x": 0.930779934,
+          "z": 0.365580052
+        },
+        "sqrMagnitude": 0.172873288,
+        "x": 0.387,
+        "z": 0.152001
+      },
+      "ID": 2,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Lady",
           "AssemNPCID": "W1_DownTown_Folks_Lady_Lady_01",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020000,
           "DefaultState": "Sit01",
-          "UniqueName": "18_2_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_2_02",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Lady",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": -0.142,
-            "z": 0.028,
-            "normalized": {
-              "x": -0.981108546,
-              "z": 0.193458021,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
             "magnitude": 0.144734249,
-            "sqrMagnitude": 0.0209480021
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.981108546,
+              "z": 0.193458021
+            },
+            "sqrMagnitude": 0.0209480021,
+            "x": -0.142,
+            "z": 0.028
           },
           "LocalRotationY": 51.82928,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100020000
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_2_02",
+          "UniqueName": "18_2_01"
         },
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_ChildBoy",
           "AssemNPCID": "W1_DownTown_Folks_ChildBoy_Child_02",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040000,
           "DefaultState": "Sit01",
-          "UniqueName": "18_2_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_2_01",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_ChildBoy",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 0.916,
-            "z": 0.276001,
-            "normalized": {
-              "x": 0.9574801,
-              "z": 0.288499415,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
             "magnitude": 0.956677854,
-            "sqrMagnitude": 0.915232539
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.9574801,
+              "z": 0.288499415
+            },
+            "sqrMagnitude": 0.915232539,
+            "x": 0.916,
+            "z": 0.276001
           },
           "LocalRotationY": 261.6943,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040000
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_2_01",
+          "UniqueName": "18_2_02"
         }
       ],
+      "Name": "Crowd2",
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0007.json",
       "NewMunicipalChatCrowdInfos": [
         {
-          "UniqueName": "1",
-          "CrowdUniqueName": "18_2_01"
+          "CrowdUniqueName": "18_2_01",
+          "UniqueName": "1"
         },
         {
-          "UniqueName": "2",
-          "CrowdUniqueName": "18_2_02"
+          "CrowdUniqueName": "18_2_02",
+          "UniqueName": "2"
         }
       ],
-      "TriggerRudius": 3.0,
-      "CenterPos": {
-        "x": 0.387,
-        "z": 0.152001,
-        "normalized": {
-          "x": 0.930779934,
-          "z": 0.365580052,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 0.415780336,
-        "sqrMagnitude": 0.172873288
-      },
-      "Name": "Crowd2",
-      "ID": 2,
       "PosX": -1.312,
       "PosY": 5.491566,
-      "PosZ": 82.898
+      "PosZ": 82.898,
+      "TriggerRudius": 3
     },
     {
+      "CenterPos": {
+        "magnitude": 0.8380335,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.6467522,
+          "y": 0.0175040737,
+          "z": 0.762499332
+        },
+        "sqrMagnitude": 0.7023002,
+        "x": 0.542,
+        "y": 0.014669,
+        "z": 0.639
+      },
+      "ID": 3,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010298,
           "DefaultState": "Akimbo01Loop",
-          "UniqueName": "18_3_01",
-          "LookAtTarget": "18_3_02",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": -1.177,
-            "y": 0.044008,
-            "z": 1.982002,
+            "magnitude": 2.305558,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": -0.5105055,
               "y": 0.0190877877,
-              "z": 0.859662652,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": 0.859662652
             },
-            "magnitude": 2.305558,
-            "sqrMagnitude": 5.315598
+            "sqrMagnitude": 5.315598,
+            "x": -1.177,
+            "y": 0.044008,
+            "z": 1.982002
           },
           "LocalRotationY": 146.569,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010298
+          "LookAtPosition": {},
+          "LookAtTarget": "18_3_02",
+          "UniqueName": "18_3_01"
         },
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Lady",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020301,
           "DefaultState": "Think01Loop",
-          "UniqueName": "18_3_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_3_03",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Lady",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 1.096,
-            "z": -0.444,
-            "normalized": {
-              "x": 0.9268347,
-              "z": -0.375469565,
-              "normalized": {
-                "x": 0.926834762,
-                "z": -0.3754696,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
             "magnitude": 1.18251932,
-            "sqrMagnitude": 1.39835191
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.926834762,
+                "z": -0.3754696
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.9268347,
+              "z": -0.375469565
+            },
+            "sqrMagnitude": 1.39835191,
+            "x": 1.096,
+            "z": -0.444
           },
           "LocalRotationY": 35.18758,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100020301
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_3_03",
+          "UniqueName": "18_3_02"
         },
         {
-          "Identity": "UpTown_Nobles",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020298,
           "FeatureID": "UpTown_Nobles_Lady",
-          "UniqueName": "18_3_03",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_3_02",
-          "LookAtPosition": {},
+          "Identity": "UpTown_Nobles",
           "LocalPosition": {
-            "x": 1.707,
-            "z": 0.378998,
-            "normalized": {
-              "x": 0.976227641,
-              "z": 0.2167477,
-              "normalized": {
-                "x": 0.9762277,
-                "z": 0.216747716,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
             "magnitude": 1.74856758,
-            "sqrMagnitude": 3.05748868
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.9762277,
+                "z": 0.216747716
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.976227641,
+              "z": 0.2167477
+            },
+            "sqrMagnitude": 3.05748868,
+            "x": 1.707,
+            "z": 0.378998
           },
           "LocalRotationY": 284.6467,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100020298
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_3_02",
+          "UniqueName": "18_3_03"
         }
       ],
+      "Name": "Crowd3",
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0008.json",
       "NewMunicipalChatCrowdInfos": [
         {
-          "UniqueName": "1",
-          "CrowdUniqueName": "18_3_02"
+          "CrowdUniqueName": "18_3_02",
+          "UniqueName": "1"
         },
         {
-          "UniqueName": "2",
-          "CrowdUniqueName": "18_3_03"
+          "CrowdUniqueName": "18_3_03",
+          "UniqueName": "2"
         }
       ],
-      "TriggerRudius": 3.0,
-      "CenterPos": {
-        "x": 0.542,
-        "y": 0.014669,
-        "z": 0.639,
-        "normalized": {
-          "x": 0.6467522,
-          "y": 0.0175040737,
-          "z": 0.762499332,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.8380335,
-        "sqrMagnitude": 0.7023002
-      },
-      "Name": "Crowd3",
-      "ID": 3,
       "PosX": -11.23809,
       "PosY": 5.711037,
-      "PosZ": 72.67201
+      "PosZ": 72.67201,
+      "TriggerRudius": 3
     },
     {
+      "CenterPos": {
+        "magnitude": 0.892105162,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "x": 0.9752214,
+            "y": -0.00349062,
+            "z": 0.221203759
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.975221336,
+          "y": -0.00349061983,
+          "z": 0.221203744
+        },
+        "sqrMagnitude": 0.795851648,
+        "x": 0.87,
+        "y": -0.003114,
+        "z": 0.197337
+      },
+      "ID": 4,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_ChildGirl",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040228,
           "DefaultState": "Akimbo01Loop",
-          "UniqueName": "18_4_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_4_03",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_ChildGirl",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 1.060999,
-            "y": -0.006322,
-            "z": 0.879005,
+            "magnitude": 1.37782753,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": 0.770052135,
               "y": -0.004588383,
-              "z": 0.6379645,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": 0.6379645
             },
-            "magnitude": 1.37782753,
-            "sqrMagnitude": 1.89840865
+            "sqrMagnitude": 1.89840865,
+            "x": 1.060999,
+            "y": -0.006322,
+            "z": 0.879005
           },
           "LocalRotationY": 193.5107,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040228
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_4_03",
+          "UniqueName": "18_4_01"
         },
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_ChildBoy",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040328,
           "DefaultState": "Think01Loop",
-          "UniqueName": "18_4_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_4_03",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_ChildBoy",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 0.025,
-            "y": -0.003021,
-            "z": 0.049004,
+            "magnitude": 0.05509554,
             "normalized": {
-              "x": 0.453757256,
-              "y": -0.0548320264,
-              "z": 0.8894368,
+              "magnitude": 0.99999994,
               "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
                 "x": 0.4537573,
                 "y": -0.05483203,
-                "z": 0.889436841,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
+                "z": 0.889436841
               },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
+              "sqrMagnitude": 0.99999994,
+              "x": 0.453757256,
+              "y": -0.0548320264,
+              "z": 0.8894368
             },
-            "magnitude": 0.05509554,
-            "sqrMagnitude": 0.00303551834
+            "sqrMagnitude": 0.00303551834,
+            "x": 0.025,
+            "y": -0.003021,
+            "z": 0.049004
           },
           "LocalRotationY": 112.2506,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040328
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_4_03",
+          "UniqueName": "18_4_02"
         },
         {
-          "Identity": "UpTown_Nobles",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100040329,
           "FeatureID": "UpTown_Nobles_ChildBoy",
-          "UniqueName": "18_4_03",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_4_02",
-          "LookAtPosition": {},
+          "Identity": "UpTown_Nobles",
           "LocalPosition": {
-            "x": 1.524,
-            "z": -0.335999,
-            "normalized": {
-              "x": 0.9765477,
-              "z": -0.215301216,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
             "magnitude": 1.56059968,
-            "sqrMagnitude": 2.4354713
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": 0.9765477,
+              "z": -0.215301216
+            },
+            "sqrMagnitude": 2.4354713,
+            "x": 1.524,
+            "z": -0.335999
           },
           "LocalRotationY": 296.7843,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040329
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_4_02",
+          "UniqueName": "18_4_03"
         }
       ],
+      "Name": "Crowd4",
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0009.json",
       "NewMunicipalChatCrowdInfos": [
         {
-          "UniqueName": "1",
-          "CrowdUniqueName": "18_4_01"
+          "CrowdUniqueName": "18_4_01",
+          "UniqueName": "1"
         },
         {
-          "UniqueName": "2",
-          "CrowdUniqueName": "18_4_02"
+          "CrowdUniqueName": "18_4_02",
+          "UniqueName": "2"
         },
         {
-          "UniqueName": "3",
-          "CrowdUniqueName": "18_4_03"
+          "CrowdUniqueName": "18_4_03",
+          "UniqueName": "3"
         }
       ],
-      "TriggerRudius": 3.0,
-      "CenterPos": {
-        "x": 0.87,
-        "y": -0.003114,
-        "z": 0.197337,
-        "normalized": {
-          "x": 0.975221336,
-          "y": -0.00349061983,
-          "z": 0.221203744,
-          "normalized": {
-            "x": 0.9752214,
-            "y": -0.00349062,
-            "z": 0.221203759,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 0.892105162,
-        "sqrMagnitude": 0.795851648
-      },
-      "Name": "Crowd4",
-      "ID": 4,
       "PosX": -17.51534,
       "PosY": 5.720269,
-      "PosZ": 73.01649
+      "PosZ": 73.01649,
+      "TriggerRudius": 3
     },
     {
-      "MemberList": [
-        {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
-          "DefaultState": "LeanLoop",
-          "UniqueName": "18_5_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_5_02",
-          "LookAtPosition": {},
-          "LocalPosition": {
-            "x": -1.634,
-            "y": -0.078909,
-            "z": -0.347,
-            "normalized": {
-              "x": -0.9770967,
-              "y": -0.04718588,
-              "z": -0.2074985,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 1.67230117,
-            "sqrMagnitude": 2.79659128
-          },
-          "LocalRotationY": 94.5773,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010310
-        },
-        {
-          "Identity": "UpTown_Nobles",
-          "FeatureID": "UpTown_Nobles_Lady",
-          "DefaultState": "SpeechLoop",
-          "UniqueName": "18_5_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_5_01",
-          "LookAtPosition": {},
-          "LocalPosition": {
-            "x": -0.355,
-            "y": -0.009271,
-            "z": -0.173996,
-            "normalized": {
-              "x": -0.8976975,
-              "y": -0.0234438125,
-              "z": -0.4399881,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.395456135,
-            "sqrMagnitude": 0.156385556
-          },
-          "LocalRotationY": 274.0355,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100020227
-        }
-      ],
       "CenterPos": {
-        "x": -0.9945,
-        "y": -0.04409,
-        "z": -0.260498,
+        "magnitude": 1.02899623,
         "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1.00000012,
           "x": -0.966475844,
           "y": -0.04284758,
-          "z": -0.253157377,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
+          "z": -0.253157377
         },
-        "magnitude": 1.02899623,
-        "sqrMagnitude": 1.05883336
+        "sqrMagnitude": 1.05883336,
+        "x": -0.9945,
+        "y": -0.04409,
+        "z": -0.260498
       },
-      "Name": "Crowd5",
       "ID": 5,
+      "MemberList": [
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010310,
+          "DefaultState": "LeanLoop",
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
+          "LocalPosition": {
+            "magnitude": 1.67230117,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": -0.9770967,
+              "y": -0.04718588,
+              "z": -0.2074985
+            },
+            "sqrMagnitude": 2.79659128,
+            "x": -1.634,
+            "y": -0.078909,
+            "z": -0.347
+          },
+          "LocalRotationY": 94.5773,
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_5_02",
+          "UniqueName": "18_5_01"
+        },
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020227,
+          "DefaultState": "SpeechLoop",
+          "FeatureID": "UpTown_Nobles_Lady",
+          "Identity": "UpTown_Nobles",
+          "LocalPosition": {
+            "magnitude": 0.395456135,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": -0.8976975,
+              "y": -0.0234438125,
+              "z": -0.4399881
+            },
+            "sqrMagnitude": 0.156385556,
+            "x": -0.355,
+            "y": -0.009271,
+            "z": -0.173996
+          },
+          "LocalRotationY": 274.0355,
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_5_01",
+          "UniqueName": "18_5_02"
+        }
+      ],
+      "Name": "Crowd5",
       "PosX": 0.878212,
       "PosY": 5.53285,
       "PosZ": 71.598
     },
     {
+      "CenterPos": {
+        "magnitude": 0.5824737,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": -0.8498238,
+          "y": 0.06008855,
+          "z": 0.5236305
+        },
+        "sqrMagnitude": 0.3392756,
+        "x": -0.495,
+        "y": 0.035,
+        "z": 0.305001
+      },
+      "ID": 6,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010231,
           "DefaultState": "LeanLoop",
-          "UniqueName": "18_6_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_6_02",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": -1.116,
-            "y": 0.001,
-            "z": 0.435997,
+            "magnitude": 1.19814456,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
               "x": -0.931440234,
               "y": 0.0008346239,
-              "z": 0.3638935,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
+              "z": 0.3638935
             },
-            "magnitude": 1.19814456,
-            "sqrMagnitude": 1.43555045
+            "sqrMagnitude": 1.43555045,
+            "x": -1.116,
+            "y": 0.001,
+            "z": 0.435997
           },
           "LocalRotationY": 144.1217,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010231
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_6_02",
+          "UniqueName": "18_6_01"
         },
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010301,
           "DefaultState": "SpeechLoop",
-          "UniqueName": "18_6_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_6_01",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 0.126,
-            "y": 0.069,
-            "z": 0.174004,
+            "magnitude": 0.225642174,
             "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
               "x": 0.558406234,
               "y": 0.305793881,
-              "z": 0.7711502,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "z": 0.7711502
             },
-            "magnitude": 0.225642174,
-            "sqrMagnitude": 0.0509143919
+            "sqrMagnitude": 0.0509143919,
+            "x": 0.126,
+            "y": 0.069,
+            "z": 0.174004
           },
           "LocalRotationY": 270.2235,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010301
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_6_01",
+          "UniqueName": "18_6_02"
         }
       ],
+      "Name": "Crowd6",
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0010.json",
       "NewMunicipalChatCrowdInfos": [
         {
-          "UniqueName": "1",
-          "CrowdUniqueName": "18_6_01"
+          "CrowdUniqueName": "18_6_01",
+          "UniqueName": "1"
         },
         {
-          "UniqueName": "2",
-          "CrowdUniqueName": "18_6_02"
+          "CrowdUniqueName": "18_6_02",
+          "UniqueName": "2"
         }
       ],
-      "TriggerRudius": 3.0,
-      "CenterPos": {
-        "x": -0.495,
-        "y": 0.035,
-        "z": 0.305001,
-        "normalized": {
-          "x": -0.8498238,
-          "y": 0.06008855,
-          "z": 0.5236305,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 0.5824737,
-        "sqrMagnitude": 0.3392756
-      },
-      "Name": "Crowd6",
-      "ID": 6,
       "PosX": 9.99443,
       "PosY": 5.422784,
-      "PosZ": 75.47913
+      "PosZ": 75.47913,
+      "TriggerRudius": 3
     },
     {
-      "MemberList": [
-        {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Lady",
-          "DefaultState": "Sit01",
-          "UniqueName": "18_7_01",
-          "LookAtPosition": {},
-          "LocalPosition": {
-            "x": 1.384999,
-            "y": 0.036196,
-            "z": 1.193004,
-            "normalized": {
-              "x": 0.7575213,
-              "y": 0.0197973,
-              "z": 0.652510166,
-              "normalized": {
-                "x": 0.757521331,
-                "y": 0.0197973028,
-                "z": 0.6525102,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
-              },
-              "magnitude": 0.99999994,
-              "sqrMagnitude": 0.99999994
-            },
-            "magnitude": 1.82833016,
-            "sqrMagnitude": 3.342791
-          },
-          "LocalRotationY": 338.0583,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100020216
-        }
-      ],
       "CenterPos": {
-        "x": 1.384999,
-        "y": 0.036196,
-        "z": 1.193004,
+        "magnitude": 1.82833016,
         "normalized": {
-          "x": 0.7575213,
-          "y": 0.0197973,
-          "z": 0.652510166,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1.00000012,
             "x": 0.757521331,
             "y": 0.0197973028,
-            "z": 0.6525102,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.00000012
+            "z": 0.6525102
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.7575213,
+          "y": 0.0197973,
+          "z": 0.652510166
         },
-        "magnitude": 1.82833016,
-        "sqrMagnitude": 3.342791
+        "sqrMagnitude": 3.342791,
+        "x": 1.384999,
+        "y": 0.036196,
+        "z": 1.193004
       },
-      "Name": "Crowd7",
-      "RotY": 8.364988,
       "ID": 7,
+      "MemberList": [
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100020216,
+          "DefaultState": "Sit01",
+          "FeatureID": "DownTown_Folks_Lady",
+          "Identity": "DownTown_Folks",
+          "LocalPosition": {
+            "magnitude": 1.82833016,
+            "normalized": {
+              "magnitude": 0.99999994,
+              "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
+                "x": 0.757521331,
+                "y": 0.0197973028,
+                "z": 0.6525102
+              },
+              "sqrMagnitude": 0.99999994,
+              "x": 0.7575213,
+              "y": 0.0197973,
+              "z": 0.652510166
+            },
+            "sqrMagnitude": 3.342791,
+            "x": 1.384999,
+            "y": 0.036196,
+            "z": 1.193004
+          },
+          "LocalRotationY": 338.0583,
+          "LookAtPosition": {},
+          "UniqueName": "18_7_01"
+        }
+      ],
+      "Name": "Crowd7",
       "PosX": -20.79,
       "PosY": 10.79383,
-      "PosZ": 63.74
+      "PosZ": 63.74,
+      "RotY": 8.364988
     },
     {
+      "CenterPos": {
+        "magnitude": 1.38827467,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
+          "x": 0.7858675,
+          "y": -0.00000504223,
+          "z": 0.6183949
+        },
+        "sqrMagnitude": 1.92730653,
+        "x": 1.091,
+        "y": -0.000007,
+        "z": 0.858502
+      },
+      "ID": 8,
       "MemberList": [
         {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010231,
           "DefaultState": "Sit01",
-          "UniqueName": "18_8_01",
-          "LookAtMode": "LookCrowd",
-          "LookAtPosition": {},
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
           "LocalPosition": {
-            "x": 1.714,
-            "y": -7E-06,
-            "z": 1.001001,
-            "normalized": {
-              "x": 0.863522768,
-              "y": -3.52663915E-06,
-              "z": 0.5043099,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
             "magnitude": 1.98489261,
-            "sqrMagnitude": 3.93979883
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.863522768,
+              "y": -0.00000352663915,
+              "z": 0.5043099
+            },
+            "sqrMagnitude": 3.93979883,
+            "x": 1.714,
+            "y": -0.000007,
+            "z": 1.001001
           },
           "LocalRotationY": 320.5242,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010231
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "UniqueName": "18_8_01"
         },
         {
-          "Identity": "UpTown_Nobles",
-          "FeatureID": "UpTown_Nobles_Male",
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010228,
           "DefaultState": "Sit01",
-          "UniqueName": "18_8_02",
-          "LookAtMode": "LookCrowd",
-          "LookAtTarget": "18_8_01",
-          "LookAtPosition": {},
+          "FeatureID": "UpTown_Nobles_Male",
+          "Identity": "UpTown_Nobles",
           "LocalPosition": {
-            "x": 0.468,
-            "y": -7E-06,
-            "z": 0.716002,
-            "normalized": {
-              "x": 0.5471223,
-              "y": -8.183453E-06,
-              "z": 0.8370527,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
             "magnitude": 0.8553846,
-            "sqrMagnitude": 0.731682837
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.5471223,
+              "y": -0.000008183453,
+              "z": 0.8370527
+            },
+            "sqrMagnitude": 0.731682837,
+            "x": 0.468,
+            "y": -0.000007,
+            "z": 0.716002
           },
           "LocalRotationY": 31.64486,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010228
+          "LookAtMode": "LookCrowd",
+          "LookAtPosition": {},
+          "LookAtTarget": "18_8_01",
+          "UniqueName": "18_8_02"
         }
       ],
-      "CenterPos": {
-        "x": 1.091,
-        "y": -7E-06,
-        "z": 0.858502,
-        "normalized": {
-          "x": 0.7858675,
-          "y": -5.04223E-06,
-          "z": 0.6183949,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
-        },
-        "magnitude": 1.38827467,
-        "sqrMagnitude": 1.92730653
-      },
       "Name": "Crowd8",
-      "RotY": 8.364988,
-      "ID": 8,
       "PosX": -0.363,
       "PosY": 10.79383,
-      "PosZ": 63.744
+      "PosZ": 63.744,
+      "RotY": 8.364988
     },
     {
-      "MemberList": [
-        {
-          "Identity": "DownTown_Folks",
-          "FeatureID": "DownTown_Folks_Male",
-          "DefaultState": "Sit01",
-          "UniqueName": "18_9_01",
-          "LookAtPosition": {},
-          "LocalPosition": {
-            "x": 0.049997,
-            "y": 0.085677,
-            "z": 0.099999,
-            "normalized": {
-              "x": 0.354954422,
-              "y": 0.6082651,
-              "z": 0.709944367,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
-            },
-            "magnitude": 0.1408547,
-            "sqrMagnitude": 0.0198400486
-          },
-          "LocalRotationY": 265.7065,
-          "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010307
-        }
-      ],
       "CenterPos": {
-        "x": 0.049997,
-        "y": 0.085677,
-        "z": 0.099999,
+        "magnitude": 0.1408547,
         "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1,
           "x": 0.354954422,
           "y": 0.6082651,
-          "z": 0.709944367,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.0
+          "z": 0.709944367
         },
-        "magnitude": 0.1408547,
-        "sqrMagnitude": 0.0198400486
+        "sqrMagnitude": 0.0198400486,
+        "x": 0.049997,
+        "y": 0.085677,
+        "z": 0.099999
       },
-      "Name": "Crowd9",
-      "RotY": 147.7533,
       "ID": 9,
+      "MemberList": [
+        {
+          "DefaultAnimationType": "FreeStyle",
+          "DefaultIdleFreeStyleMotionID": 100010307,
+          "DefaultState": "Sit01",
+          "FeatureID": "DownTown_Folks_Male",
+          "Identity": "DownTown_Folks",
+          "LocalPosition": {
+            "magnitude": 0.1408547,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "x": 0.354954422,
+              "y": 0.6082651,
+              "z": 0.709944367
+            },
+            "sqrMagnitude": 0.0198400486,
+            "x": 0.049997,
+            "y": 0.085677,
+            "z": 0.099999
+          },
+          "LocalRotationY": 265.7065,
+          "LookAtPosition": {},
+          "UniqueName": "18_9_01"
+        }
+      ],
+      "Name": "Crowd9",
       "PosX": 15.353,
       "PosY": 10.79383,
-      "PosZ": 64.712
+      "PosZ": 64.712,
+      "RotY": 147.7533
     }
   ],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "Crowd_Plan1",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "IsPendedLoad": true,
+  "IsPendedUnload": true,
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200090000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
+      "LoadOnInitial": true,
+      "NPCID": 2107,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 8.73,
+      "PosY": 10.79383,
+      "PosZ": 54.98,
+      "RotY": 26.29687,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040231,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11311,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 10.71,
+      "PosY": 10.79383,
+      "PosZ": 55.74,
+      "RotY": 335.29,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200250000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400003,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
+      "LoadOnInitial": true,
+      "NPCID": 2205,
+      "Name": "NPC3",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 5.99,
+      "PosY": 10.79383,
+      "PosZ": 70.63,
+      "RotY": 181.056,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020222,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400004,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 12214,
+      "Name": "NPC4",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 5.612,
+      "PosY": 10.79383,
+      "PosZ": 69.208,
+      "RotY": 93.75413,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200640000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400005,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LevelGraph": "Config/Level/AetherDivide/Maze_AetherDivide_NPCMonster_Eff.json",
+      "LoadOnInitial": true,
+      "NPCID": 2901,
+      "Name": "NPC5",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": -19.38,
+      "PosY": 10.8367,
+      "PosZ": 56.47,
+      "RotY": 112.7345,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030236,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400006,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10406,
+      "Name": "NPC6",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": -17.57,
+      "PosY": 10.79491,
+      "PosZ": 55.35,
+      "RotY": 299.2961,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040328,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400007,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11314,
+      "Name": "NPC7",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 6.444,
+      "PosY": 10.79383,
+      "PosZ": 69.799,
+      "RotY": 315.8142,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100040327,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400008,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 11306,
+      "Name": "NPC8",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 6.494,
+      "PosY": 10.79383,
+      "PosZ": 68.886,
+      "RotY": 286.3297,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200520000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400009,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 2213,
+      "Name": "NPC9",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": 13.16,
+      "PosY": 10.79382,
+      "PosZ": 61.8,
+      "RotY": 241.2874,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 200520000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400010,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 2213,
+      "Name": "NPC10",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "PosX": -14.60598,
+      "PosY": 5.514296,
+      "PosZ": 84.25401,
+      "RotY": 174.9761,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    }
+  ],
+  "PathwayList": [],
   "PedestrianList": [],
   "PedestrianV2List": [],
-  "AudienceList": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20136001/LG_Prop_F20136001_G18_300001.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -14.6055,
+      "PosY": 5.514296,
+      "PosZ": 85.22,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3
+      },
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300002,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop2",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -18.34,
+      "PosY": 10.79894,
+      "PosZ": 56.04,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3.5
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0002.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400006,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0002.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0002"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400006,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300003,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop3",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 9.56,
+      "PosY": 10.85662,
+      "PosZ": 55.41,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3.5
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0003.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0003"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400002,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0003.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0003"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400002,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300004,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop4",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 5.91,
+      "PosY": 10.79837,
+      "PosZ": 69.44,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3.5
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0004.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0004"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400008,
+                "UniqueName": "1"
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400004,
+                "UniqueName": "2"
+              }
+            ]
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0004.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0004"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400008,
+                "UniqueName": "1"
+              },
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400004,
+                "UniqueName": "2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300005,
+      "InitLevelGraph": "Config/Level/CrowdBubble/Crowd_Conversation_Template.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop5",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 5.83,
+      "PosY": 10.80253,
+      "PosZ": 69.43,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 2
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayPerformanceE",
+            "Value": "414010115"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayPerformanceE",
+            "Value": "414010115"
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300006,
+      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop6",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 13.1,
+      "PosY": 10.79382,
+      "PosZ": 61.76,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3.5
+      },
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0005.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0005"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400009,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatPath",
+            "Value": "Config/Level/MunicipalChatConfig/F20136001/MunicipalChatConfig_F20136001_0005.json"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatName",
+            "Value": "MunicipalChatConfig_F20136001_0005"
+          },
+          {
+            "$type": "RPG.GameCore.SharedJsonConfigList, RPG.GameCore.Config",
+            "Key": "PlayMunicipalChatCharacterList",
+            "Value": [
+              {
+                "$type": "RPG.GameCore.MunicipalChatEntityInfo, RPG.GameCore.Config",
+                "GroupInstanceID": 400009,
+                "UniqueName": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300008,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop8",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 3.57,
+      "PosY": 11.44,
+      "PosZ": 93.33,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {}
+    },
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300009,
+      "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20136001/LG_Prop_F20136001_G18_300009.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop9",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": 2.23,
+      "PosY": 9.6,
+      "PosZ": 78.97,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 20,
+        "DimY": 10,
+        "DimZ": 5,
+        "PointList": [],
+        "Radius": 10,
+        "Shape": "Box"
+      },
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Reset",
   "SmartObjectList": [],
-  "CurveList": [],
-  "LittleGameList": []
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

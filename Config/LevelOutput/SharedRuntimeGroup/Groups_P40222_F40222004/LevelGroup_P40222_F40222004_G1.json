@@ -1,42 +1,42 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P40222_F40222004_G1",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 270.0,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": 91.8,
       "PosY": 63.2,
-      "PosZ": 41.4
+      "PosZ": 41.4,
+      "RotY": 270
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P40222_F40222004_G1",
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X101_MainLine_01_Day.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
       "AudioEnterEvent": [],
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X101_MainLine_01_Day.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "RotY": 1E-05,
-      "ID": 1
+      "RotY": 0.00001,
+      "Tags": [
+        "BattleArea01"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

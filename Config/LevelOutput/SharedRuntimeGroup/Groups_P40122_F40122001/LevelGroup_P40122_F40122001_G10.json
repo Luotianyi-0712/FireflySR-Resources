@@ -1,117 +1,112 @@
 {
-  "GroupName": "NPC",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Startpoint",
+      "PosX": -12.42789,
+      "PosY": 1.11351,
+      "PosZ": 156.2783,
+      "RotY": 342.15
+    },
+    {
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -9.48,
+      "PosY": -2.590106,
+      "PosZ": 148,
+      "RotY": 342.15
+    },
+    {
+      "ID": 3,
+      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab",
+      "Name": "Anchor3",
+      "PosX": -35.80632,
+      "PosY": 9.074661,
+      "PosZ": 165.9959,
+      "Usage": "LookAtCamera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P40122_F40122001_G10",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
+  "GroupStateList": [],
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 201180102,
         "Phase": "Finish",
-        "ID": 201180102
+        "Type": "SubMission"
       }
     ]
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 201180105
-      }
-    ]
-  },
-  "GroupStateList": [],
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Startpoint",
-      "RotY": 342.15,
-      "ID": 1,
-      "PosX": -12.42789,
-      "PosY": 1.11351,
-      "PosZ": 156.2783
-    },
-    {
-      "Name": "Anchor2",
-      "RotY": 342.15,
-      "ID": 2,
-      "PosX": -9.48,
-      "PosY": -2.590106,
-      "PosZ": 148.0
-    },
-    {
-      "Usage": "LookAtCamera",
-      "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab",
-      "Name": "Anchor3",
-      "ID": 3,
-      "PosX": -35.80632,
-      "PosY": 9.074661,
-      "PosZ": 165.9959
-    }
-  ],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 1111,
-      "LoadOnInitial": true,
-      "CampID": 1,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPC_Track/ST_NPC_Track.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "CampID": 1,
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 311110000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MiniMapIconType": 130,
+      "NPCID": 1111,
+      "Name": "Luka_02",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideSeriesID": 4294967295,
+      "PosX": -12.42789,
+      "PosY": 1.11351,
+      "PosZ": 156.2783,
+      "RotY": 342.15,
       "SOConfig": {
         "InstanceID": 1
       },
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 311110000,
-      "OverrideSeriesID": 4294967295,
-      "IsMapContent": true,
-      "MiniMapIconType": 130,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
       "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
+        "CaptureDistanceTolerance": 10,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
-      "Name": "Luka_02",
-      "RotY": 342.15,
-      "ID": 400001,
-      "PosX": -12.42789,
-      "PosY": 1.11351,
-      "PosZ": 156.2783
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
   "SmartObjectList": [
     {
+      "CommonPointList": [],
+      "ID": 1,
+      "Name": "SmartObject1",
+      "PosX": -14.37826,
+      "PosY": 0.952117,
+      "PosZ": 163.43,
       "SlotList": [
         {
           "PointList": [
@@ -122,39 +117,39 @@
               "RestartMode": "RestartFromPoint",
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
-                    "MoveStance": "Walk",
                     "FinishAfterStop": true,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "IsClientOnly": true,
+                    "MoveStance": "Walk",
+                    "TaskEnabled": true
                   },
                   {
                     "$type": "RPG.GameCore.SO_FaceTo, RPG.GameCore.Config",
                     "AnchorGroupId": 10,
                     "AnchorPointId": 3,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
                   },
                   {
                     "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
-                    "Time": 1.0,
+                    "IsClientOnly": true,
                     "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "Time": 1
                   },
                   {
                     "$type": "RPG.GameCore.SO_TriggerCustomString, RPG.GameCore.Config",
                     "CustomString": {
                       "Value": "triggerlookback"
                     },
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "IsClientOnly": true,
+                    "TaskEnabled": true
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             },
             {
@@ -164,19 +159,19 @@
               "RestartMode": "RestartFromPoint",
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "FinishAfterStop": true,
+                    "IsClientOnly": true,
                     "MoveStance": "Run",
                     "SkipStartTurn": true,
-                    "FinishAfterStop": true,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             },
             {
@@ -186,17 +181,17 @@
               "RestartMode": "RestartFromPoint",
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
                     "MoveStance": "Walk",
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             },
             {
@@ -206,17 +201,17 @@
               "RestartMode": "RestartFromPoint",
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
                     "MoveStance": "Walk",
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             },
             {
@@ -226,35 +221,40 @@
               "RestartMode": "RestartFromPoint",
               "RootTask": {
                 "$type": "RPG.GameCore.SO_Sequence, RPG.GameCore.Config",
+                "IsClientOnly": true,
+                "TaskEnabled": true,
                 "Tasks": [
                   {
                     "$type": "RPG.GameCore.SO_MoveTo, RPG.GameCore.Config",
+                    "IsClientOnly": true,
                     "MoveStance": "Walk",
                     "SkipStartTurn": true,
-                    "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "TaskEnabled": true
                   },
                   {
                     "$type": "RPG.GameCore.SO_Wait, RPG.GameCore.Config",
-                    "Time": -1.0,
+                    "IsClientOnly": true,
                     "TaskEnabled": true,
-                    "IsClientOnly": true
+                    "Time": -1
                   }
                 ],
-                "WaitMessages": [],
-                "TaskEnabled": true,
-                "IsClientOnly": true
+                "WaitMessages": []
               }
             }
           ]
         }
-      ],
-      "CommonPointList": [],
-      "Name": "SmartObject1",
-      "ID": 1,
-      "PosX": -14.37826,
-      "PosY": 0.952117,
-      "PosZ": 163.43
+      ]
     }
-  ]
+  ],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201180105,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

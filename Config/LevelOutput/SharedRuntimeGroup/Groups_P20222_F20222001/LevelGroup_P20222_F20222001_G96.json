@@ -1,26 +1,56 @@
 {
-  "GroupName": "Contamination_Key_OB09",
-  "AreaAnchorName": "LevelArea_P20222_F20222001_G96",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Usage": "LookAtCamera",
+      "ID": 1,
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
       "Name": "Anchor1",
-      "RotY": 2E-06,
-      "ID": 1,
       "PosX": -73.68,
       "PosY": 53.09025,
-      "PosZ": 146.8
+      "PosZ": 146.8,
+      "RotY": 0.000002,
+      "Usage": "LookAtCamera"
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P20222_F20222001_G96",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
   "DistrictList": [],
+  "GroupName": "Contamination_Key_OB09",
+  "LoadSide": "Server",
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -91.554,
+      "PosY": -4.222214,
+      "PosZ": 49.04365,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -41.86202,
+      "PosY": -4.222204,
+      "PosZ": 47.57174,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -46,35 +76,5 @@
       "PosY": -4.222202,
       "PosZ": 48.18735
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -91.554,
-      "PosY": -4.222214,
-      "PosZ": 49.04365
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -41.86202,
-      "PosY": -4.222204,
-      "PosZ": 47.57174
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

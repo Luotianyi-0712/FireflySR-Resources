@@ -1,141 +1,143 @@
 {
-  "GroupName": "BlockLine02",
-  "AreaAnchorName": "LevelArea_P10301_F10301001_G299",
-  "SaveType": "Permanent",
-  "SavedValueCondition": {
-    "Conditions": [
-      {
-        "SavedValueName": "FSV_LoadEntrance03",
-        "Operation": "Equal"
-      }
-    ],
-    "Operation": "And"
-  },
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P10301_F10301001_G299",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "BlockLine02",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.66,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.761211634,
-          "y": 0.4585612,
-          "z": 0.4585612,
-          "normalized": {
-            "x": 0.7612117,
-            "y": 0.458561242,
-            "z": 0.458561242,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 2.180734,
-        "sqrMagnitude": 4.7556
-      },
-      "PropID": 140,
-      "LoadOnInitial": true,
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Chap03_Common_Blockline",
-            "Key": "TosatPileText"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MazeText_Chap03_Common_Blockline",
-            "Key": "TosatPileText"
-          }
-        ]
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "EnterTrigger": {
-          "Shape": "Box",
-          "Radius": 1.0,
-          "DimX": 12.0,
-          "DimY": 2.0,
-          "DimZ": 14.0,
+          "DimX": 12,
+          "DimY": 2,
+          "DimZ": 14,
           "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
           },
-          "PointList": []
+          "PointList": [],
+          "Radius": 1,
+          "Shape": "Box"
         },
         "ExitTrigger": {
-          "Shape": "Box",
-          "Radius": 1.0,
-          "DimX": 12.0,
-          "DimY": 2.0,
-          "DimZ": 14.0,
+          "DimX": 12,
+          "DimY": 2,
+          "DimZ": 14,
           "Offset": {
-            "y": 1.0,
-            "magnitude": 1.0,
-            "sqrMagnitude": 1.0
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "y": 1
           },
-          "PointList": []
+          "PointList": [],
+          "Radius": 1,
+          "Shape": "Box"
         }
       },
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
+      "OverrideSoundRange": -1,
+      "PosX": 209.32,
+      "PosY": -4.903744,
+      "PosZ": 147.06,
+      "PropID": 140,
+      "RotY": 269.9999,
+      "Scale": {
+        "magnitude": 2.180734,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1,
+            "sqrMagnitude": 1,
+            "x": 0.7612117,
+            "y": 0.458561242,
+            "z": 0.458561242
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.761211634,
+          "y": 0.4585612,
+          "z": 0.4585612
+        },
+        "sqrMagnitude": 4.7556,
+        "x": 1.66,
+        "y": 1,
+        "z": 1
       },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop1",
-      "RotY": 269.9999,
-      "ID": 300001,
-      "PosX": 209.32,
-      "PosY": -4.903744,
-      "PosZ": 147.06
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap03_Common_Blockline"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "TosatPileText",
+            "Value": "MazeText_Chap03_Common_Blockline"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "Operation": "Equal",
+        "SavedValueName": "FSV_LoadEntrance03"
+      }
+    ],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

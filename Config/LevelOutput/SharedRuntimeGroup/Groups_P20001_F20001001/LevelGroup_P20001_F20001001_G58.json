@@ -1,241 +1,260 @@
 {
-  "GroupName": "MainMission8000101_",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20001_F20001001_G58",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "ForceUnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8000102,
+        "Phase": "Cancel"
+      }
+    ]
+  },
+  "GroupName": "MainMission8000101_",
+  "LittleGameList": [],
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 8000101
+        "ID": 8000101,
+        "Phase": "Finish"
       },
       {
-        "Type": "SubMission",
-        "ID": 800010201
+        "ID": 800010201,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 800010202
+        "ID": 800010202,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 800010203
+        "ID": 800010203,
+        "Type": "SubMission"
       },
       {
-        "Type": "SubMission",
-        "ID": 800010205
+        "ID": 800010205,
+        "Type": "SubMission"
       }
     ],
     "Operation": "Or"
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 800010205
-      }
-    ]
-  },
-  "ForceUnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Cancel",
-        "ID": 8000102
-      }
-    ]
-  },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 2.7,
-        "DimY": 1.5,
-        "DimZ": 1.0,
-        "Offset": {
-          "x": 0.1,
-          "z": -0.8,
-          "normalized": {
-            "x": 0.124034733,
-            "z": -0.992277861,
-            "normalized": {
-              "x": 0.12403474,
-              "z": -0.9922779,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.00000012
-            },
-            "magnitude": 0.99999994,
-            "sqrMagnitude": 0.99999994
-          },
-          "magnitude": 0.8062258,
-          "sqrMagnitude": 0.650000036
-        },
-        "PointList": []
-      },
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        800010202
-      ],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop_Act_Online_01",
-      "ID": 300001,
-      "PosX": -24.503,
-      "PosY": 0.986,
-      "PosZ": 238.774
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10110,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Distress01Loop",
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 526547389
-      },
-      "OverrideNPCTitle": {
-        "hash": 1130215681
-      },
-      "FirstDialogueGroupID": 800010201,
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010291,
-      "OverrideSeriesID": 1011001,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
+      "DefaultIdleStateName": "Distress01Loop",
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialogueMain_F20001001_G58_N400001.json",
         "EnableCondition": {
           "Conditions": [
             {
-              "Type": "SubMission",
-              "ID": 800010201
+              "ID": 800010201,
+              "Type": "SubMission"
             }
           ]
         },
-        "EnableDialogCamera": true
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialogueMain_F20001001_G58_N400001.json",
+        "PackList": []
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "Act_Online_01_Host",
-      "RotY": 19.65458,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "FirstDialogueGroupID": 800010201,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 10110,
+      "Name": "Act_Online_01_Host",
+      "OverrideNPCName": {
+        "Hash": 526547389
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1130215681
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "OverrideSeriesID": 1011001,
       "PosX": -25.276,
       "PosY": 0.00545,
-      "PosZ": 237.303
+      "PosZ": 237.303,
+      "RotY": 19.65458,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     },
     {
-      "NPCID": 10110,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        800010203,
-        800010205
-      ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "Distress01Loop",
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [
         1,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 526547389
-      },
-      "OverrideNPCTitle": {
-        "hash": 1130215681
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010291,
-      "OverrideSeriesID": 1011001,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
+      "DefaultIdleStateName": "Distress01Loop",
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialogueMain_F20001001_G58_N400002.json",
-        "PackList": [
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialoguePack_Transferred_F20001001_G58_N400002.json"
-          }
-        ],
         "EnableCondition": {
           "Conditions": [
             {
-              "Type": "SubMission",
-              "ID": 800010203
+              "ID": 800010203,
+              "Type": "SubMission"
             },
             {
-              "Type": "SubMission",
-              "ID": 800010205
+              "ID": 800010205,
+              "Type": "SubMission"
             }
           ],
           "Operation": "Or"
         },
-        "EnableDialogCamera": true
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialogueMain_F20001001_G58_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialoguePack_Transferred_F20001001_G58_N400002.json",
+            "Name": "Transferred"
+          }
+        ]
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [
+        800010203,
+        800010205
+      ],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "Act_Online_02_Host",
-      "RotY": 19.65458,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 10110,
+      "Name": "Act_Online_02_Host",
+      "OverrideNPCName": {
+        "Hash": 526547389
+      },
+      "OverrideNPCTitle": {
+        "Hash": 1130215681
+      },
+      "OverrideReplaceMaterialKeyList": [],
+      "OverrideSeriesID": 1011001,
       "PosX": -25.276,
       "PosY": 0.00545,
-      "PosZ": 237.303
+      "PosZ": 237.303,
+      "RotY": 19.65458,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [
+        800010202
+      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop_Act_Online_01",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -24.503,
+      "PosY": 0.986,
+      "PosZ": 238.774,
+      "PropID": 100,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "Trigger": {
+        "DimX": 2.7,
+        "DimY": 1.5,
+        "DimZ": 1,
+        "Offset": {
+          "magnitude": 0.8062258,
+          "normalized": {
+            "magnitude": 0.99999994,
+            "normalized": {
+              "magnitude": 1,
+              "sqrMagnitude": 1.00000012,
+              "x": 0.12403474,
+              "z": -0.9922779
+            },
+            "sqrMagnitude": 0.99999994,
+            "x": 0.124034733,
+            "z": -0.992277861
+          },
+          "sqrMagnitude": 0.650000036,
+          "x": 0.1,
+          "z": -0.8
+        },
+        "PointList": [],
+        "Radius": 1,
+        "Shape": "Box"
+      },
+      "ValueSource": {}
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 800010205,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

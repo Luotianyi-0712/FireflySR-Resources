@@ -1,106 +1,106 @@
 {
-  "GroupName": "NPC",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20002_F20002001_G83",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1000401
+        "ID": 1000401,
+        "Phase": "Finish"
       }
     ]
   },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 1013,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        500002105
-      ],
-      "ServerInteractVerificationIDList": [],
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 310130000,
-      "OverrideSeriesID": 4294967295,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialogueMain_F20002001_G83_N400001.json",
         "PackList": [
           {
-            "Name": "SubMission",
-            "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialoguePack_SubMission_F20002001_G83_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialoguePack_SubMission_F20002001_G83_N400001.json",
+            "Name": "SubMission"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC1",
-      "RotY": 286.4186,
-      "ID": 400001,
-      "PosX": 58.839,
-      "PosY": 3.4383,
-      "PosZ": -118.873
-    },
-    {
-      "NPCID": 1013,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [
         500002105
       ],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1013,
+      "Name": "NPC1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "TalkDialogGroupIDList": [],
+      "OverrideSeriesID": 4294967295,
+      "PosX": 58.839,
+      "PosY": 3.4383,
+      "PosZ": -118.873,
+      "RotY": 286.4186,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Permanent",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 310130000,
-      "OverrideSeriesID": 4294967295,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialogueMain_F20002001_G83_N400002.json",
         "PackList": [
           {
-            "Name": "SubMission",
-            "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialoguePack_SubMission_F20002001_G83_N400002.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P20002/F20002001_G83/DialoguePack_SubMission_F20002001_G83_N400002.json",
+            "Name": "SubMission"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [
+        500002105
+      ],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "NPC2",
-      "RotY": 49.74625,
       "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 1013,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideSeriesID": 4294967295,
       "PosX": -107.12,
       "PosY": 18.59769,
-      "PosZ": -93.86
+      "PosZ": -93.86,
+      "RotY": 49.74625,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

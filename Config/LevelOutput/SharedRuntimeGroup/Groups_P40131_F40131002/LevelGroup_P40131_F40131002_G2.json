@@ -1,205 +1,313 @@
 {
-  "GroupName": "MonsterArea01",
-  "LevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_CheckKillMonster.json",
-  "AreaAnchorName": "LevelArea_P40131_F40131002_G2",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 128.5056,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": -33.406,
-      "PosY": -3.0,
-      "PosZ": -94.791
+      "PosY": -3,
+      "PosZ": -94.791,
+      "RotY": 128.5056
     }
   ],
+  "AreaAnchorName": "LevelArea_P40131_F40131002_G2",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MonsterArea01",
+  "LevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_CheckKillMonster.json",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 1002030,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [
           {
-            "UseOwnerGroup": true,
             "UseGroup": 2,
-            "UseID": 1
+            "UseID": 1,
+            "UseOwnerGroup": true
           }
         ],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "InitialAnimState": "SpecialStandBy2",
-      "EventID": 40131014,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 40131014,
+      "ID": 200001,
+      "InitialAnimState": "SpecialStandBy2",
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002030,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Monster1",
-      "RotY": 349.5683,
-      "ID": 200001,
       "PosX": -3.885,
       "PosY": -0.5,
-      "PosZ": -59.412
+      "PosZ": -59.412,
+      "RotY": 349.5683,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
     },
     {
-      "NPCMonsterID": 1002040,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 40131013,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "SpawnConfig": {
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "Monster2",
-      "RotY": 132.6673,
+      "EventID": 40131013,
       "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 29.97,
-      "PosY": -3.0,
-      "PosZ": -110.83
+      "PosY": -3,
+      "PosZ": -110.83,
+      "RotY": 132.6673,
+      "SpawnConfig": {
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        }
+      },
+      "TagList": [],
+      "ValueSource": {}
     },
     {
-      "NPCMonsterID": 1002040,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
       "EventID": 40131015,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "ID": 200009,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster9",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 14.214,
+      "PosY": -3,
+      "PosZ": -63.531,
+      "RotY": 110.3252,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster9",
-      "RotY": 110.3252,
-      "ID": 200009,
-      "PosX": 14.214,
-      "PosY": -3.0,
-      "PosZ": -63.531
+      "TagList": [],
+      "ValueSource": {}
     },
     {
-      "NPCMonsterID": 1002040,
       "AIConfig": {
         "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Chase_MazeSkill.json",
         "PathwayList": [],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 40131013,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 40131013,
+      "ID": 200003,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster3",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 31.229,
+      "PosY": -3,
+      "PosZ": -110.497,
+      "RotY": 162.479,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster3",
-      "RotY": 162.479,
-      "ID": 200003,
-      "PosX": 31.229,
-      "PosY": -3.0,
-      "PosZ": -110.497
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": -73.80571,
+      "PosY": -7.329817,
+      "PosZ": -85.00913,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "PosX": -73.66057,
+      "PosY": -3.755626,
+      "PosZ": -102.3455,
+      "WaypointIDList": [
+        3,
+        4
+      ]
+    },
+    {
+      "ID": 3,
+      "Name": "Pathway3",
+      "PosX": -36.86177,
+      "PosY": -12.13629,
+      "PosZ": -102.0184,
+      "WaypointIDList": [
+        5,
+        6
+      ]
+    },
+    {
+      "ID": 4,
+      "Name": "Pathway4",
+      "PosX": -0.03,
+      "PosY": -3,
+      "PosZ": -122.89,
+      "WaypointIDList": [
+        7,
+        8
+      ]
+    },
+    {
+      "ID": 5,
+      "Name": "Pathway5",
+      "PosX": -8.68,
+      "PosY": 1.009999,
+      "PosZ": -176.87,
+      "WaypointIDList": [
+        9,
+        10
+      ]
+    },
+    {
+      "ID": 6,
+      "Name": "Pathway6",
+      "PosX": -14.37,
+      "PosY": 1.009998,
+      "PosZ": -184,
+      "WaypointIDList": [
+        11,
+        12
+      ]
+    },
+    {
+      "ID": 7,
+      "Name": "Pathway7",
+      "PosX": 10.69557,
+      "PosY": -9.924853,
+      "PosZ": -211.4285,
+      "WaypointIDList": [
+        13,
+        17,
+        14
+      ]
+    },
+    {
+      "ID": 8,
+      "Name": "Pathway8",
+      "PosX": 10.69557,
+      "PosY": -9.924853,
+      "PosZ": -211.4285,
+      "WaypointIDList": [
+        15,
+        18,
+        16
+      ]
+    },
+    {
+      "ID": 9,
+      "Name": "Pathway9",
+      "PosX": -77.35066,
+      "PosY": -14.61566,
+      "PosZ": -93.19839,
+      "WaypointIDList": [
+        19,
+        20
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
   "WaypointList": [
     {
       "ID": 1,
@@ -216,19 +324,19 @@
     {
       "ID": 3,
       "PosX": 30.26,
-      "PosY": -3.0,
+      "PosY": -3,
       "PosZ": -98.22
     },
     {
       "ID": 4,
       "PosX": 23.66,
-      "PosY": -3.0,
+      "PosY": -3,
       "PosZ": -72.13
     },
     {
       "ID": 5,
       "PosX": 50.18,
-      "PosY": 2.0,
+      "PosY": 2,
       "PosZ": -94.03
     },
     {
@@ -265,7 +373,7 @@
       "ID": 11,
       "PosX": -13.88,
       "PosY": 1.01,
-      "PosZ": -184.0
+      "PosZ": -184
     },
     {
       "ID": 12,
@@ -275,7 +383,7 @@
     },
     {
       "ID": 13,
-      "PosX": -10.0,
+      "PosX": -10,
       "PosY": -0.985,
       "PosZ": -208.929
     },
@@ -287,7 +395,7 @@
     },
     {
       "ID": 15,
-      "PosX": -10.0,
+      "PosX": -10,
       "PosY": -0.985,
       "PosZ": -206.981
     },
@@ -321,113 +429,5 @@
       "PosY": -0.11,
       "PosZ": -94.229
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": -73.80571,
-      "PosY": -7.329817,
-      "PosZ": -85.00913
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4
-      ],
-      "Name": "Pathway2",
-      "ID": 2,
-      "PosX": -73.66057,
-      "PosY": -3.755626,
-      "PosZ": -102.3455
-    },
-    {
-      "WaypointIDList": [
-        5,
-        6
-      ],
-      "Name": "Pathway3",
-      "ID": 3,
-      "PosX": -36.86177,
-      "PosY": -12.13629,
-      "PosZ": -102.0184
-    },
-    {
-      "WaypointIDList": [
-        7,
-        8
-      ],
-      "Name": "Pathway4",
-      "ID": 4,
-      "PosX": -0.03,
-      "PosY": -3.0,
-      "PosZ": -122.89
-    },
-    {
-      "WaypointIDList": [
-        9,
-        10
-      ],
-      "Name": "Pathway5",
-      "ID": 5,
-      "PosX": -8.68,
-      "PosY": 1.009999,
-      "PosZ": -176.87
-    },
-    {
-      "WaypointIDList": [
-        11,
-        12
-      ],
-      "Name": "Pathway6",
-      "ID": 6,
-      "PosX": -14.37,
-      "PosY": 1.009998,
-      "PosZ": -184.0
-    },
-    {
-      "WaypointIDList": [
-        13,
-        17,
-        14
-      ],
-      "Name": "Pathway7",
-      "ID": 7,
-      "PosX": 10.69557,
-      "PosY": -9.924853,
-      "PosZ": -211.4285
-    },
-    {
-      "WaypointIDList": [
-        15,
-        18,
-        16
-      ],
-      "Name": "Pathway8",
-      "ID": 8,
-      "PosX": 10.69557,
-      "PosY": -9.924853,
-      "PosZ": -211.4285
-    },
-    {
-      "WaypointIDList": [
-        19,
-        20
-      ],
-      "Name": "Pathway9",
-      "ID": 9,
-      "PosX": -77.35066,
-      "PosY": -14.61566,
-      "PosZ": -93.19839
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

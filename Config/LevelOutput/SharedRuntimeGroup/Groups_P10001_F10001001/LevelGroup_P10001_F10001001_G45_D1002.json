@@ -1,80 +1,80 @@
 {
-  "GroupName": "SimpleMission",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10001_F10001001_G45",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "SimpleMission",
   "LoadCondition": {
     "Conditions": [
       {
         "ID": 4040006
       },
       {
-        "Phase": "Finish",
-        "ID": 4040006
+        "ID": 4040006,
+        "Phase": "Finish"
       }
     ],
     "Operation": "Or"
   },
   "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 3002,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900020000,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G45/DialogueMain_F10001001_G45_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G45/DialoguePack_Transferred_F10001001_G45_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
       "DialogueGroups": [
         404000601,
         404000602,
         404000603
       ],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [
-        1,
-        64
-      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 3002,
+      "Name": "NPC1",
       "OverrideNPCName": {
-        "hash": -1386130852
+        "Hash": -1386130852
       },
       "OverrideNPCTitle": {
-        "hash": -421529602
+        "Hash": -421529602
       },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 900020000,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G45/DialogueMain_F10001001_G45_N400001.json",
-        "PackList": [
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G45/DialoguePack_Transferred_F10001001_G45_N400001.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 207.1263,
-      "ID": 400001,
       "PosX": 7.083379,
       "PosY": 0.259189,
-      "PosZ": -33.60995
+      "PosZ": -33.60995,
+      "RotY": 207.1263,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

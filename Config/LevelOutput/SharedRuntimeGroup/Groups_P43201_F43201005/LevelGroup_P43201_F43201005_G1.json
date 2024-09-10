@@ -1,77 +1,17 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P43201_F43201005_G1",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 341.23,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": -15.75,
       "PosY": 0.034144,
-      "PosZ": 12.12
+      "PosZ": 12.12,
+      "RotY": 341.23
     }
   ],
-  "MonsterList": [],
-  "PropList": [
-    {
-      "Scale": {
-        "x": 4.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.9428091,
-          "y": 0.235702276,
-          "z": 0.235702276,
-          "magnitude": 1.0,
-          "sqrMagnitude": 1.00000012
-        },
-        "magnitude": 4.2426405,
-        "sqrMagnitude": 18.0
-      },
-      "PropID": 102,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "OverrideMapIconType": -1,
-      "OverridePropName": {
-        "hash": 371857150
-      },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "Name": "Prop1",
-      "RotY": 165.0,
-      "ID": 300001,
-      "PosX": -41.86999,
-      "PosY": 0.034147,
-      "PosZ": 74.54999
-    }
-  ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P43201_F43201005_G1",
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_BAT_Area_M303_03_Foggy.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
       "AudioEnterEvent": [
         "Ev_amb_maze_belobog_m3_3_battle"
       ],
@@ -81,18 +21,78 @@
           "StateName": "State_EverWinterHill_Wide"
         }
       ],
-      "PrefetchMainMissionList": [],
-      "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "RotY": 210.2678,
+      "EnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_BAT_Area_M303_03_Foggy.enviroProfile.asset",
       "ID": 1,
+      "Name": "BattleArea1",
       "PosX": -62.28994,
       "PosY": 15.80621,
-      "PosZ": 707.49
+      "PosZ": 707.49,
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "RotY": 210.2678,
+      "Tags": [
+        "BattleArea01"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [
+    {
+      "BridgeStateRotations": [],
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 300001,
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
+      "OverrideMapIconType": -1,
+      "OverridePropName": {
+        "Hash": 371857150
+      },
+      "OverrideSoundRange": -1,
+      "PosX": -41.86999,
+      "PosY": 0.034147,
+      "PosZ": 74.54999,
+      "PropID": 102,
+      "RotY": 165,
+      "Scale": {
+        "magnitude": 4.2426405,
+        "normalized": {
+          "magnitude": 1,
+          "sqrMagnitude": 1.00000012,
+          "x": 0.9428091,
+          "y": 0.235702276,
+          "z": 0.235702276
+        },
+        "sqrMagnitude": 18,
+        "x": 4,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
+    }
+  ],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

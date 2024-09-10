@@ -1,44 +1,15 @@
 {
-  "GroupName": "Sound",
-  "AreaAnchorName": "LevelArea_P80211_F80211001_G3",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P80211_F80211001_G3",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "Trigger": {
-        "Radius": 300.0,
-        "DimX": 500.0,
-        "DimY": 10.0,
-        "DimZ": 500.0,
-        "PointList": []
-      },
+      "ID": 1,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_3",
@@ -47,39 +18,68 @@
       ],
       "OnEnterRTPC": [
         {
-          "RTPCName": "RTPC_Wind_Type",
-          "RTPCValue": 50.0,
           "IsRandom": true,
-          "RandomFrequncy": 5.0,
-          "RTPCRangeMin": 40.0,
-          "RTPCRangeMax": 60.0
+          "RTPCName": "RTPC_Wind_Type",
+          "RTPCRangeMax": 60,
+          "RTPCRangeMin": 40,
+          "RTPCValue": 50,
+          "RandomFrequncy": 5
         },
         {
-          "RTPCName": "RTPC_Wind_Strength",
-          "RTPCValue": 50.0,
           "IsRandom": true,
-          "RandomFrequncy": 5.0,
-          "RTPCRangeMin": 10.0,
-          "RTPCRangeMax": 60.0
+          "RTPCName": "RTPC_Wind_Strength",
+          "RTPCRangeMax": 60,
+          "RTPCRangeMin": 10,
+          "RTPCValue": 50,
+          "RandomFrequncy": 5
         },
         {
           "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 9.0,
-          "RandomFrequncy": 5.0
+          "RTPCValue": 9,
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District1",
-      "ID": 1,
       "PosX": -102.7,
-      "PosZ": 179.3
+      "PosZ": 179.3,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 500,
+        "DimY": 10,
+        "DimZ": 500,
+        "PointList": [],
+        "Radius": 300
+      }
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

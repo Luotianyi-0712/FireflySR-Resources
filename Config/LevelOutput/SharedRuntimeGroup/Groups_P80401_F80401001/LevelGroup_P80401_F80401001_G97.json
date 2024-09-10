@@ -1,27 +1,24 @@
 {
-  "GroupName": "RogueModule_Tournament_Content_Monster01",
-  "Category": "Custom",
-  "LevelGraph": "Config/Level/Maze/MazeRogue/RogueTourn/RogueTourn_Goup_Monster.json",
-  "AreaAnchorName": "LevelArea_P80401_F80401001_G97",
-  "SaveType": "Permanent",
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [],
+  "AreaAnchorName": "LevelArea_P80401_F80401001_G97",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Custom",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "RogueModule_Tournament_Content_Monster01",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/Maze/MazeRogue/RogueTourn/RogueTourn_Goup_Monster.json",
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [
     {
-      "NPCMonsterID": 1002040,
       "AIConfig": {
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
@@ -29,32 +26,55 @@
       "BoardShowList": [
         2
       ],
-      "TagList": [],
+      "CampID": 3,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
+      "PosX": 71.98,
+      "PosY": -16.91815,
+      "PosZ": -255.21,
+      "RotY": 270,
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Monster1",
-      "RotY": 270.0,
-      "ID": 200001,
-      "PosX": 71.98,
-      "PosY": -16.91815,
-      "PosZ": -255.21
+      "TagList": [],
+      "ValueSource": {}
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 71.98,
+      "PosY": -16.91714,
+      "PosZ": -255.21,
+      "RotY": 270,
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -68,25 +88,5 @@
       "PosY": -16.91815,
       "PosZ": -255.21
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "RotY": 270.0,
-      "ID": 1,
-      "PosX": 71.98,
-      "PosY": -16.91714,
-      "PosZ": -255.21
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  ]
 }

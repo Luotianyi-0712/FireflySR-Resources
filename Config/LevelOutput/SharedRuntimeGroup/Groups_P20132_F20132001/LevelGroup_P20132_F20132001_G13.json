@@ -1,98 +1,125 @@
 {
-  "GroupName": "DefaultMonster_Zone05",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20132_F20132001_G13",
-  "SaveType": "Permanent",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultMonster_Zone05",
+  "GroupRefreshID": 1001,
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1011301
+        "ID": 1011301,
+        "Phase": "Finish"
       }
     ]
   },
   "LoadSide": "Server",
-  "GroupRefreshID": 1001,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [
     {
-      "NPCMonsterID": 1022020,
       "AIConfig": {
         "PathwayList": [
           {
+            "StartAt": 1,
             "UseGroup": 13,
-            "UseID": 1,
-            "StartAt": 1
+            "UseID": 1
           }
         ],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 20132101,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20132101,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1022020,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 270.0,
-      "ID": 200001,
       "PosX": 80.71,
       "PosY": -5.025855,
-      "PosZ": 284.16
+      "PosZ": 284.16,
+      "RotY": 270
     },
     {
-      "NPCMonsterID": 1022020,
       "AIConfig": {
         "PathwayList": [
           {
+            "StartAt": 6,
             "UseGroup": 13,
-            "UseID": 2,
-            "StartAt": 6
+            "UseID": 2
           }
         ],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 1,
         "ID": 1
       },
-      "EventID": 20132102,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
+      "EventID": 20132102,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1022020,
+      "Name": "Monster2",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster2",
-      "RotY": 90.0,
-      "ID": 200002,
       "PosX": 86.46,
       "PosY": -1.968068,
-      "PosZ": 251.47
+      "PosZ": 251.47,
+      "RotY": 90
     }
   ],
+  "NPCList": [],
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "WaypointIDList": [
+        1,
+        2
+      ]
+    },
+    {
+      "ID": 2,
+      "Name": "Pathway2",
+      "WaypointIDList": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "PedestrianList": [],
   "PropList": [],
-  "DistrictList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
   "WaypointList": [
     {
       "ID": 1,
@@ -120,7 +147,7 @@
     },
     {
       "ID": 5,
-      "PosX": 90.0,
+      "PosX": 90,
       "PosY": -2.025854,
       "PosZ": 251.71
     },
@@ -148,32 +175,5 @@
       "PosY": 0.974147,
       "PosZ": 263.19
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2
-      ],
-      "Name": "Pathway1",
-      "ID": 1
-    },
-    {
-      "WaypointIDList": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "Name": "Pathway2",
-      "ID": 2
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  ]
 }

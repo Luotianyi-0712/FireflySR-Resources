@@ -1,163 +1,163 @@
 {
-  "GroupName": "MainMission2011412_",
-  "Category": "Mission",
-  "AreaAnchorName": "LevelArea_P40101_F40101006_G25",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 201141216
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 201141216
-      }
-    ]
-  },
-  "OwnerMainMissionID": 2011412,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Usage": "Actor",
-      "Name": "Anchor1",
-      "RotY": 247.3012,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 90.661,
       "PosY": 3.73764,
-      "PosZ": -35.594
+      "PosZ": -35.594,
+      "RotY": 247.3012,
+      "Usage": "Actor"
     },
     {
-      "Name": "Anchor2",
       "ID": 2,
+      "Name": "Anchor2",
       "PosX": 90.062,
       "PosY": 4.735,
       "PosZ": -36.221
     },
     {
-      "Usage": "Actor",
-      "Name": "Anchor3",
-      "RotY": 271.7132,
       "ID": 3,
+      "Name": "Anchor3",
       "PosX": 90.88,
       "PosY": 3.620243,
-      "PosZ": -35.43
+      "PosZ": -35.43,
+      "RotY": 271.7132,
+      "Usage": "Actor"
     },
     {
-      "RotX": 11.60809,
-      "Usage": "Camera",
-      "Name": "Anchor4",
-      "RotY": 75.73376,
       "ID": 4,
+      "Name": "Anchor4",
       "PosX": 87.95,
       "PosY": 5.17,
-      "PosZ": -36.3
+      "PosZ": -36.3,
+      "RotX": 11.60809,
+      "RotY": 75.73376,
+      "Usage": "Camera"
     },
     {
-      "RotX": 11.52521,
-      "Usage": "Camera",
-      "Name": "Anchor5",
-      "RotY": 78.51684,
       "ID": 5,
+      "Name": "Anchor5",
       "PosX": 88.192,
       "PosY": 5.106,
-      "PosZ": -35.774
+      "PosZ": -35.774,
+      "RotX": 11.52521,
+      "RotY": 78.51684,
+      "Usage": "Camera"
     },
     {
-      "Name": "Anchor6",
       "ID": 6,
+      "Name": "Anchor6",
       "PosX": 90.262,
       "PosY": 4.649,
       "PosZ": -35.468
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P40101_F40101006_G25",
   "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2011412_",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 201141216,
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "MonsterList": [],
   "NPCList": [
     {
-      "NPCID": 1110,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 1110000,
-      "BornType": "Mission",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
       "InitialHiddenNodeList": [],
       "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
+      "NPCID": 1110,
       "Name": "NPC1",
-      "RotY": 167.2074,
-      "ID": 400001,
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 89.774,
       "PosY": 3.815622,
-      "PosZ": -35.338
-    },
-    {
-      "NPCID": 1110,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
+      "PosZ": -35.338,
+      "RotY": 167.2074,
       "ServerInteractVerificationIDList": [],
-      "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 1110000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
       "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
+        "CaptureDistanceTolerance": 10,
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
-        }
+        },
+        "TryCapture": true
       },
-      "Name": "NPC2",
-      "RotY": 190.9233,
+      "TalkDialogGroupIDList": []
+    },
+    {
+      "BoardShowList": [],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 1110000,
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
       "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "NPCID": 1110,
+      "Name": "NPC2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 90.708,
       "PosY": 3.617954,
-      "PosZ": -34.55099
+      "PosZ": -34.55099,
+      "RotY": 190.9233,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 2011412,
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 201141216,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ]
+  },
+  "WaypointList": []
 }

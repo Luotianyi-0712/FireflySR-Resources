@@ -1,112 +1,123 @@
 {
-  "GroupName": "Act_Online_02",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20001_F20001001_G67",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 800010205
-      },
-      {
-        "Type": "SubMission",
-        "ID": 800010205
-      }
-    ],
-    "Operation": "Or"
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "ID": 8000105
-      },
-      {
-        "Phase": "Finish",
-        "ID": 8000105
-      }
-    ],
-    "Operation": "Or"
-  },
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
   "ForceUnloadCondition": {
     "Conditions": [
       {
-        "Phase": "Cancel",
-        "ID": 8000101
+        "ID": 8000101,
+        "Phase": "Cancel"
       },
       {
-        "Phase": "Cancel",
-        "ID": 8000102
+        "ID": 8000102,
+        "Phase": "Cancel"
       },
       {
-        "Phase": "Cancel",
-        "ID": 8000104
+        "ID": 8000104,
+        "Phase": "Cancel"
       },
       {
-        "Phase": "Cancel",
-        "ID": 8000105
+        "ID": 8000105,
+        "Phase": "Cancel"
       }
     ]
   },
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
+  "GroupName": "Act_Online_02",
+  "LittleGameList": [],
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 800010205,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      },
+      {
+        "ID": 800010205,
+        "Type": "SubMission"
+      }
+    ],
+    "Operation": "Or"
+  },
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10110,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
+      "BoardShowList": [
+        1,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010231,
+      "DefaultIdleStateName": "HoldArm01Loop",
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialogueMain_F20001001_G67_N400002.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialoguePack_Transferred_F20001001_G67_N400002.json",
+            "Name": "Transferred"
+          }
+        ]
+      },
       "DialogueGroups": [
         800010403,
         800010404,
         800010212,
         800010206
       ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultIdleStateName": "HoldArm01Loop",
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        1,
-        64
-      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 400002,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10110,
+      "Name": "Act_Online_02_Host",
       "OverrideNPCName": {
-        "hash": 526547389
+        "Hash": 526547389
       },
       "OverrideNPCTitle": {
-        "hash": 1130215681
+        "Hash": 1130215681
       },
-      "TalkDialogGroupIDList": [
-        800010208
-      ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100010231,
+      "OverrideReplaceMaterialKeyList": [],
       "OverrideSeriesID": 1011001,
-      "BornType": "Permanent",
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialogueMain_F20001001_G67_N400002.json",
-        "PackList": [
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G67/DialoguePack_Transferred_F20001001_G67_N400002.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "Name": "Act_Online_02_Host",
-      "RotY": 19.65458,
-      "ID": 400002,
       "PosX": -25.276,
       "PosY": 0.00545,
-      "PosZ": 237.303
+      "PosZ": 237.303,
+      "RotY": 19.65458,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": [
+        800010208
+      ]
     }
   ],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8000105
+      },
+      {
+        "ID": 8000105,
+        "Phase": "Finish"
+      }
+    ],
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

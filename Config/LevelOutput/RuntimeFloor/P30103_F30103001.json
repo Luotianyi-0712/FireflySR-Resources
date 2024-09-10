@@ -1,54 +1,10 @@
 {
-  "FloorID": 30103001,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G1.json",
-      "Name": "DefaultData",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G8.json",
-      "Name": "Contents",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G9.json",
-      "Name": "Contents",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G10.json",
-      "Name": "Contents",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G11.json",
-      "Name": "Contents",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G12.json",
-      "Name": "DefaultData",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G13.json",
-      "Name": "Sound",
-      "ID": 13
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M302_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -58,15 +14,19 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 30103001,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "8": {
       "LoadSide": "Server"
@@ -84,12 +44,52 @@
       "SaveType": "Reset"
     },
     "13": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G1.json",
+      "ID": 1,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G8.json",
+      "ID": 8,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G9.json",
+      "ID": 9,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G10.json",
+      "ID": 10,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G11.json",
+      "ID": 11,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G12.json",
+      "ID": 12,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30103_F30103001/LevelGroup_P30103_F30103001_G13.json",
+      "ID": 13,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20132_F20132001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M302_MainLine_01_StageData/Chap01_MAZ_M302_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

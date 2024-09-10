@@ -1,70 +1,21 @@
 {
-  "FloorID": 40107002,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P301_V25_StageData/Chap03_MAZ_P301_V25_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    64,
-    32,
-    8,
-    16
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20331_F20331001.json",
-  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20331_F20331001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G2.json",
-      "Name": "Sound",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G3.json",
-      "Name": "BGM",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G5.json",
-      "Name": "Sound_Reverb",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G6.json",
-      "Name": "MainMission8025141_02",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G7.json",
-      "Name": "RecoverPoint",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G8.json",
-      "Name": "3DText",
-      "ID": 8
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P301_Night_01.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [
         {
-          "Tags": [
-            "BattleArea01"
-          ],
-          "PropsGroupID": 8,
           "AudienceGroupIDList": [],
+          "ID": 1,
+          "Name": "BattleArea1",
           "PrefetchMainMissionList": [],
           "PrefetchSubMissionList": [],
-          "Name": "BattleArea1",
-          "ID": 1
+          "PropsGroupID": 8,
+          "Tags": [
+            "BattleArea01"
+          ]
         }
       ],
+      "CameraType": "Maze",
       "ConstValues": [
         {
           "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
@@ -147,7 +98,8 @@
           "Name": "7To5And6"
         }
       ],
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P301_Night_01.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -157,57 +109,105 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40107002,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "5": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Mission",
-      "SaveType": "Permanent",
-      "IsHoyoGroup": true,
-      "LoadSide": "Server"
-    },
-    "7": {
-      "SaveType": "Permanent",
       "IsHoyoGroup": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
+    },
+    "7": {
+      "IsHoyoGroup": true,
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "8": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
       "LoadOnInitial": true,
+      "SaveType": "Reset",
       "SystemUnlockCondition": {
         "Conditions": [],
         "Operation": "And"
       }
     }
   },
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G3.json",
+      "ID": 3,
+      "Name": "BGM"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G5.json",
+      "ID": 5,
+      "Name": "Sound_Reverb"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G6.json",
+      "ID": 6,
+      "Name": "MainMission8025141_02"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G7.json",
+      "ID": 7,
+      "Name": "RecoverPoint"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40107_F40107002/LevelGroup_P40107_F40107002_G8.json",
+      "ID": 8,
+      "Name": "3DText"
+    }
+  ],
   "IsRestartLevelGraph": true,
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "LayerToAreaMask": [
+    64,
+    32,
+    8,
+    16
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20331_F20331001.json",
+  "RegionConfigPath": "Config/LevelOutput/Region/FloorRegion_P20331_F20331001.json",
+  "StageData": "Stages/Outputs/Chapter03/Stages/Chap03_MAZ_P301_V25_StageData/Chap03_MAZ_P301_V25_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

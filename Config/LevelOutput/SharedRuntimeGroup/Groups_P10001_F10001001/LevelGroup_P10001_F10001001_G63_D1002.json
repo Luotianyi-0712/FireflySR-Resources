@@ -1,41 +1,47 @@
 {
-  "GroupName": "NPCWSQ",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10001_F10001001_G63",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPCWSQ",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1000401
+        "ID": 1000401,
+        "Phase": "Finish"
       }
     ]
   },
-  "LoadSide": "Server",
   "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
+  "LoadSide": "Server",
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10107,
-      "LoadOnInitial": true,
-      "Trigger": {
-        "Radius": 3.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": [],
-        "Server": true
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100010210,
+      "DefaultIdleStateName": "Akimbo01Loop",
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G63/DialogueMain_F10001001_G63_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G63/DialoguePack_Transferred_F10001001_G63_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
       },
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [
         200013203,
         500001502,
@@ -43,56 +49,50 @@
         500001505,
         200013201
       ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "FirstDialogueGroupID": 500001501,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MappingInfoID": 2236,
+      "MiniMapIconType": 103,
+      "NPCID": 10107,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -4.762,
+      "PosY": 0.208582,
+      "PosZ": -31.617,
+      "RotY": 168.8416,
       "ServerInteractVerificationIDList": [
         19
       ],
-      "DefaultIdleStateName": "Akimbo01Loop",
-      "DefaultLookAtMode": "LookPlayer",
-      "MappingInfoID": 2236,
-      "BoardShowList": [
-        1,
-        4,
-        64
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "FirstDialogueGroupID": 500001501,
       "TalkDialogGroupIDList": [
         500001500
       ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100010210,
-      "IsMapContent": true,
-      "MiniMapIconType": 103,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G63/DialogueMain_F10001001_G63_N400001.json",
-        "PackList": [
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G63/DialoguePack_Transferred_F10001001_G63_N400001.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 168.8416,
-      "ID": 400001,
-      "PosX": -4.762,
-      "PosY": 0.208582,
-      "PosZ": -31.617
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 3,
+        "Server": true
+      }
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

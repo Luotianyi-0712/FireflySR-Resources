@@ -1,28 +1,94 @@
 {
-  "GroupName": "MainMission2030102_01",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F43310001/Group_F43310001_G3.json",
-  "AreaAnchorName": "LevelArea_P43310_F43310001_G3",
-  "SaveType": "Reset",
-  "OwnerMainMissionID": 2030102,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "Name": "Anchor1",
-      "RotY": 92.13647,
       "ID": 1,
+      "Name": "Anchor1",
       "PosX": 77.23,
       "PosY": 197.74,
-      "PosZ": 574.69
+      "PosZ": 574.69,
+      "RotY": 92.13647
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P43310_F43310001_G3",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
   "DistrictList": [],
+  "GroupName": "MainMission2030102_01",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F43310001/Group_F43310001_G3.json",
+  "MonsterList": [],
+  "NPCList": [
+    {
+      "BoardShowList": [
+        1
+      ],
+      "BornType": "Mission",
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100020000,
+      "DefaultLookAtMode": "LookPlayer",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 13208,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": 82.62,
+      "PosY": 197.74,
+      "PosZ": 574.47,
+      "RotY": 97.71735,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "OverrideSpawn": true,
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": [],
+      "TriggerValidGuest": {
+        "LocalPlayer": true,
+        "Teammember": true
+      },
+      "ValueSource": {}
+    }
+  ],
+  "OwnerMainMissionID": 2030102,
+  "PathwayList": [
+    {
+      "ID": 1,
+      "Name": "Pathway1",
+      "PosX": 82.62,
+      "PosY": 197.74,
+      "PosZ": 574.47,
+      "WaypointIDList": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
   "WaypointList": [
     {
       "ID": 1,
@@ -46,73 +112,7 @@
       "ID": 4,
       "PosX": 100.09,
       "PosY": 200.6099,
-      "PosZ": 572.0
+      "PosZ": 572
     }
-  ],
-  "PathwayList": [
-    {
-      "WaypointIDList": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "Name": "Pathway1",
-      "ID": 1,
-      "PosX": 82.62,
-      "PosY": 197.74,
-      "PosZ": 574.47
-    }
-  ],
-  "BattleAreaList": [],
-  "NPCList": [
-    {
-      "NPCID": 13208,
-      "LoadOnInitial": true,
-      "ValueSource": {},
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        1
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100020000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "OverrideSpawn": true,
-        "EntitySpawnConfig": {
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "TriggerValidGuest": {
-        "LocalPlayer": true,
-        "Teammember": true
-      },
-      "Name": "NPC1",
-      "RotY": 97.71735,
-      "ID": 400001,
-      "PosX": 82.62,
-      "PosY": 197.74,
-      "PosZ": 574.47
-    }
-  ],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "SmartObjectList": []
+  ]
 }

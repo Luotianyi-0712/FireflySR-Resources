@@ -1,8 +1,31 @@
 {
-  "GroupName": "MainMission4050016_Pam",
-  "Category": "Mission",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -2.41,
+      "PosY": -0.000005,
+      "PosZ": 5.39,
+      "RotY": 237.9856
+    }
+  ],
   "AreaAnchorName": "LevelArea_P10000_F10000000_G75",
-  "SaveType": "Permanent",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "ForceUnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050016,
+        "Phase": "Cancel"
+      }
+    ]
+  },
+  "GroupName": "MainMission4050016_Pam",
+  "GroupRefreshID": 1,
   "LoadCondition": {
     "Conditions": [
       {
@@ -10,101 +33,78 @@
       }
     ]
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 4050016
-      }
-    ]
-  },
-  "ForceUnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Cancel",
-        "ID": 4050016
-      }
-    ]
-  },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 4050016,
-  "GroupRefreshID": 1,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 237.9856,
-      "ID": 1,
-      "PosX": -2.41,
-      "PosY": -5E-06,
-      "PosZ": 5.39
-    }
-  ],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 3001,
+      "BoardShowList": [
+        4,
+        8
+      ],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 900010226,
+      "DefaultLookAtMode": "LookPlayer",
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialogueMain_F10000000_G56_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_PamRanmdomMission_F10000000_G56_N400001.json",
+            "Name": "PamRanmdomMission"
+          },
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_FakePamBase_F10000000_G56_N400001.json",
+            "Name": "FakePamBase"
+          }
+        ]
+      },
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
       "LevelGraph": "Config/Level/Maze/Chapter00/Train/Train_PamAction.json",
       "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
+      "NPCID": 3001,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -2.41,
+      "PosY": -0.000005,
+      "PosZ": 5.39,
+      "RotY": 237.9856,
       "ServerInteractVerificationIDList": [
         1,
         2,
         3,
         4
       ],
-      "DefaultLookAtMode": "LookPlayer",
-      "BoardShowList": [
-        4,
-        8
-      ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 900010226,
-      "IsMapContent": true,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialogueMain_F10000000_G56_N400001.json",
-        "PackList": [
-          {
-            "Name": "PamRanmdomMission",
-            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_PamRanmdomMission_F10000000_G56_N400001.json"
-          },
-          {
-            "Name": "FakePamBase",
-            "LevelGraph": "Config/Level/NPCDialogue/P10000/F10000000_G56/DialoguePack_FakePamBase_F10000000_G56_N400001.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 237.9856,
-      "ID": 400001,
-      "PosX": -2.41,
-      "PosY": -5E-06,
-      "PosZ": 5.39
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "OwnerMainMissionID": 4050016,
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 4050016,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

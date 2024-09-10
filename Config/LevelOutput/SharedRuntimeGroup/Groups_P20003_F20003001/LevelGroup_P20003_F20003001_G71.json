@@ -1,103 +1,103 @@
 {
-  "GroupName": "NPCWTW",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P20003_F20003001_G71",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPCWTW",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 2000105
+        "ID": 2000105,
+        "Phase": "Finish"
       }
     ]
   },
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10402,
-      "LoadOnInitial": true,
-      "ValueSource": {
-        "Values": [],
-        "SharedValues": []
+      "BoardShowList": [
+        1,
+        4,
+        64
+      ],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
+      "DefaultAnimationType": "FreeStyle",
+      "DefaultIdleFreeStyleMotionID": 100030000,
+      "Dialog": {
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G71/DialogueMain_F20003001_G71_N400001.json",
+        "PackList": [
+          {
+            "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G71/DialoguePack_Transferred_F20003001_G71_N400001.json",
+            "Name": "Transferred"
+          }
+        ]
       },
-      "Trigger": {
-        "Radius": 1.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [
         300052101,
         300052103,
         500001702,
         500001703
       ],
-      "ServerInteractVerificationIDList": [],
-      "BoardShowList": [
-        1,
-        4,
-        64
-      ],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10402,
+      "Name": "NPC1",
       "OverrideNPCName": {
-        "hash": -515026418
+        "Hash": -515026418
       },
       "OverrideNPCTitle": {
-        "hash": 1130215681
+        "Hash": 1130215681
+      },
+      "PosX": 195.87,
+      "PosY": 82.82224,
+      "PosZ": 159.12,
+      "RotY": 242.2064,
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 1.5,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
       },
       "TalkDialogGroupIDList": [
         500001700
       ],
-      "DefaultAnimationType": "FreeStyle",
-      "DefaultIdleFreeStyleMotionID": 100030000,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G71/DialogueMain_F20003001_G71_N400001.json",
-        "PackList": [
-          {
-            "Name": "Transferred",
-            "LevelGraph": "Config/Level/NPCDialogue/P20003/F20003001_G71/DialoguePack_Transferred_F20003001_G71_N400001.json"
-          }
-        ],
-        "EnableDialogCamera": true
-      },
-      "InteractIconType": "ChatIcon",
-      "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 1.5,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "PointList": [],
+        "Radius": 1
       },
       "TriggerValidGuest": {
         "LocalPlayer": true,
-        "Teammember": true,
-        "TargetList": []
+        "TargetList": [],
+        "Teammember": true
       },
-      "Name": "NPC1",
-      "RotY": 242.2064,
-      "ID": 400001,
-      "PosX": 195.87,
-      "PosY": 82.82224,
-      "PosZ": 159.12
+      "ValueSource": {
+        "SharedValues": [],
+        "Values": []
+      }
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

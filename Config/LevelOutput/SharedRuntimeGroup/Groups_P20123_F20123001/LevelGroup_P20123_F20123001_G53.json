@@ -1,45 +1,45 @@
 {
-  "GroupName": "MainMission2010902_",
-  "Category": "Mission",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 0.09,
+      "PosY": 22.95678,
+      "PosZ": 53.33,
+      "RotY": 57.9
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20123_F20123001_G53",
-  "SaveType": "Reset",
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2010902_",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 201090207
+        "ID": 201090207,
+        "Type": "SubMission"
       }
     ]
   },
+  "MonsterList": [],
+  "NPCList": [],
+  "OwnerMainMissionID": 2010902,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "StreamingTemplateType": "Standard",
   "UnloadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 201090207,
         "Phase": "Finish",
-        "ID": 201090207
+        "Type": "SubMission"
       }
     ]
   },
-  "OwnerMainMissionID": 2010902,
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 57.9,
-      "ID": 1,
-      "PosX": 0.09,
-      "PosY": 22.95678,
-      "PosZ": 53.33
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "WaypointList": []
 }

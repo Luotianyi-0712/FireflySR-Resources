@@ -1,107 +1,107 @@
 {
-  "GroupName": "Contents",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -37.86,
+      "PosY": 2.170708,
+      "PosZ": 54.9696,
+      "RotY": 90
+    }
+  ],
   "AreaAnchorName": "LevelArea_P30104_F30104001_G10",
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Contents",
   "LoadSide": "Server",
+  "MonsterList": [
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 12,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 99999011,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -16.86,
+      "PosY": 2.170708,
+      "PosZ": 60.9696,
+      "RotY": 270
+    },
+    {
+      "AIConfig": {
+        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
+        "PathwayList": [],
+        "SlaveConfigList": []
+      },
+      "BattleArea": {
+        "GroupID": 12,
+        "ID": 1
+      },
+      "BoardShowList": [
+        2
+      ],
+      "CampID": 3,
+      "DefaultLookAtMode": "LookPlayer",
+      "EventID": 99999011,
+      "ID": 200002,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 1002040,
+      "Name": "Monster2",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "PosX": -16.86,
+      "PosY": 2.170708,
+      "PosZ": 48.9696,
+      "RotY": 270
+    }
+  ],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "StreamingTemplateType": "Standard",
   "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 4.0,
-        "Key": "MazeDF_OwnGroup"
-      }
-    ],
     "SharedValues": [
       {
         "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
-        "Value": 4.0,
-        "Key": "MazeDF_OwnGroup"
+        "Key": "MazeDF_OwnGroup",
+        "Value": 4
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedFloat, RPG.GameCore.Config",
+        "Key": "MazeDF_OwnGroup",
+        "Value": 4
       }
     ]
   },
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 90.0,
-      "ID": 1,
-      "PosX": -37.86,
-      "PosY": 2.170708,
-      "PosZ": 54.9696
-    }
-  ],
-  "MonsterList": [
-    {
-      "NPCMonsterID": 1002040,
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 12,
-        "ID": 1
-      },
-      "EventID": 99999011,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "RotY": 270.0,
-      "ID": 200001,
-      "PosX": -16.86,
-      "PosY": 2.170708,
-      "PosZ": 60.9696
-    },
-    {
-      "NPCMonsterID": 1002040,
-      "AIConfig": {
-        "AIFile": "Config/ConfigAI/Adventure/NPCMonster/ST_NPCMonster_Master_Dummy.json",
-        "PathwayList": [],
-        "SlaveConfigList": []
-      },
-      "LoadOnInitial": true,
-      "CampID": 3,
-      "BattleArea": {
-        "GroupID": 12,
-        "ID": 1
-      },
-      "EventID": 99999011,
-      "BoardShowList": [
-        2
-      ],
-      "DefaultLookAtMode": "LookPlayer",
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster2",
-      "RotY": 270.0,
-      "ID": 200002,
-      "PosX": -16.86,
-      "PosY": 2.170708,
-      "PosZ": 48.9696
-    }
-  ],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "WaypointList": []
 }

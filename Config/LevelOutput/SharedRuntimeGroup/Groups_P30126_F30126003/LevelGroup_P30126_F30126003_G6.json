@@ -1,34 +1,27 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P30126_F30126003_G6",
-  "SaveType": "Reset",
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [
     {
-      "Name": "PlayerStart",
-      "RotY": 63.0,
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": -118.4,
       "PosY": 11.9,
-      "PosZ": -54.9
+      "PosZ": -54.9,
+      "RotY": 63
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P30126_F30126003_G6",
+  "AudienceList": [],
   "BattleAreaList": [
     {
-      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
+      "AudienceGroupIDList": [],
       "AudioEnterEvent": [
         "Ev_amb_maze_xianzhou_x3_3_battle"
+      ],
+      "AudioRTPC": [
+        {
+          "RTPCName": "RTPC_Global_Reverb_Type",
+          "RTPCValue": 9
+        }
       ],
       "AudioState": [
         {
@@ -36,25 +29,32 @@
           "StateName": "Phase1"
         }
       ],
-      "AudioRTPC": [
-        {
-          "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 9.0
-        }
-      ],
-      "PropsGroupID": 3,
-      "AudienceGroupIDList": [],
+      "EnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_BAT_X03_Phase1_Day.enviroProfile.asset",
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "ID": 1
+      "PropsGroupID": 3,
+      "Tags": [
+        "BattleArea01"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
   "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": [],
   "CurveList": [],
-  "LittleGameList": []
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

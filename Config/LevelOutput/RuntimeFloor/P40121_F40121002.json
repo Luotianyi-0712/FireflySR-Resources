@@ -1,110 +1,11 @@
 {
-  "FloorID": 40121002,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M201_MainLine_01_StageData/Chap01_MAZ_M201_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20121_F20121001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G1.json",
-      "Name": "New Group",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G2.json",
-      "Name": "DefaultData",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G3.json",
-      "Name": "DefaultProp",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G4.json",
-      "Name": "SubMission_Prop",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G5.json",
-      "Name": "SubMission_NPC",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G6.json",
-      "Name": "SubMission_NPC",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G7.json",
-      "Name": "SubMission_NPC",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G8.json",
-      "Name": "SubMission_NPC",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G9.json",
-      "Name": "SubMission_NPC",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G10.json",
-      "Name": "SubMission_Monster",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G11.json",
-      "Name": "MainMission2011404_",
-      "ID": 11
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G12.json",
-      "Name": "Default_MonsterArea01",
-      "ID": 12
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G14.json",
-      "Name": "SubMission_NPC",
-      "ID": 14
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G15.json",
-      "Name": "SubMission",
-      "ID": 15
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G16.json",
-      "Name": "Saves",
-      "ID": 16
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G17.json",
-      "Name": "SubMission_Monster",
-      "ID": 17
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G18.json",
-      "Name": "SubMission_Monster",
-      "ID": 18
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G19.json",
-      "Name": "Sound",
-      "ID": 19
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M201_01_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M201_01_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -125,38 +26,41 @@
         16,
         17
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 40121002,
   "GroupInstanceCommonMap": {
     "1": {
       "LoadOnInitial": true
     },
     "2": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
+      "GroupRefreshID": 1,
       "LoadOnInitial": true,
-      "GroupRefreshID": 1
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "4": {
       "SaveType": "Reset",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Phase": "Finish",
-            "ID": 2011404
+            "ID": 2011404,
+            "Phase": "Finish"
           }
         ]
       }
     },
     "5": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "6": {
       "Category": "Mission",
@@ -164,9 +68,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140401,
             "Phase": "Finish",
-            "ID": 201140401
+            "Type": "SubMission"
           }
         ]
       }
@@ -177,9 +81,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140406,
             "Phase": "Finish",
-            "ID": 201140406
+            "Type": "SubMission"
           }
         ]
       }
@@ -190,9 +94,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140408,
             "Phase": "Finish",
-            "ID": 201140408
+            "Type": "SubMission"
           }
         ]
       }
@@ -203,22 +107,22 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140412,
             "Phase": "Finish",
-            "ID": 201140412
+            "Type": "SubMission"
           }
         ]
       }
     },
     "10": {
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140415,
             "Phase": "Finish",
-            "ID": 201140415
+            "Type": "SubMission"
           }
         ]
       }
@@ -229,18 +133,18 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140403,
             "Phase": "Finish",
-            "ID": 201140403
+            "Type": "SubMission"
           }
         ]
       }
     },
     "12": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
+      "GroupRefreshID": 1001,
       "LoadOnInitial": true,
-      "GroupRefreshID": 1001
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     },
     "14": {
       "Category": "Mission",
@@ -248,9 +152,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140411,
             "Phase": "Finish",
-            "ID": 201140411
+            "Type": "SubMission"
           }
         ]
       }
@@ -261,42 +165,138 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140416,
             "Phase": "Finish",
-            "ID": 201140416
+            "Type": "SubMission"
           }
         ]
       }
     },
     "16": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "17": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "18": {
-      "SaveType": "Permanent",
       "LoadSide": "Server",
+      "SaveType": "Permanent",
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 201140403,
             "Phase": "Finish",
-            "ID": 201140403
+            "Type": "SubMission"
           }
         ]
       }
     },
     "19": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G1.json",
+      "ID": 1,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G2.json",
+      "ID": 2,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G3.json",
+      "ID": 3,
+      "Name": "DefaultProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G4.json",
+      "ID": 4,
+      "Name": "SubMission_Prop"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G5.json",
+      "ID": 5,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G6.json",
+      "ID": 6,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G7.json",
+      "ID": 7,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G8.json",
+      "ID": 8,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G9.json",
+      "ID": 9,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G10.json",
+      "ID": 10,
+      "Name": "SubMission_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G11.json",
+      "ID": 11,
+      "Name": "MainMission2011404_"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G12.json",
+      "ID": 12,
+      "Name": "Default_MonsterArea01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G14.json",
+      "ID": 14,
+      "Name": "SubMission_NPC"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G15.json",
+      "ID": 15,
+      "Name": "SubMission"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G16.json",
+      "ID": 16,
+      "Name": "Saves"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G17.json",
+      "ID": 17,
+      "Name": "SubMission_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G18.json",
+      "ID": 18,
+      "Name": "SubMission_Monster"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P40121_F40121002/LevelGroup_P40121_F40121002_G19.json",
+      "ID": 19,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20121_F20121001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M201_MainLine_01_StageData/Chap01_MAZ_M201_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

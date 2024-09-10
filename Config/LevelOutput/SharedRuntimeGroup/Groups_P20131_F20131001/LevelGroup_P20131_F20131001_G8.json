@@ -1,42 +1,14 @@
 {
-  "GroupName": "Sound",
-  "AreaAnchorName": "LevelArea_P20131_F20131001_G8",
-  "SaveType": "Permanent",
-  "LoadOnInitial": true,
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
+  "AreaAnchorName": "LevelArea_P20131_F20131001_G8",
+  "BattleAreaList": [],
+  "CrowdList": [],
   "DistrictList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "Trigger": {
-        "Radius": 40.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0
-      },
+      "ID": 1,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District1",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
@@ -46,50 +18,49 @@
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 1.0,
-          "RandomFrequncy": 5.0
+          "RTPCValue": 1,
+          "RandomFrequncy": 5
         },
         {
           "RTPCName": "RTPC_Wind_Type",
-          "RandomFrequncy": 5.0
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District1",
-      "ID": 1,
       "PosY": 1.1,
-      "PosZ": -93.5
-    },
-    {
+      "PosZ": -93.5,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 90.0,
-        "DimY": 20.0,
-        "DimZ": 90.0
-      },
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 40
+      }
+    },
+    {
+      "ID": 2,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District2",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
@@ -99,46 +70,46 @@
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Wind_Type",
-          "RandomFrequncy": 5.0
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District2",
-      "ID": 2,
       "PosX": 85.7,
       "PosY": 2.5,
-      "PosZ": -97.1
-    },
-    {
+      "PosZ": -97.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 200.0,
-        "DimY": 20.0,
-        "DimZ": 100.0
-      },
+        "DimX": 90,
+        "DimY": 20,
+        "DimZ": 90,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 3,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District3",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
@@ -148,46 +119,46 @@
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Wind_Type",
-          "RandomFrequncy": 5.0
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District3",
-      "ID": 3,
       "PosX": 28.2,
       "PosY": 2.5,
-      "PosZ": -4.8
-    },
-    {
+      "PosZ": -4.8,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 130.0,
-        "DimY": 20.0,
-        "DimZ": 90.0
-      },
+        "DimX": 200,
+        "DimY": 20,
+        "DimZ": 100,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 4,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District4",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
@@ -197,46 +168,46 @@
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Wind_Type",
-          "RandomFrequncy": 5.0
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District4",
-      "ID": 4,
       "PosX": -104.3,
       "PosY": 2.5,
-      "PosZ": -97.1
-    },
-    {
+      "PosZ": -97.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 200.0,
-        "DimY": 20.0,
-        "DimZ": 150.0
-      },
+        "DimX": 130,
+        "DimY": 20,
+        "DimZ": 90,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 5,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District5",
       "OnEnterAudioState": [
         {
           "GroupName": "StateGroup_Maze_Belobog_M3_1",
@@ -246,306 +217,335 @@
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Wind_Type",
-          "RandomFrequncy": 5.0
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District5",
-      "ID": 5,
       "PosX": -49.1,
       "PosY": 2.5,
-      "PosZ": -219.1
-    },
-    {
+      "PosZ": -219.1,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Shape": "Box",
-        "Radius": 1.0,
-        "DimX": 40.0,
-        "DimY": 5.0,
-        "DimZ": 25.0
-      },
+        "DimX": 200,
+        "DimY": 20,
+        "DimZ": 150,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 6,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District6",
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_amb_ironguard_area_foley",
         "StopEventName": "Ev_sfx_amb_ironguard_area_foley_stop",
         "TransformList": [
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": 100.1,
-              "y": 2.5,
-              "z": -86.5,
+              "magnitude": 132.319733,
               "normalized": {
-                "x": 0.7565009,
-                "y": 0.01889363,
-                "z": -0.6537196,
+                "magnitude": 0.99999994,
                 "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1,
                   "x": 0.756500959,
                   "y": 0.0188936312,
-                  "z": -0.653719664,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.0
+                  "z": -0.653719664
                 },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
+                "sqrMagnitude": 0.99999994,
+                "x": 0.7565009,
+                "y": 0.01889363,
+                "z": -0.6537196
               },
-              "magnitude": 132.319733,
-              "sqrMagnitude": 17508.51
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 17508.51,
+              "x": 100.1,
+              "y": 2.5,
+              "z": -86.5
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           },
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": 91.74,
-              "y": 2.5,
-              "z": -101.98,
+              "magnitude": 137.194748,
               "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1,
                 "x": 0.6686845,
                 "y": 0.0182222724,
-                "z": -0.743322968,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.0
+                "z": -0.743322968
               },
-              "magnitude": 137.194748,
-              "sqrMagnitude": 18822.3984
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 18822.3984,
+              "x": 91.74,
+              "y": 2.5,
+              "z": -101.98
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           }
         ]
       },
-      "NPCCrowdRadius": 25.0,
-      "Name": "District6",
-      "ID": 6,
       "PosX": 100.1,
       "PosY": 2.5,
-      "PosZ": -93.8
-    },
-    {
+      "PosZ": -93.8,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 20.0,
-        "DimX": 40.0,
-        "DimY": 5.0,
-        "DimZ": 25.0
-      },
+        "DimX": 40,
+        "DimY": 5,
+        "DimZ": 25,
+        "Radius": 1,
+        "Shape": "Box"
+      }
+    },
+    {
+      "ID": 7,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District7",
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_amb_ironguard_area_flap",
         "StopEventName": "Ev_sfx_amb_ironguard_area_flap_stop",
         "TransformList": [
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": 93.75,
-              "y": 2.29,
-              "z": -81.93,
+              "magnitude": 124.526428,
               "normalized": {
+                "magnitude": 1,
+                "sqrMagnitude": 1.00000012,
                 "x": 0.752852261,
                 "y": 0.01838967,
-                "z": -0.657932639,
-                "magnitude": 1.0,
-                "sqrMagnitude": 1.00000012
+                "z": -0.657932639
               },
-              "magnitude": 124.526428,
-              "sqrMagnitude": 15506.832
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 15506.832,
+              "x": 93.75,
+              "y": 2.29,
+              "z": -81.93
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           }
         ]
       },
-      "NPCCrowdRadius": 25.0,
-      "Name": "District7",
-      "ID": 7,
       "PosX": 93.75,
       "PosY": 2.29,
-      "PosZ": -86.67
-    },
-    {
+      "PosZ": -86.67,
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 300.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0
-      },
+        "DimX": 40,
+        "DimY": 5,
+        "DimZ": 25,
+        "Radius": 20
+      }
+    },
+    {
+      "ID": 8,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District8",
       "OnEnterRTPC": [
         {
           "RTPCName": "RTPC_Global_Reverb_Type",
-          "RTPCValue": 2.0,
-          "RandomFrequncy": 5.0
+          "RTPCValue": 2,
+          "RandomFrequncy": 5
         }
       ],
-      "NPCCrowdRadius": 25.0,
-      "Name": "District8",
-      "ID": 8
-    },
-    {
       "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
+        "magnitude": 1.73205078,
         "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
+          "magnitude": 0.99999994,
           "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
             "x": 0.5773503,
             "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
+            "z": 0.5773503
           },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
         },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "Trigger": {
-        "Radius": 200.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0
-      },
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 300
+      }
+    },
+    {
+      "ID": 9,
       "LoadOnInitial": true,
+      "NPCCrowdRadius": 25,
+      "Name": "District9",
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_amb_echogallery_machine_far",
         "StopEventName": "Ev_sfx_amb_echogallery_machine_far_stop",
         "TransformList": [
           {
+            "Forward": {
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "z": 1
+            },
             "Position": {
-              "x": -0.3,
-              "y": 48.3,
-              "z": -188.9,
+              "magnitude": 194.9774,
               "normalized": {
-                "x": -0.00153863989,
-                "y": 0.247721016,
-                "z": -0.968830168,
+                "magnitude": 0.99999994,
                 "normalized": {
+                  "magnitude": 1,
+                  "sqrMagnitude": 1.00000012,
                   "x": -0.00153864,
                   "y": 0.247721031,
-                  "z": -0.9688302,
-                  "magnitude": 1.0,
-                  "sqrMagnitude": 1.00000012
+                  "z": -0.9688302
                 },
-                "magnitude": 0.99999994,
-                "sqrMagnitude": 0.99999994
+                "sqrMagnitude": 0.99999994,
+                "x": -0.00153863989,
+                "y": 0.247721016,
+                "z": -0.968830168
               },
-              "magnitude": 194.9774,
-              "sqrMagnitude": 38016.1875
-            },
-            "Forward": {
-              "z": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "sqrMagnitude": 38016.1875,
+              "x": -0.3,
+              "y": 48.3,
+              "z": -188.9
             },
             "Up": {
-              "y": 1.0,
-              "magnitude": 1.0,
-              "sqrMagnitude": 1.0
+              "magnitude": 1,
+              "sqrMagnitude": 1,
+              "y": 1
             }
           }
         ]
       },
-      "NPCCrowdRadius": 25.0,
-      "Name": "District9",
-      "ID": 9,
       "PosX": -0.3,
       "PosY": 48.3,
-      "PosZ": -188.9
+      "PosZ": -188.9,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "Trigger": {
+        "DimX": 1,
+        "DimY": 1,
+        "DimZ": 1,
+        "Radius": 200
+      }
     }
   ],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
+  "GroupName": "Sound",
+  "LoadOnInitial": true,
+  "MonsterList": [],
   "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": []
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Permanent",
+  "StreamingTemplateType": "Standard",
+  "WaypointList": []
 }

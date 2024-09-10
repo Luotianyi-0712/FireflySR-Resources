@@ -1,55 +1,21 @@
 {
-  "FloorID": 41000011,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M301_MainLine_01_StageData/Chap01_MAZ_M301_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20131_F20131001.json",
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G1.json",
-      "Name": "DefaultData",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G7.json",
-      "Name": "Monsters",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G8.json",
-      "Name": "PlayerStart",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G9.json",
-      "Name": "Logics",
-      "ID": 9
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G10.json",
-      "Name": "Saves",
-      "ID": 10
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G2.json",
-      "Name": "Sound",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G3.json",
-      "Name": "Props",
-      "ID": 3
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M301_01_Foggy.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "ConstValues": [
+        {
+          "$type": "RPG.GameCore.FloorTargetAgentConfig, RPG.GameCore.Config",
+          "AgentType": "Prop",
+          "GroupID": 3,
+          "ID": 2,
+          "InstanceID": 300001,
+          "Name": "RotateBridgeProp"
+        }
+      ],
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter01/EnviroProfile/Chap01_CloseView_ADV_Area_M301_01_Foggy.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -59,46 +25,90 @@
         5,
         6
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 41000011,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Permanent",
+      "LoadOnInitial": true,
       "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "7": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "8": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "9": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
-      "LoadOnInitial": true
-    },
-    "10": {
-      "SaveType": "Permanent",
-      "LoadSide": "Server",
-      "LoadOnInitial": true
+      "SaveType": "Permanent"
     },
     "2": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
+    },
+    "7": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "8": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "9": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
+    },
+    "10": {
+      "LoadOnInitial": true,
+      "LoadSide": "Server",
+      "SaveType": "Permanent"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G1.json",
+      "ID": 1,
+      "Name": "DefaultData"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G7.json",
+      "ID": 7,
+      "Name": "Monsters"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G8.json",
+      "ID": 8,
+      "Name": "PlayerStart"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G9.json",
+      "ID": 9,
+      "Name": "Logics"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G10.json",
+      "ID": 10,
+      "Name": "Saves"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G2.json",
+      "ID": 2,
+      "Name": "Sound"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P41011_F41000011/LevelGroup_P41011_F41000011_G3.json",
+      "ID": 3,
+      "Name": "Props"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20131_F20131001.json",
+  "StageData": "Stages/Outputs/Chapter01/Stages/Chap01_MAZ_M301_MainLine_01_StageData/Chap01_MAZ_M301_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

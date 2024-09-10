@@ -1,56 +1,56 @@
 {
-  "GroupName": "MainMission2022002_PerfAfterMessage",
-  "Category": "Mission",
-  "LevelGraph": "Config/Level/GroupGraph/F10201001/Group_F10201001_G234.json",
+  "AnchorList": [
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config",
+        "fov": 40
+      },
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": 58.56036,
+      "PosY": 2.122486,
+      "PosZ": 26.8629,
+      "RotX": 4.57195,
+      "RotY": 179.3782,
+      "RotZ": 0.000004,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P10201_F10201001_G234",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Mission",
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "MainMission2022002_PerfAfterMessage",
+  "IsHoyoGroup": true,
+  "LevelGraph": "Config/Level/GroupGraph/F10201001/Group_F10201001_G234.json",
+  "MonsterList": [],
+  "NPCList": [],
   "OwnerMainMissionID": 2022002,
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
   "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "LevelArea_P10201_F10201001_G234,Anchor1",
-        "Key": "Camera"
-      }
-    ],
     "SharedValues": [
       {
         "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "LevelArea_P10201_F10201001_G234,Anchor1",
-        "Key": "Camera"
+        "Key": "Camera",
+        "Value": "LevelArea_P10201_F10201001_G234,Anchor1"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "Camera",
+        "Value": "LevelArea_P10201_F10201001_G234,Anchor1"
       }
     ]
   },
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
-  "AnchorList": [
-    {
-      "RotX": 4.57195,
-      "RotZ": 4E-06,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config",
-        "fov": 40.0
-      },
-      "Name": "Anchor1",
-      "RotY": 179.3782,
-      "ID": 1,
-      "PosX": 58.56036,
-      "PosY": 2.122486,
-      "PosZ": 26.8629
-    }
-  ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "WaypointList": []
 }

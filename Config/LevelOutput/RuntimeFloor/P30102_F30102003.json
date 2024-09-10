@@ -1,81 +1,11 @@
 {
-  "FloorID": 30102003,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_ADV_X02_Sanctum_SuiGarden_StageData/Chap02_ADV_X02_Sanctum_SuiGarden_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20223_F20223001.json",
-  "SavedValues": [
-    {
-      "ID": 1,
-      "Name": "SoundGroupState",
-      "AllowedValues": [],
-      "MaxValue": 3
-    }
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G2.json",
-      "Name": "DefaultGroup",
-      "ID": 2
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G3.json",
-      "Name": "Sound_01",
-      "ID": 3
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G4.json",
-      "Name": "Contents",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G5.json",
-      "Name": "Contents",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G6.json",
-      "Name": "Contents",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G7.json",
-      "Name": "Contents",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G8.json",
-      "Name": "Tower",
-      "ID": 8
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G9.json",
-      "Name": "Contents",
-      "ID": 9
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Night.enviroProfile.asset",
-      "CameraType": "Maze",
       "BattleAreaList": [],
-      "SavedValues": [
-        {
-          "ID": 1,
-          "Name": "SoundGroupState",
-          "AllowedValues": [],
-          "MaxValue": 3
-        }
-      ],
-      "IsExclusiveSaveMapSection": true,
+      "CameraType": "Maze",
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Night.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -87,25 +17,34 @@
         7,
         8
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
+      "SavedValues": [
+        {
+          "AllowedValues": [],
+          "ID": 1,
+          "MaxValue": 3,
+          "Name": "SoundGroupState"
+        }
+      ],
       "StartAnchorID": 1
     }
   ],
+  "FloorID": 30102003,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "2": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "3": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
       "Category": "Custom",
@@ -128,9 +67,9 @@
       "LoadSide": "Server"
     },
     "8": {
-      "SaveType": "Reset",
       "IsHoyoGroup": true,
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "9": {
       "Category": "Custom",
@@ -138,5 +77,58 @@
       "LoadSide": "Server"
     }
   },
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G2.json",
+      "ID": 2,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G3.json",
+      "ID": 3,
+      "Name": "Sound_01"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G4.json",
+      "ID": 4,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G5.json",
+      "ID": 5,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G6.json",
+      "ID": 6,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G7.json",
+      "ID": 7,
+      "Name": "Contents"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G8.json",
+      "ID": 8,
+      "Name": "Tower"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P30102_F30102003/LevelGroup_P30102_F30102003_G9.json",
+      "ID": 9,
+      "Name": "Contents"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "NavmapConfigPath": "Config/LevelOutput/Map/MapInfo_P20223_F20223001.json",
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_ADV_X02_Sanctum_SuiGarden_StageData/Chap02_ADV_X02_Sanctum_SuiGarden_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }

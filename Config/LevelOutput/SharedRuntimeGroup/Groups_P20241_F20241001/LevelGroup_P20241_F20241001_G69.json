@@ -1,19 +1,40 @@
 {
-  "GroupName": "Door",
-  "LevelGraph": "Config/Level/GroupGraph/F20241001/Group_F20241001_G69.json",
+  "AnchorList": [
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -146.41,
+      "PosY": 208.96,
+      "PosZ": 5.53,
+      "RotY": 90,
+      "Usage": "Camera"
+    },
+    {
+      "CustomParameter": {
+        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
+      },
+      "ID": 2,
+      "Name": "Anchor2",
+      "PosX": -146.38,
+      "PosY": 204.34,
+      "PosZ": 6.33,
+      "RotX": 349.5718,
+      "RotY": 90,
+      "Usage": "Camera"
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20241_F20241001_G69",
-  "SaveType": "Permanent",
-  "SavedValueCondition": {
-    "Conditions": [
-      {
-        "SavedValueName": "DoorControl",
-        "Operation": "Equal"
-      }
-    ],
-    "Operation": "And"
-  },
-  "LoadSide": "Server",
-  "LoadOnInitial": true,
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "Door",
   "GroupStateList": [
     {
       "Comment": "还没被夹 to 被门夹过",
@@ -24,196 +45,175 @@
       "SrcState": 1
     }
   ],
-  "ValueSource": {
-    "Values": [
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "LevelArea_P20241_F20241001_G69,Anchor1",
-        "Key": "camera"
-      }
-    ],
-    "SharedValues": [
-      {
-        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-        "Value": "LevelArea_P20241_F20241001_G69,Anchor1",
-        "Key": "camera"
-      }
-    ]
-  },
-  "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "StreamingTemplateType": "UltraFar",
-  "ConflictWhiteList": [],
-  "AnchorList": [
-    {
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor1",
-      "RotY": 90.0,
-      "ID": 1,
-      "PosX": -146.41,
-      "PosY": 208.96,
-      "PosZ": 5.53
-    },
-    {
-      "RotX": 349.5718,
-      "Usage": "Camera",
-      "CustomParameter": {
-        "$type": "RPG.GameCore.LevelAnchorCameraParameter, RPG.GameCore.Config"
-      },
-      "Name": "Anchor2",
-      "RotY": 90.0,
-      "ID": 2,
-      "PosX": -146.38,
-      "PosY": 204.34,
-      "PosZ": 6.33
-    }
-  ],
+  "LevelGraph": "Config/Level/GroupGraph/F20241001/Group_F20241001_G69.json",
+  "LittleGameList": [],
+  "LoadOnInitial": true,
+  "LoadSide": "Server",
   "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 102235,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_Door_09.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 1,
-            "Key": "IsAutoDoor"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Key": "CanInteractInLock"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20241_F20241001_G2,PlayerStart",
-            "Key": "GateKillRespawnPoint"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Value": 1,
-            "Key": "IsAutoDoor"
-          },
-          {
-            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
-            "Key": "CanInteractInLock"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "LevelArea_P20241_F20241001_G2,PlayerStart",
-            "Key": "GateKillRespawnPoint"
-          }
-        ]
-      },
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CloseToTrigger": {
-          "Shape": "Box",
-          "Radius": 10.0,
-          "DimX": 19.0,
-          "DimY": 9.0,
-          "DimZ": 20.0,
-          "PointList": []
+          "DimX": 19,
+          "DimY": 9,
+          "DimZ": 20,
+          "PointList": [],
+          "Radius": 10,
+          "Shape": "Box"
         },
         "ExitTrigger": {
-          "Shape": "Box",
-          "Radius": 15.0,
-          "DimX": 20.0,
-          "DimY": 10.0,
-          "DimZ": 25.0,
-          "PointList": []
+          "DimX": 20,
+          "DimY": 10,
+          "DimZ": 25,
+          "PointList": [],
+          "Radius": 15,
+          "Shape": "Box"
         }
       },
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_Door_09.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": -1,
       "OverrideMapStateIcons": [
         {
-          "State": "Locked",
+          "Color": "#4b4b4b",
           "IconID": 255,
-          "Color": "#4b4b4b"
+          "State": "Locked"
         },
         {
-          "IconID": 255,
-          "Color": "#b74a4a"
+          "Color": "#b74a4a",
+          "IconID": 255
         },
         {
-          "State": "Open",
+          "Color": "#4b4b4b",
           "IconID": 255,
-          "Color": "#4b4b4b"
+          "State": "Open"
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "InteractTitle": {
-        "hash": 371857150
+      "OverrideSoundRange": -1,
+      "PosX": -110.65,
+      "PosY": 199.1,
+      "PosZ": 5.81,
+      "PropID": 102235,
+      "RotY": 90,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
+      "ServerInteractVerificationIDList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {
+          "BlackInDistance": 25,
           "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
           "NeedFadeIn": true,
           "NeedFadeOut": true
         }
       },
-      "Name": "Prop1",
-      "RotY": 90.0,
-      "ID": 300001,
-      "PosX": -110.65,
-      "PosY": 199.1,
-      "PosZ": 5.81
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "IsAutoDoor",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "CanInteractInLock"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "GateKillRespawnPoint",
+            "Value": "LevelArea_P20241_F20241001_G2,PlayerStart"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "IsAutoDoor",
+            "Value": 1
+          },
+          {
+            "$type": "RPG.GameCore.SharedInt, RPG.GameCore.Config",
+            "Key": "CanInteractInLock"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "GateKillRespawnPoint",
+            "Value": "LevelArea_P20241_F20241001_G2,PlayerStart"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
+  "SaveType": "Permanent",
+  "SavedValueCondition": {
+    "Conditions": [
+      {
+        "Operation": "Equal",
+        "SavedValueName": "DoorControl"
+      }
+    ],
+    "Operation": "And"
+  },
   "SmartObjectList": [],
-  "CurveList": [],
-  "LittleGameList": []
+  "StreamingTemplateType": "UltraFar",
+  "ValueSource": {
+    "SharedValues": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "camera",
+        "Value": "LevelArea_P20241_F20241001_G69,Anchor1"
+      }
+    ],
+    "Values": [
+      {
+        "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+        "Key": "camera",
+        "Value": "LevelArea_P20241_F20241001_G69,Anchor1"
+      }
+    ]
+  },
+  "WaypointList": []
 }

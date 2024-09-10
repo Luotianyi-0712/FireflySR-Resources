@@ -1,60 +1,60 @@
 {
-  "GroupName": "DefaultGroup",
-  "AreaAnchorName": "LevelArea_P44301_F44301002_G1",
-  "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
-  "LoadOnInitial": true,
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "IsHoyoGroup": true,
-  "HoYoGroupType": "Container",
-  "StreamingTemplateType": "Standard",
-  "ConflictWhiteList": [],
   "AnchorList": [
     {
-      "Name": "PlayerStart",
       "ID": 1,
+      "Name": "PlayerStart",
       "PosX": 69.55,
       "PosY": -19.5075,
       "PosZ": -530.74
     }
   ],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
+  "AreaAnchorName": "LevelArea_P44301_F44301002_G1",
   "BattleAreaList": [
     {
       "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea01"
-      ],
+      "ID": 1,
+      "Name": "BattleArea1",
       "PrefetchMainMissionList": [],
       "PrefetchSubMissionList": [],
-      "Name": "BattleArea1",
-      "RotY": 270.0,
-      "ID": 1
+      "RotY": 270,
+      "Tags": [
+        "BattleArea01"
+      ]
     },
     {
       "EnviroProfile": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_BAT_P101_Boss_night.enviroProfile.asset",
-      "Tags": [
-        "BattleArea02"
-      ],
-      "PrefetchMainMissionList": [],
-      "PrefetchSubMissionList": [],
-      "Name": "BattleArea2",
       "ID": 2,
+      "Name": "BattleArea2",
       "PosX": 5.682623,
       "PosY": 1.734413,
-      "PosZ": 1.513917
+      "PosZ": 1.513917,
+      "PrefetchMainMissionList": [],
+      "PrefetchSubMissionList": [],
+      "Tags": [
+        "BattleArea02"
+      ]
     }
   ],
-  "NPCList": [],
+  "ConflictIDList": [],
+  "ConflictWhiteList": [],
   "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "DefaultGroup",
+  "HoYoGroupType": "Container",
+  "IsHoyoGroup": true,
+  "LoadOnInitial": true,
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

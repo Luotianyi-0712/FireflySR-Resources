@@ -1,96 +1,96 @@
 {
-  "GroupName": "NPC04",
-  "Category": "Atmosphere",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10202_F10202004_G273",
-  "SaveType": "Permanent",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [
+    1217201
+  ],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "NPC04",
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
+        "ID": 800324902,
         "Phase": "Finish",
-        "ID": 800324902
+        "Type": "SubMission"
       }
     ]
   },
   "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [
-    1217201
-  ],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 12172,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [],
-      "ServerInteractVerificationIDList": [
-        35
-      ],
-      "MappingInfoID": 2301,
       "BoardShowList": [
         1,
         4,
         8,
         64
       ],
-      "OverrideNPCName": {
-        "hash": 371857150
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Permanent",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010298,
-      "IsMapContent": true,
-      "MiniMapIconType": 4,
-      "BornType": "Permanent",
-      "InitialHiddenNodeList": [],
       "Dialog": {
+        "EnableDialogCamera": true,
         "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G273/DialogueMain_F10202004_G273_N400001.json",
         "PackList": [
           {
-            "Name": "DailyMission",
-            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G273/DialoguePack_DailyMission_F10202004_G273_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G273/DialoguePack_DailyMission_F10202004_G273_N400001.json",
+            "Name": "DailyMission"
           },
           {
-            "Name": "Common",
-            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G273/DialoguePack_Common_F10202004_G273_N400001.json"
+            "LevelGraph": "Config/Level/NPCDialogue/P10202/F10202004_G273/DialoguePack_Common_F10202004_G273_N400001.json",
+            "Name": "Common"
           }
-        ],
-        "EnableDialogCamera": true
+        ]
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "TryCapture": true,
-        "CaptureDistanceTolerance": 10.0,
-        "EntitySpawnConfig": {
-          "NeedBlackIn": true,
-          "BlackInDistance": 25.0,
-          "NeedFadeIn": true,
-          "NeedFadeOut": true
-        }
-      },
-      "Name": "NPC1",
-      "RotY": 171.6031,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "IsMapContent": true,
+      "LoadOnInitial": true,
+      "MappingInfoID": 2301,
+      "MiniMapIconType": 4,
+      "NPCID": 12172,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 371857150
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
       "PosX": 1.333,
       "PosY": 0.09,
-      "PosZ": -38.868
+      "PosZ": -38.868,
+      "RotY": 171.6031,
+      "ServerInteractVerificationIDList": [
+        35
+      ],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {
+          "BlackInDistance": 25,
+          "NeedBlackIn": true,
+          "NeedFadeIn": true,
+          "NeedFadeOut": true
+        },
+        "TryCapture": true
+      },
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "PropList": [],
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

@@ -1,181 +1,181 @@
 {
-  "GroupName": "FarmElement",
+  "AnchorList": [
+    {
+      "ID": 1,
+      "Name": "Anchor1",
+      "PosX": -76.74,
+      "PosY": 49.94954,
+      "PosZ": 81.06999,
+      "RotY": 180
+    }
+  ],
   "AreaAnchorName": "LevelArea_P20222_F20222001_G183",
-  "SaveType": "Permanent",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "FarmElement",
   "LoadCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 4010127
+        "ID": 4010127,
+        "Phase": "Finish"
       }
     ]
   },
   "LoadSide": "Server",
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [
-    {
-      "Name": "Anchor1",
-      "RotY": 180.0,
-      "ID": 1,
-      "PosX": -76.74,
-      "PosY": 49.94954,
-      "PosZ": 81.06999
-    }
-  ],
   "MonsterList": [
     {
-      "NPCMonsterID": 2013011,
       "AIConfig": {
         "PathwayList": [],
         "SlaveConfigList": []
       },
-      "LoadOnInitial": true,
-      "CampID": 3,
       "BattleArea": {
         "GroupID": 3,
         "ID": 1
       },
-      "EventID": 101210,
-      "PurposeType": "FarmElement",
-      "FarmElementID": 1110,
       "BoardShowList": [
         2
       ],
+      "CampID": 3,
       "DefaultLookAtMode": "LookPlayer",
-      "TagList": [],
+      "EventID": 101210,
+      "FarmElementID": 1110,
+      "ID": 200001,
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCMonsterID": 2013011,
+      "Name": "Monster1",
       "OverrideNPCName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
       "OverrideNPCTitle": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "InteractIconType": "ChatIcon",
-      "Name": "Monster1",
-      "ID": 200001,
       "PosX": -76.77,
       "PosY": 49.94954,
-      "PosZ": 73.96373
+      "PosZ": 73.96373,
+      "PurposeType": "FarmElement",
+      "TagList": []
     }
   ],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
   "PropList": [
     {
-      "Scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0,
-        "normalized": {
-          "x": 0.577350259,
-          "y": 0.577350259,
-          "z": 0.577350259,
-          "normalized": {
-            "x": 0.5773503,
-            "y": 0.5773503,
-            "z": 0.5773503,
-            "magnitude": 1.00000012,
-            "sqrMagnitude": 1.00000024
-          },
-          "magnitude": 0.99999994,
-          "sqrMagnitude": 0.99999994
-        },
-        "magnitude": 1.73205078,
-        "sqrMagnitude": 3.0
-      },
-      "PropID": 702,
-      "LoadOnInitial": true,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_FarmElement_01.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MappingInfo_Name_1110_0",
-            "Key": "InteractID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_02.prefab",
-            "Key": "AssistEffectPath"
-          }
-        ],
-        "SharedValues": [
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "MappingInfo_Name_1110_0",
-            "Key": "InteractID"
-          },
-          {
-            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
-            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_02.prefab",
-            "Key": "AssistEffectPath"
-          }
-        ]
-      },
+      "AnchorGroupID": 183,
+      "AnchorID": 1,
+      "BridgeStateRotations": [],
+      "CameraCenterEntityList": [],
       "CampID": 4,
-      "State": "CheckPointDisable",
-      "OverrideHintRange": -1.0,
-      "OverrideSoundRange": -1.0,
       "CustomTriggerMap": {
         "CustomTrigger_DetectPlayer": {
-          "Radius": 11.0,
-          "PointList": []
+          "PointList": [],
+          "Radius": 11
         },
         "CustomTrigger_Spring": {
-          "Radius": 11.5,
           "PointList": [],
+          "Radius": 11.5,
           "Server": true
         }
       },
       "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "StateConfigs": [],
-      "AnchorGroupID": 183,
-      "AnchorID": 1,
-      "MappingInfoID": 1110,
-      "DialogueTriggerAngle": 120,
       "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerAngle": 120,
+      "DialogueTriggerSkipFakeAvatar": true,
       "FarmElementID": 1110,
+      "ID": 300001,
+      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_FarmElement_01.json",
+      "InteractTitle": {
+        "Hash": 371857150
+      },
+      "IsOverrideInitLevelGraph": true,
+      "LoadOnInitial": true,
+      "LookAtPlayerTriggerRadius": 2,
+      "MappingInfoID": 1110,
+      "Name": "Prop1",
+      "OverrideHintRange": -1,
+      "OverrideLockRaycastOffset": 1.5,
       "OverrideMapIconType": 76,
       "OverrideMapStateIcons": [
         {
-          "State": "CheckPointDisable",
+          "Color": "#4b4b4b",
           "IconID": 76,
-          "Color": "#4b4b4b"
+          "State": "CheckPointDisable"
         },
         {
-          "State": "CheckPointEnable",
-          "IconID": 76
+          "IconID": 76,
+          "State": "CheckPointEnable"
         }
       ],
       "OverridePropName": {
-        "hash": 371857150
+        "Hash": 371857150
       },
-      "DialogueTriggerSkipFakeAvatar": true,
-      "InteractTitle": {
-        "hash": 371857150
-      },
-      "CameraCenterEntityList": [],
-      "LookAtPlayerTriggerRadius": 2.0,
-      "OverrideLockRaycastOffset": 1.5,
-      "SpawnConfig": {},
-      "Name": "Prop1",
-      "RotY": 270.0,
-      "ID": 300001,
+      "OverrideSoundRange": -1,
       "PosX": -76.77,
       "PosY": 50.94954,
-      "PosZ": 73.96373
+      "PosZ": 73.96373,
+      "PropID": 702,
+      "RotY": 270,
+      "Scale": {
+        "magnitude": 1.73205078,
+        "normalized": {
+          "magnitude": 0.99999994,
+          "normalized": {
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000024,
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503
+          },
+          "sqrMagnitude": 0.99999994,
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259
+        },
+        "sqrMagnitude": 3,
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ServerInteractVerificationIDList": [],
+      "SpawnConfig": {},
+      "State": "CheckPointDisable",
+      "StateConfigs": [],
+      "TalkDialogGroupIDList": [],
+      "ValueSource": {
+        "SharedValues": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "InteractID",
+            "Value": "MappingInfo_Name_1110_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "AssistEffectPath",
+            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_02.prefab"
+          }
+        ],
+        "Values": [
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "InteractID",
+            "Value": "MappingInfo_Name_1110_0"
+          },
+          {
+            "$type": "RPG.GameCore.SharedString, RPG.GameCore.Config",
+            "Key": "AssistEffectPath",
+            "Value": "Effects/Eff_Prefab/Eff_Common/Eff_Common_BossDomain_Assistfield_02.prefab"
+          }
+        ]
+      }
     }
   ],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
-  "AudienceList": [],
-  "SmartObjectList": []
+  "SaveType": "Permanent",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "ValueSource": {},
+  "WaypointList": []
 }

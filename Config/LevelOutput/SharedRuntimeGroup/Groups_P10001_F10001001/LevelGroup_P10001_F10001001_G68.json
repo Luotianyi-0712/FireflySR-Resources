@@ -1,100 +1,100 @@
 {
-  "GroupName": "DailyMission",
+  "AnchorList": [],
   "AreaAnchorName": "LevelArea_P10001_F10001001_G68",
-  "SaveType": "Reset",
+  "AudienceList": [],
+  "BattleAreaList": [],
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "CurveList": [],
+  "DistrictList": [],
+  "GroupName": "DailyMission",
+  "LittleGameList": [],
   "LoadCondition": {
     "Conditions": [
       {
-        "Type": "SubMission",
-        "ID": 300070401
+        "ID": 300070401,
+        "Type": "SubMission"
       }
     ]
   },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 300070101
-      },
-      {
-        "Type": "SubMission",
-        "ID": 300070201
-      },
-      {
-        "Type": "SubMission",
-        "ID": 300070301
-      },
-      {
-        "Type": "SubMission",
-        "Phase": "Finish",
-        "ID": 300070401
-      }
-    ],
-    "Operation": "Or",
-    "DelayToLevelReload": true
-  },
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
-  "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
   "NPCList": [
     {
-      "NPCID": 10118,
-      "LoadOnInitial": true,
-      "DialogueTriggerAngle": 120,
-      "DialogueGroups": [
-        300070401
-      ],
-      "ServerInteractVerificationIDList": [],
-      "DefaultLookAtMode": "LookPlayer",
       "BoardShowList": [],
-      "OverrideNPCName": {
-        "hash": 132898925
-      },
-      "OverrideNPCTitle": {
-        "hash": 371857150
-      },
-      "TalkDialogGroupIDList": [],
+      "BornType": "Mission",
+      "CameraCenterEntityList": [],
       "DefaultAnimationType": "FreeStyle",
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "BornType": "Mission",
-      "InitialHiddenNodeList": [],
+      "DefaultLookAtMode": "LookPlayer",
       "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G68/DialogueMain_F10001001_G68_N400001.json",
-        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
-              "Type": "SubMission",
-              "ID": 300070401
+              "ID": 300070401,
+              "Type": "SubMission"
             }
           ]
         },
-        "EnableDialogCamera": true
+        "EnableDialogCamera": true,
+        "LevelGraph": "Config/Level/NPCDialogue/P10001/F10001001_G68/DialogueMain_F10001001_G68_N400001.json",
+        "PackList": []
       },
-      "InteractIconType": "ChatIcon",
+      "DialogueGroups": [
+        300070401
+      ],
+      "DialogueTriggerAngle": 120,
       "DialogueTriggerSkipFakeAvatar": true,
       "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
-      "OverrideReplaceMaterialKeyList": [],
-      "CameraCenterEntityList": [],
-      "Name": "NPC1",
-      "RotY": 273.9149,
       "ID": 400001,
+      "InitialHiddenNodeList": [],
+      "InteractIconType": "ChatIcon",
+      "LoadOnInitial": true,
+      "NPCID": 10118,
+      "Name": "NPC1",
+      "OverrideNPCName": {
+        "Hash": 132898925
+      },
+      "OverrideNPCTitle": {
+        "Hash": 371857150
+      },
+      "OverrideReplaceMaterialKeyList": [],
       "PosX": 56.226,
       "PosY": 4.923051,
-      "PosZ": -51.043
+      "PosZ": -51.043,
+      "RotY": 273.9149,
+      "ServerInteractVerificationIDList": [],
+      "TalkDialogGroupIDList": []
     }
   ],
-  "CrowdList": [],
+  "PathwayList": [],
   "PedestrianList": [],
-  "AudienceList": [],
+  "PropList": [],
+  "SaveType": "Reset",
   "SmartObjectList": [],
-  "CurveList": [],
-  "LittleGameList": []
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 300070101,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070201,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070301,
+        "Type": "SubMission"
+      },
+      {
+        "ID": 300070401,
+        "Phase": "Finish",
+        "Type": "SubMission"
+      }
+    ],
+    "DelayToLevelReload": true,
+    "Operation": "Or"
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

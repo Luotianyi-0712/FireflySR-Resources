@@ -1,24 +1,4 @@
 {
-  "GroupName": "Ship3",
-  "Category": "Atmosphere",
-  "AreaAnchorName": "LevelArea_P10202_F10202004_G171",
-  "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 8003221
-      }
-    ]
-  },
-  "UnloadCondition": {
-    "Conditions": [
-      {
-        "Phase": "Finish",
-        "ID": 8003222
-      }
-    ]
-  },
   "AirlineInitPrefabPaths": [
     "Props/Outputs/Chap02/Chap02_Prop_StarSkiff/Level/Chap02_Prop_StarSkiff_Init_X204_06.prefab",
     "Props/Outputs/Chap02/Chap02_Prop_StarSkiff/Level/Chap02_Prop_StarSkiff_Init_X204_04.prefab",
@@ -26,19 +6,39 @@
     "Props/Outputs/Chap02/Chap02_Prop_StarSkiff/Level/Chap02_Prop_StarSkiff_Init_X204_03.prefab",
     "Props/Outputs/Chap02/Chap02_Prop_StarSkiff/Level/Chap02_Prop_StarSkiff_Init_X204_08.prefab"
   ],
-  "ValueSource": {},
-  "ConflictIDList": [],
-  "StreamingTemplateType": "Standard",
   "AnchorList": [],
-  "MonsterList": [],
-  "PropList": [],
-  "DistrictList": [],
-  "WaypointList": [],
-  "PathwayList": [],
-  "BattleAreaList": [],
-  "NPCList": [],
-  "CrowdList": [],
-  "PedestrianList": [],
+  "AreaAnchorName": "LevelArea_P10202_F10202004_G171",
   "AudienceList": [],
-  "SmartObjectList": []
+  "BattleAreaList": [],
+  "Category": "Atmosphere",
+  "ConflictIDList": [],
+  "CrowdList": [],
+  "DistrictList": [],
+  "GroupName": "Ship3",
+  "LoadCondition": {
+    "Conditions": [
+      {
+        "ID": 8003221,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "MonsterList": [],
+  "NPCList": [],
+  "PathwayList": [],
+  "PedestrianList": [],
+  "PropList": [],
+  "SaveType": "Reset",
+  "SmartObjectList": [],
+  "StreamingTemplateType": "Standard",
+  "UnloadCondition": {
+    "Conditions": [
+      {
+        "ID": 8003222,
+        "Phase": "Finish"
+      }
+    ]
+  },
+  "ValueSource": {},
+  "WaypointList": []
 }

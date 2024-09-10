@@ -1,48 +1,10 @@
 {
-  "FloorID": 20233001,
-  "StartAnchorID": 1,
-  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X303_MainLine_01_StageData/Chap02_MAZ_X303_MainLine_01_StageData.stage",
   "CameraType": "Maze",
-  "LayerToAreaMask": [
-    1
-  ],
-  "GroupInstanceList": [
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G1.json",
-      "Name": "DefaultGroup",
-      "ID": 1
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G4.json",
-      "Name": "MainX3-3",
-      "ID": 4
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G5.json",
-      "Name": "MainMission1021702_AfterStory",
-      "ID": 5
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G6.json",
-      "Name": "BATProp",
-      "ID": 6
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G7.json",
-      "Name": "New Group",
-      "ID": 7
-    },
-    {
-      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G10.json",
-      "Name": "Sound",
-      "ID": 10
-    }
-  ],
   "DimensionList": [
     {
-      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X303_MainLine_01_Day.enviroProfile.asset",
       "CameraType": "Maze",
-      "IsExclusiveSaveMapSection": true,
+      "DefaultEnviroProfile": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_MAZ_X303_MainLine_01_Day.enviroProfile.asset",
+      "ExclusiveSavedGroupIDList": [],
       "GroupIndexList": [
         0,
         1,
@@ -51,14 +13,18 @@
         4,
         5
       ],
-      "ExclusiveSavedGroupIDList": [],
+      "IsExclusiveSaveMapSection": true,
       "StartAnchorID": 1
     }
   ],
+  "EnableGroupRegionStreaming": true,
+  "EnableGroupSpaceConflict": true,
+  "EnableGroupStreaming": true,
+  "FloorID": 20233001,
   "GroupInstanceCommonMap": {
     "1": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "4": {
       "SaveType": "Reset"
@@ -69,9 +35,9 @@
       "UnloadCondition": {
         "Conditions": [
           {
-            "Type": "SubMission",
+            "ID": 102170201,
             "Phase": "Finish",
-            "ID": 102170201
+            "Type": "SubMission"
           }
         ],
         "DelayToLevelReload": true
@@ -79,20 +45,54 @@
     },
     "6": {
       "Category": "BattleProps",
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "7": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     },
     "10": {
-      "SaveType": "Reset",
-      "LoadOnInitial": true
+      "LoadOnInitial": true,
+      "SaveType": "Reset"
     }
   },
-  "EnableGroupStreaming": true,
-  "EnableGroupSpaceConflict": true,
-  "EnableGroupRegionStreaming": true,
-  "TempGroupUnloadByY": 1E+07
+  "GroupInstanceList": [
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G1.json",
+      "ID": 1,
+      "Name": "DefaultGroup"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G4.json",
+      "ID": 4,
+      "Name": "MainX3-3"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G5.json",
+      "ID": 5,
+      "Name": "MainMission1021702_AfterStory"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G6.json",
+      "ID": 6,
+      "Name": "BATProp"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G7.json",
+      "ID": 7,
+      "Name": "New Group"
+    },
+    {
+      "GroupPath": "Config/LevelOutput/SharedRuntimeGroup/Groups_P20233_F20233001/LevelGroup_P20233_F20233001_G10.json",
+      "ID": 10,
+      "Name": "Sound"
+    }
+  ],
+  "LayerToAreaMask": [
+    1
+  ],
+  "StageData": "Stages/Outputs/Chapter02/Stages/Chap02_MAZ_X303_MainLine_01_StageData/Chap02_MAZ_X303_MainLine_01_StageData.stage",
+  "StartAnchorID": 1,
+  "TempGroupUnloadByY": 10000000
 }
